@@ -1,0 +1,1180 @@
+{
+  "car_id": "Body_Merc",
+  "display_name": "Merc (Internal Codename: Vanquish)",
+  "branch": "body-merc",
+  "source_packages": [
+    "Body_Vanquish_SF"
+  ],
+  "handling_preset_archetype": "Merc",
+  "rocketsim_physics_preset": {
+    "preset_name": "CAR_CONFIG_MERC",
+    "hitbox_size_uu": {
+      "x": 120.7202,
+      "y": 76.71031,
+      "z": 41.65907
+    },
+    "hitbox_offset_uu": {
+      "x": 11.37566,
+      "y": 0.0,
+      "z": 21.50499
+    },
+    "front_axle": {
+      "connection_point_offset_uu": {
+        "x": 44.25,
+        "y": 25.89,
+        "z": 21.5
+      },
+      "wheel_radius_uu": 13.5,
+      "suspension_rest_length_uu": 41.659
+    },
+    "back_axle": {
+      "connection_point_offset_uu": {
+        "x": -39.75,
+        "y": 29.5,
+        "z": 21.5
+      },
+      "wheel_radius_uu": 13.5,
+      "suspension_rest_length_uu": 41.659
+    }
+  },
+  "upk_product_asset_body_ta": [
+    {
+      "name": "Body_Vanquish",
+      "properties": {
+        "Mesh": {
+          "index": 301,
+          "name": "Body_Merc_PremiumSkin_SK"
+        },
+        "AnimTreeTemplate": {
+          "index": 2,
+          "name": "Body_AT"
+        },
+        "HandlingPreset": {
+          "index": -173,
+          "name": "Merc"
+        },
+        "FrontAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelWidth": 14.5,
+            "WheelMeshOffsetSide": -1,
+            "WheelRadius": 12.5,
+            "WheelOffsetForward": 6,
+            "WheelOffsetSide": -2
+          }
+        },
+        "BackAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelMeshRadius": 16,
+            "WheelMeshOffsetSide": -1,
+            "WheelOffsetForward": 3,
+            "WheelOffsetSide": -1
+          }
+        },
+        "ChassisSpring": {
+          "_struct": "SimpleSpringSettings",
+          "fields": {
+            "MaxDisplacement": {
+              "type": "Vector",
+              "x": 75,
+              "y": 25,
+              "z": 50
+            }
+          }
+        },
+        "bUseLegacySuspensionOffsets": true,
+        "EngineAudioReference": {
+          "index": 262,
+          "name": "ProductAssetReference_TA_43"
+        },
+        "FXActor": {
+          "index": 14,
+          "name": "FXActor"
+        },
+        "SkinMaterialIndex": 1,
+        "BoostEmitterSockets": {
+          "type": "ArrayName",
+          "elements": [
+            "BoostEmitterTop",
+            "BoostEmitterBottom"
+          ]
+        },
+        "EquipProfile": {
+          "index": 266,
+          "name": "ProductEquipProfile_TA_0"
+        },
+        "SkinParameters": {
+          "_struct": "MaterialParams",
+          "fields": {
+            "TextureParameters": {
+              "type": "ArrayStruct",
+              "count": 5,
+              "elements": [
+                {
+                  "Name": "BodyMasks",
+                  "Value": {
+                    "index": 339,
+                    "name": "Vanquish_Body_BlankSkin"
+                  }
+                },
+                {
+                  "Name": "BodyNormalMap",
+                  "Value": {
+                    "index": 336,
+                    "name": "Body_Vanquish_PremiumSkin_N"
+                  }
+                },
+                {
+                  "Name": "Diffuse",
+                  "Value": {
+                    "index": 340,
+                    "name": "Vanquish_Body_D"
+                  }
+                },
+                {
+                  "Name": "FXMasks",
+                  "Value": {
+                    "index": 337,
+                    "name": "Body_Vanquish_PremiumSkin_RGB"
+                  }
+                },
+                {
+                  "Name": "CurvaturePack",
+                  "Value": {
+                    "index": 335,
+                    "name": "Body_Vanquish_Curvature"
+                  }
+                }
+              ]
+            },
+            "VectorParameters": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "Name": "TrimSheet1_Transform",
+                  "Value": {
+                    "type": "LinearColor",
+                    "r": 1.6,
+                    "g": 0.8,
+                    "b": 0,
+                    "a": 0.06
+                  }
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_Offset",
+                  "Value": {
+                    "type": "LinearColor",
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  }
+                }
+              ]
+            },
+            "ScalarParameters": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "Name": "TrimSheet1_Rotation",
+                  "Value": 0
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_Opacity",
+                  "Value": 0
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_RotationOffset",
+                  "Value": 0
+                }
+              ]
+            }
+          }
+        },
+        "ThumbnailWheelAsset": {
+          "index": 263,
+          "name": "ProductAssetReferenceWheel_TA_74"
+        },
+        "ThumbnailKeyLightBrightnessScale": 1,
+        "ThumbnailCameraTranslationOffset": {
+          "type": "Vector",
+          "x": 40,
+          "y": -8,
+          "z": 2
+        },
+        "Attributes": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 264,
+              "name": "ProductAttribute_PaintSettings_TA_25"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "upk_rb_body_setup": [],
+  "skeletal_mesh_sockets": [
+    {
+      "SocketName": "FrontSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 72.6239,
+        "y": 0,
+        "z": 1.25
+      }
+    },
+    {
+      "SocketName": "HatSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 13.0823,
+        "y": 0,
+        "z": 45
+      },
+      "RelativeRotation": {
+        "type": "Rotator",
+        "pitch": -728,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+      "SocketName": "BoostEmitterTop",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -63,
+        "y": 0,
+        "z": 30.25
+      }
+    },
+    {
+      "SocketName": "BoostEmitterBottom",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -63,
+        "y": 0,
+        "z": 13.75
+      }
+    },
+    {
+      "SocketName": "Underglow",
+      "BoneName": "root_jnt"
+    },
+    {
+      "SocketName": "AntennaSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 8.48368,
+        "y": -27.2721,
+        "z": 25
+      }
+    },
+    {
+      "SocketName": "AmbBoost_01",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -61.3888,
+        "y": -17.4207,
+        "z": 43.5
+      }
+    },
+    {
+      "SocketName": "RocketBoost",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -63.5723,
+        "y": 0,
+        "z": 21.75
+      }
+    },
+    {
+      "SocketName": "AmbBoost_02",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -61.3376,
+        "y": -12.4894,
+        "z": 43.5
+      }
+    },
+    {
+      "SocketName": "AmbBoost_03",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -61.3888,
+        "y": 12.4894,
+        "z": 43.5
+      }
+    },
+    {
+      "SocketName": "AmbBoost_04",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -61.3888,
+        "y": 17.4207,
+        "z": 43.5
+      }
+    },
+    {
+      "SocketName": "AmbBoost_05",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -65.0087,
+        "y": -11.4054,
+        "z": 22.25
+      }
+    },
+    {
+      "SocketName": "AmbBoost_06",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -65.0087,
+        "y": 11.4054,
+        "z": 22.25
+      }
+    }
+  ],
+  "skeleton_bones_count": 24,
+  "skeleton_bones": [
+    {
+      "node_index": 1,
+      "name": "root_jnt",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "children": [
+        2,
+        11,
+        15,
+        19,
+        22
+      ]
+    },
+    {
+      "node_index": 2,
+      "name": "chassis_jnt",
+      "translation_m": [
+        1.33196e-16,
+        1.0307e-29,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "node_index": 3,
+      "name": "FL_axleShaft_jnt",
+      "translation_m": [
+        0.382206,
+        -0.0655919,
+        0
+      ],
+      "rotation_quat": [
+        4.55327e-15,
+        0.707107,
+        -4.55327e-15,
+        0.707107
+      ],
+      "children": []
+    },
+    {
+      "node_index": 4,
+      "name": "FR_axleShaft_jnt",
+      "translation_m": [
+        0.381904,
+        -0.0655429,
+        -3.92703e-20
+      ],
+      "rotation_quat": [
+        7.19651e-05,
+        0.70756,
+        7.18728e-05,
+        0.706653
+      ],
+      "children": []
+    },
+    {
+      "node_index": 5,
+      "name": "BL_axleShaft_jnt",
+      "translation_m": [
+        -0.39892,
+        -0.0465472,
+        -3.35145e-22
+      ],
+      "rotation_quat": [
+        4.55328e-15,
+        0.707109,
+        -7.97161e-08,
+        0.707105
+      ],
+      "children": []
+    },
+    {
+      "node_index": 6,
+      "name": "BR_axleShaft_jnt",
+      "translation_m": [
+        -0.39892,
+        -0.0465472,
+        -3.83499e-23
+      ],
+      "rotation_quat": [
+        4.55326e-15,
+        0.707105,
+        7.97157e-08,
+        0.707109
+      ],
+      "children": []
+    },
+    {
+      "node_index": 7,
+      "name": "FL_Shock_A_jnt",
+      "translation_m": [
+        0.379576,
+        0.188195,
+        -0.184208
+      ],
+      "rotation_quat": [
+        0.0868595,
+        0.699061,
+        0.0962443,
+        0.703211
+      ],
+      "children": []
+    },
+    {
+      "node_index": 8,
+      "name": "BR_Shock_A_jnt",
+      "translation_m": [
+        -0.38477,
+        0.208511,
+        0.184093
+      ],
+      "rotation_quat": [
+        0.0334471,
+        0.990443,
+        -0.130586,
+        0.0291854
+      ],
+      "children": []
+    },
+    {
+      "node_index": 9,
+      "name": "BL_Shock_A_jnt",
+      "translation_m": [
+        -0.38477,
+        0.208511,
+        -0.184093
+      ],
+      "rotation_quat": [
+        0.0334471,
+        0.990443,
+        0.130586,
+        -0.0291854
+      ],
+      "children": []
+    },
+    {
+      "node_index": 10,
+      "name": "FR_Shock_A_jnt",
+      "translation_m": [
+        0.379576,
+        0.188195,
+        0.184208
+      ],
+      "rotation_quat": [
+        -0.0962442,
+        0.703211,
+        -0.0868595,
+        0.699061
+      ],
+      "children": []
+    },
+    {
+      "node_index": 11,
+      "name": "FL_WheelTranslation_jnt",
+      "translation_m": [
+        0.382206,
+        -0.0655919,
+        -0.234252
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        -6.43929e-15,
+        1
+      ],
+      "children": [
+        12,
+        14
+      ]
+    },
+    {
+      "node_index": 12,
+      "name": "FL_Pivot_jnt",
+      "translation_m": [
+        0,
+        0,
+        -0.0532126
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        6.43929e-15,
+        1
+      ],
+      "children": [
+        13
+      ]
+    },
+    {
+      "node_index": 13,
+      "name": "FL_Disc_jnt",
+      "translation_m": [
+        0,
+        0,
+        -0.039124
+      ],
+      "rotation_quat": [
+        0,
+        2.18557e-08,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 14,
+      "name": "FL_Shock_B_jnt",
+      "translation_m": [
+        3.5913e-05,
+        0.0686976,
+        0.000874483
+      ],
+      "rotation_quat": [
+        -0.00663599,
+        0.991556,
+        0.129474,
+        0.00293407
+      ],
+      "children": []
+    },
+    {
+      "node_index": 15,
+      "name": "FR_WheelTranslation_jnt",
+      "translation_m": [
+        0.382205,
+        -0.0655906,
+        0.234252
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        -6.43929e-15,
+        1
+      ],
+      "children": [
+        16,
+        18
+      ]
+    },
+    {
+      "node_index": 16,
+      "name": "FR_Pivot_jnt",
+      "translation_m": [
+        1.44898e-06,
+        -1.3398e-06,
+        0.0532126
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        6.43929e-15,
+        1
+      ],
+      "children": [
+        17
+      ]
+    },
+    {
+      "node_index": 17,
+      "name": "FR_Disc_jnt",
+      "translation_m": [
+        0,
+        0,
+        0.039124
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 18,
+      "name": "FR_Shock_B_jnt",
+      "translation_m": [
+        3.74016e-05,
+        0.0686962,
+        -0.000874409
+      ],
+      "rotation_quat": [
+        -0.00663599,
+        0.991556,
+        -0.129474,
+        -0.00293407
+      ],
+      "children": []
+    },
+    {
+      "node_index": 19,
+      "name": "BL_WheelTranslation_jnt",
+      "translation_m": [
+        -0.398921,
+        -0.0465472,
+        -0.234252
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        20,
+        21
+      ]
+    },
+    {
+      "node_index": 20,
+      "name": "BL_Disc_jnt",
+      "translation_m": [
+        0.000641244,
+        1.05898e-06,
+        -0.0923366
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 21,
+      "name": "BL_Shock_B_jnt",
+      "translation_m": [
+        0,
+        0.0704724,
+        0.000984252
+      ],
+      "rotation_quat": [
+        0.0334471,
+        0.990443,
+        0.130586,
+        -0.0291854
+      ],
+      "children": []
+    },
+    {
+      "node_index": 22,
+      "name": "BR_WheelTranslation_jnt",
+      "translation_m": [
+        -0.398921,
+        -0.0465472,
+        0.234252
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        23,
+        24
+      ]
+    },
+    {
+      "node_index": 23,
+      "name": "BR_Disc_jnt",
+      "translation_m": [
+        0.000641244,
+        1.05898e-06,
+        0.0923366
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 24,
+      "name": "BR_Shock_B_jnt",
+      "translation_m": [
+        1.00707e-15,
+        0.0704724,
+        -0.000984252
+      ],
+      "rotation_quat": [
+        -0.130586,
+        -0.0291854,
+        -0.0334471,
+        0.990443
+      ],
+      "children": []
+    }
+  ],
+  "detailed_surface_primitives": [
+    {
+      "material_slot": "Body_Merc_Chassis_Undercarriage",
+      "triangles": 6375,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Merc_Chassis_BrushedMetal",
+      "triangles": 9270,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Merc_Chassis_Chrome_Accent",
+      "triangles": 319,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Merc_Chassis_Headlight_Emissive",
+      "triangles": 204,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Merc_Chassis_Taillight_BoostGlow",
+      "triangles": 210,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Merc_Body_PrimaryPaint",
+      "triangles": 6400,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Merc_Body_SecondaryTrim",
+      "triangles": 549,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Merc_Body_Windshield_Glass",
+      "triangles": 697,
+      "category": "Body"
+    }
+  ],
+  "material_instance_constants": [
+    {
+      "name": "Body_Vanquish_MIC",
+      "properties": {
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 4,
+          "elements": [
+            {
+              "ParameterName": "BodyMasks",
+              "ParameterValue": {
+                "index": 339,
+                "name": "Vanquish_Body_BlankSkin"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "CurvaturePack",
+              "ParameterValue": {
+                "index": 335,
+                "name": "Body_Vanquish_Curvature"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 340,
+                "name": "Vanquish_Body_D"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Skin",
+              "ParameterValue": {
+                "index": 339,
+                "name": "Vanquish_Body_BlankSkin"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "TrimColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.12,
+                "g": 0.12,
+                "b": 0.12,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": -175,
+          "name": "MIC_Body_Paintable_All"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        },
+        "bHasQualitySwitch": true
+      }
+    },
+    {
+      "name": "MIC_Chassis_Merc_Painted",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "BoostGlowBrightness",
+              "ParameterValue": 1.5,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "HeadlightBrightness",
+              "ParameterValue": 10,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "TailLightBrightness",
+              "ParameterValue": 5,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 341,
+                "name": "Vanquish_Parts_D"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Masks",
+              "ParameterValue": {
+                "index": 343,
+                "name": "Vanquish_Parts_RGB"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Normal",
+              "ParameterValue": {
+                "index": 342,
+                "name": "Vanquish_Parts_N"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "BoostGlowColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 3,
+                "g": 0.25,
+                "b": 0.1,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "HeadlightColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 1.53962,
+                "g": 2.95057,
+                "b": 3,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "TrimColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.0828699,
+                "g": 0.0828699,
+                "b": 0.0828699,
+                "a": 0
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 16,
+          "name": "MAT_Chassis_Paintable"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "VanquishChassis_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "BoostGlowBrightness",
+              "ParameterValue": 1.5,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "HeadlightBrightness",
+              "ParameterValue": 10,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "TailLightBrightness",
+              "ParameterValue": 5,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 341,
+                "name": "Vanquish_Parts_D"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Masks",
+              "ParameterValue": {
+                "index": 343,
+                "name": "Vanquish_Parts_RGB"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Normal",
+              "ParameterValue": {
+                "index": 342,
+                "name": "Vanquish_Parts_N"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "HeadlightColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 1.53962,
+                "g": 2.95057,
+                "b": 3,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": -174,
+          "name": "MasterChassis_MAT"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "BoostCone_Flame_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "PanSpeed",
+              "ParameterValue": 0.25,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "Color",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.00316215,
+                "g": 0.387169,
+                "b": 1,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 18,
+          "name": "BoostCone_Flame_Mat"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    }
+  ]
+}
