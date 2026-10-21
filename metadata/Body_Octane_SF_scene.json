@@ -1,0 +1,2214 @@
+{
+  "package": "Body_Octane_SF.upk",
+  "imports": [
+    {"index": -1, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -2, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -3, "name": "Package", "class": "Class", "outer": "Core", "outer_index": -87},
+    {"index": -4, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -5, "name": "AnimTree", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -6, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -7, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -8, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -9, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -10, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -11, "name": "Material", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -12, "name": "MaterialExpressionScalarParameter", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -13, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -14, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -15, "name": "MaterialExpressionVectorParameter", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -16, "name": "MaterialFunction", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -17, "name": "MaterialInstanceConstant", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -18, "name": "ObjectReferencer", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -19, "name": "ParticleLODLevel", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -20, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -21, "name": "ParticleModuleColor", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -22, "name": "ParticleModuleColorOverLife", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -23, "name": "ParticleModuleColorScaleOverLife", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -24, "name": "ParticleModuleLifetime", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -25, "name": "ParticleModuleLocation", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -26, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -27, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -28, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -29, "name": "ParticleModuleParameterDynamic", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -30, "name": "ParticleModuleRequired", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -31, "name": "ParticleModuleRotation", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -32, "name": "ParticleModuleSize", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -33, "name": "ParticleModuleSizeMultiplyLife", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -34, "name": "ParticleModuleSpawn", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -35, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -36, "name": "ParticleModuleVelocity", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -37, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -38, "name": "ParticleModuleVelocityOverLifetime", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -39, "name": "ParticleSpriteEmitter", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -40, "name": "ParticleSystem", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -41, "name": "ParticleSystemComponent", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -42, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -43, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -44, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -45, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -46, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -47, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -48, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -49, "name": "SkelControlLookAt", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -50, "name": "SkelControlSingleBone", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -51, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -52, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -53, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -54, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -55, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -56, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -57, "name": "StaticMesh", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -58, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -59, "name": "StaticMeshComponent", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -60, "name": "Texture2D", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -61, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -62, "name": "ParameterDispenser_X", "class": "Class", "outer": "ProjectX", "outer_index": -95},
+    {"index": -63, "name": "FXActor_TA", "class": "Class", "outer": "TAGame", "outer_index": -96},
+    {"index": -64, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -65, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -66, "name": "ProductAsset_Body_TA", "class": "Class", "outer": "TAGame", "outer_index": -96},
+    {"index": -67, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -68, "name": "ProductAssetReference_TA", "class": "Class", "outer": "TAGame", "outer_index": -96},
+    {"index": -69, "name": "ProductAssetReferenceWheel_TA", "class": "Class", "outer": "TAGame", "outer_index": -96},
+    {"index": -70, "name": "ProductAttribute_PaintSettings_TA", "class": "Class", "outer": "TAGame", "outer_index": -96},
+    {"index": -71, "name": "ProductEquipProfile_TA", "class": "Class", "outer": "TAGame", "outer_index": -96},
+    {"index": -72, "name": "ProductOverride_MaterialParameter_TA", "class": "Class", "outer": "TAGame", "outer_index": -96},
+    {"index": -73, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -74, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -75, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -76, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -77, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -78, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -79, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -80, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -81, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -82, "name": "Boost", "class": "FXActorEvent_X", "outer": "FXActorEvents", "outer_index": -89},
+    {"index": -83, "name": "Spawned", "class": "FXActorEvent_X", "outer": "FXActorEvents", "outer_index": -89},
+    {"index": -84, "name": "SuperSonic", "class": "FXActorEvent_X", "outer": "FXActorEvents", "outer_index": -89},
+    {"index": -85, "name": "Team0", "class": "FXActorEvent_X", "outer": "FXActorEvents", "outer_index": -89},
+    {"index": -86, "name": "Team1", "class": "FXActorEvent_X", "outer": "FXActorEvents", "outer_index": -89},
+    {"index": -87, "name": "Core", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -88, "name": "Engine", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -89, "name": "FXActorEvents", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -90, "name": "ProductPaint", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -91, "name": "Paints", "class": "Package", "outer": "ProductPaint", "outer_index": -90},
+    {"index": -92, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -93, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -94, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -95, "name": "ProjectX", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -96, "name": "TAGame", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -97, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -98, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -99, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -100, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -101, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -102, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -103, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -104, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -105, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -106, "name": "Black_00", "class": "ProductPaint_TA", "outer": "Paints", "outer_index": -91},
+    {"index": -107, "name": "BlackMetal_00", "class": "ProductPaint_TA", "outer": "Paints", "outer_index": -91},
+    {"index": -108, "name": "GoldMetal_00", "class": "ProductPaint_TA", "outer": "Paints", "outer_index": -91},
+    {"index": -109, "name": "PlatinumMetal_00", "class": "ProductPaint_TA", "outer": "Paints", "outer_index": -91},
+    {"index": -110, "name": "RoseGoldMetal_00", "class": "ProductPaint_TA", "outer": "Paints", "outer_index": -91},
+    {"index": -111, "name": "WhiteGoldMetal_00", "class": "ProductPaint_TA", "outer": "Paints", "outer_index": -91},
+    {"index": -112, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -113, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -114, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -115, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -116, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -117, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -118, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -119, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -120, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -121, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -122, "name": "Octane", "class": "HandlingPreset_TA", "outer": "Presets", "outer_index": -133},
+    {"index": -123, "name": "Flame_03_Trans_MAT", "class": "Material", "outer": "Boost_Flamethrower", "outer_index": -126},
+    {"index": -124, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -125, "name": "None", "class": "None", "outer": "None", "outer_index": 0},
+    {"index": -126, "name": "Boost_Flamethrower", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -127, "name": "Buff_Supersonic", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -128, "name": "FX", "class": "Package", "outer": "Buff_Supersonic", "outer_index": -127},
+    {"index": -129, "name": "FX_Textures", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -130, "name": "Noise", "class": "Package", "outer": "FX_Textures", "outer_index": -129},
+    {"index": -131, "name": "FX_Water_Tex", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -132, "name": "HandlingPresets", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -133, "name": "Presets", "class": "Package", "outer": "HandlingPresets", "outer_index": -132},
+    {"index": -134, "name": "ProductSlots", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -135, "name": "Supersonic_Team1_PS", "class": "ParticleSystem", "outer": "FX", "outer_index": -128},
+    {"index": -136, "name": "Supersonic_Team2_PS", "class": "ParticleSystem", "outer": "FX", "outer_index": -128},
+    {"index": -137, "name": "ProductAsset_Body_TA_2", "class": "ProductAsset_Body_TA", "outer": "Body", "outer_index": -138},
+    {"index": -138, "name": "Body", "class": "ProductSlot_TA", "outer": "ProductSlots", "outer_index": -134},
+    {"index": -139, "name": "Body_Octane_SK", "class": "SkeletalMesh", "outer": "Body_Octane", "outer_index": 164},
+    {"index": -140, "name": "Body_Octane_Curvature_New", "class": "Texture2D", "outer": "Body_Octane_Textures", "outer_index": 167},
+    {"index": -141, "name": "Pepe_Body_BlankSkin", "class": "Texture2D", "outer": "Body_Octane_Textures", "outer_index": 167},
+    {"index": -142, "name": "Pepe_Body_D", "class": "Texture2D", "outer": "Body_Octane_Textures", "outer_index": 167},
+    {"index": -143, "name": "Noise_Fire_02_Pack", "class": "Texture2D", "outer": "Noise", "outer_index": -130},
+    {"index": -144, "name": "Noise_Smoke_03_Pack", "class": "Texture2D", "outer": "Noise", "outer_index": -130},
+    {"index": -145, "name": "Water_01_Pack", "class": "Texture2D", "outer": "FX_Water_Tex", "outer_index": -131},
+    {"index": -146, "name": "SkeletalMesh", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -147, "name": "SkeletalMeshSocket", "class": "Class", "outer": "Engine", "outer_index": -88},
+    {"index": -148, "name": "MIC_Body_Octane", "class": "MaterialInstanceConstant", "outer": "Body_Octane", "outer_index": 164},
+    {"index": -149, "name": "OctaneChassis_MIC", "class": "MaterialInstanceConstant", "outer": "Body_Octane", "outer_index": 164}
+  ],
+  "exports": [
+    {
+      "index": 1,
+      "name": "Body_AT",
+      "class": "AnimTree",
+      "outer": "Body_AT",
+      "outer_index": 160,
+      "properties": {
+        "bParentNodeArrayBuilt": true,
+        "SkelControlLists": {"type": "ArrayStruct", "count": 27, "elements": [{
+        "BoneName": "FL_WheelTranslation_jnt",
+        "ControlHead": {"index": 400, "name": "SkelControlSingleBone_7"},
+        "DrawY": 0}, {
+        "BoneName": "FL_Pivot_jnt",
+        "ControlHead": {"index": 401, "name": "SkelControlSingleBone_8"},
+        "DrawY": 0}, {
+        "BoneName": "FL_Disc_jnt",
+        "ControlHead": {"index": 402, "name": "SkelControlSingleBone_9"},
+        "DrawY": 0}, {
+        "BoneName": "FL_Shock_B_jnt",
+        "ControlHead": {"index": 384, "name": "SkelControlLookAt_6"},
+        "DrawY": 0}, {
+        "BoneName": "FL_Shock_A_jnt",
+        "ControlHead": {"index": 385, "name": "SkelControlLookAt_7"},
+        "DrawY": 0}, {
+        "BoneName": "FL_axleShaft_jnt",
+        "ControlHead": {"index": 386, "name": "SkelControlLookAt_8"},
+        "DrawY": 0}, {
+        "BoneName": "FR_WheelTranslation_jnt",
+        "ControlHead": {"index": 388, "name": "SkelControlSingleBone_1"},
+        "DrawY": 0}, {
+        "BoneName": "FR_Pivot_jnt",
+        "ControlHead": {"index": 393, "name": "SkelControlSingleBone_14"},
+        "DrawY": 0}, {
+        "BoneName": "FR_Disc_jnt",
+        "ControlHead": {"index": 389, "name": "SkelControlSingleBone_10"},
+        "DrawY": 0}, {
+        "BoneName": "FR_Shock_B_jnt",
+        "ControlHead": {"index": 387, "name": "SkelControlLookAt_9"},
+        "DrawY": 0}, {
+        "BoneName": "FR_Shock_A_jnt",
+        "ControlHead": {"index": 378, "name": "SkelControlLookAt_10"},
+        "DrawY": 0}, {
+        "BoneName": "FR_axleShaft_jnt",
+        "ControlHead": {"index": 379, "name": "SkelControlLookAt_11"},
+        "DrawY": 0}, {
+        "BoneName": "BL_WheelTranslation_jnt",
+        "ControlHead": {"index": 392, "name": "SkelControlSingleBone_13"},
+        "DrawY": 0}, {
+        "BoneName": "BL_Disc_jnt",
+        "ControlHead": {"index": 399, "name": "SkelControlSingleBone_6"},
+        "DrawY": 0}, {
+        "BoneName": "BL_Shock_B_jnt",
+        "ControlHead": {"index": 381, "name": "SkelControlLookAt_3"},
+        "DrawY": 0}, {
+        "BoneName": "BL_Shock_A_jnt",
+        "ControlHead": {"index": 382, "name": "SkelControlLookAt_4"},
+        "DrawY": 0}, {
+        "BoneName": "BL_axleShaft_jnt",
+        "ControlHead": {"index": 383, "name": "SkelControlLookAt_5"},
+        "DrawY": 0}, {
+        "BoneName": "BR_WheelTranslation_jnt",
+        "ControlHead": {"index": 391, "name": "SkelControlSingleBone_12"},
+        "DrawY": 0}, {
+        "BoneName": "BR_Disc_jnt",
+        "ControlHead": {"index": 394, "name": "SkelControlSingleBone_15"},
+        "DrawY": 0}, {
+        "BoneName": "BR_Shock_B_jnt",
+        "ControlHead": {"index": 377, "name": "SkelControlLookAt_1"},
+        "DrawY": 0}, {
+        "BoneName": "BR_Shock_A_jnt",
+        "ControlHead": {"index": 376, "name": "SkelControlLookAt_0"},
+        "DrawY": 0}, {
+        "BoneName": "BR_axleShaft_jnt",
+        "ControlHead": {"index": 380, "name": "SkelControlLookAt_2"},
+        "DrawY": 0}, {
+        "BoneName": "chassis_jnt",
+        "ControlHead": {"index": 390, "name": "SkelControlSingleBone_11"},
+        "DrawY": 0}, {
+        "BoneName": "en_panel_up_JNT",
+        "ControlHead": {"index": 396, "name": "SkelControlSingleBone_3"},
+        "DrawY": 0}, {
+        "BoneName": "en_panel_low_JNT",
+        "ControlHead": {"index": 397, "name": "SkelControlSingleBone_4"},
+        "DrawY": 0}, {
+        "BoneName": "en_panel_left_JNT",
+        "ControlHead": {"index": 398, "name": "SkelControlSingleBone_5"},
+        "DrawY": 0}, {
+        "BoneName": "en_panel_right_JNT",
+        "ControlHead": {"index": 395, "name": "SkelControlSingleBone_2"},
+        "DrawY": 0}]},
+        "AnimTickArray": {"type": "ArrayObject", "elements": [{"index": 2, "name": "Body_AT"}]},
+        "NodeTotalWeight": 1
+      }
+    },
+    {
+      "index": 11,
+      "name": "Body_FXActor",
+      "class": "FXActor_TA",
+      "outer": "Body_FX",
+      "outer_index": 162,
+      "properties": {
+        "Attachments": {"type": "ArrayStruct", "count": 2, "elements": [{
+        "Name": "SupersonicParticle1",
+        "SkeletalMeshAttachName": "None",
+        "SocketOrBoneName": "None",
+        "AttachToParameter": "None",
+        "AttachDelay": 0,
+        "DetachDelay": 0,
+        "LifeTime": 0,
+        "Target": "FXComponentTarget_Local",
+        "Component": {"index": 340, "name": "ParticleSystemComponent_0"},
+        "AttachAny": {"type": "ArrayName", "elements": []},
+        "DetachAny": {"type": "ArrayName", "elements": []},
+        "AttachAll": {"type": "ArrayObject", "elements": [{"index": -84, "name": "SuperSonic"}, {"index": -85, "name": "Team0"}]},
+        "RuntimeParameters": {"type": "ArrayName", "elements": []},
+        "Traits": {"type": "ArrayName", "elements": []},
+        "AttachToParameterActor": {"_struct": "AttachToParameterWithUnlockAxes", "fields": {
+        "Parameter": "None",
+        "IgnoredAxis": "EAALUF_None"}},
+        "OverrideAttachBehavior": "FXOverrideAttach_None",
+        "OverrideAttachLocationOffset": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "OverrideAttachRotationOffset": {"type": "Rotator", "pitch": 0, "yaw": 0, "roll": 0},
+        "bCreateDuplicates": false,
+        "bExistingComponent": false,
+        "bExistingAttachment": true}, {
+        "Name": "SupersonicParticle2",
+        "SkeletalMeshAttachName": "None",
+        "SocketOrBoneName": "None",
+        "AttachToParameter": "None",
+        "AttachDelay": 0,
+        "DetachDelay": 0,
+        "LifeTime": 0,
+        "Target": "FXComponentTarget_Local",
+        "Component": {"index": 341, "name": "ParticleSystemComponent_1"},
+        "AttachAny": {"type": "ArrayName", "elements": []},
+        "DetachAny": {"type": "ArrayName", "elements": []},
+        "AttachAll": {"type": "ArrayObject", "elements": [{"index": -84, "name": "SuperSonic"}, {"index": -86, "name": "Team1"}]},
+        "RuntimeParameters": {"type": "ArrayName", "elements": []},
+        "Traits": {"type": "ArrayName", "elements": []},
+        "AttachToParameterActor": {"_struct": "AttachToParameterWithUnlockAxes", "fields": {
+        "Parameter": "None",
+        "IgnoredAxis": "EAALUF_None"}},
+        "OverrideAttachBehavior": "FXOverrideAttach_None",
+        "OverrideAttachLocationOffset": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "OverrideAttachRotationOffset": {"type": "Rotator", "pitch": 0, "yaw": 0, "roll": 0},
+        "bCreateDuplicates": false,
+        "bExistingComponent": false,
+        "bExistingAttachment": true}]},
+        "Parameters": {"index": 223, "name": "ParameterDispenser_X_0"},
+        "Location": {"type": "Vector", "x": -976, "y": 0, "z": 496},
+        "CreationTime": 45.8656,
+        "Tag": "FXActor_TA"
+      }
+    },
+    {
+      "index": 13,
+      "name": "FXActor",
+      "class": "FXActor_TA",
+      "outer": "Body_Octane",
+      "outer_index": 164,
+      "properties": {
+        "Attachments": {"type": "ArrayStruct", "count": 5, "elements": [{
+        "Name": "AmbientBoost_L",
+        "SkeletalMeshAttachName": "None",
+        "SocketOrBoneName": "AmbBoost_L",
+        "AttachToParameter": "None",
+        "AttachDelay": 0,
+        "DetachDelay": 0,
+        "LifeTime": 0,
+        "Target": "FXComponentTarget_Local",
+        "Component": {"index": 342, "name": "ParticleSystemComponent_0"},
+        "AttachAny": {"type": "ArrayObject", "elements": [{"index": -83, "name": "Spawned"}]},
+        "DetachAny": {"type": "ArrayName", "elements": []},
+        "AttachAll": {"type": "ArrayName", "elements": []},
+        "RuntimeParameters": {"type": "ArrayName", "elements": []},
+        "Traits": {"type": "ArrayName", "elements": []},
+        "AttachToParameterActor": {"_struct": "AttachToParameterWithUnlockAxes", "fields": {
+        "Parameter": "None",
+        "IgnoredAxis": "EAALUF_None"}},
+        "OverrideAttachBehavior": "FXOverrideAttach_None",
+        "OverrideAttachLocationOffset": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "OverrideAttachRotationOffset": {"type": "Rotator", "pitch": 0, "yaw": 0, "roll": 0},
+        "bCreateDuplicates": false,
+        "bExistingComponent": false,
+        "bExistingAttachment": true}, {
+        "Name": "AmbientBoost_R",
+        "SkeletalMeshAttachName": "None",
+        "SocketOrBoneName": "AmbBoost_R",
+        "AttachToParameter": "None",
+        "AttachDelay": 0,
+        "DetachDelay": 0,
+        "LifeTime": 0,
+        "Target": "FXComponentTarget_Local",
+        "Component": {"index": 343, "name": "ParticleSystemComponent_1"},
+        "AttachAny": {"type": "ArrayObject", "elements": [{"index": -83, "name": "Spawned"}]},
+        "DetachAny": {"type": "ArrayName", "elements": []},
+        "AttachAll": {"type": "ArrayName", "elements": []},
+        "RuntimeParameters": {"type": "ArrayName", "elements": []},
+        "Traits": {"type": "ArrayName", "elements": []},
+        "AttachToParameterActor": {"_struct": "AttachToParameterWithUnlockAxes", "fields": {
+        "Parameter": "None",
+        "IgnoredAxis": "EAALUF_None"}},
+        "OverrideAttachBehavior": "FXOverrideAttach_None",
+        "OverrideAttachLocationOffset": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "OverrideAttachRotationOffset": {"type": "Rotator", "pitch": 0, "yaw": 0, "roll": 0},
+        "bCreateDuplicates": false,
+        "bExistingComponent": false,
+        "bExistingAttachment": true}, {
+        "Name": "BoostConeMesh",
+        "SkeletalMeshAttachName": "None",
+        "SocketOrBoneName": "chassis_jnt",
+        "AttachToParameter": "None",
+        "AttachDelay": 0,
+        "DetachDelay": 0,
+        "LifeTime": 0,
+        "Target": "FXComponentTarget_All",
+        "Component": {"index": 436, "name": "StaticMeshComponent_110"},
+        "AttachAny": {"type": "ArrayObject", "elements": [{"index": -82, "name": "Boost"}]},
+        "DetachAny": {"type": "ArrayName", "elements": []},
+        "AttachAll": {"type": "ArrayName", "elements": []},
+        "RuntimeParameters": {"type": "ArrayName", "elements": []},
+        "Traits": {"type": "ArrayName", "elements": []},
+        "AttachToParameterActor": {"_struct": "AttachToParameterWithUnlockAxes", "fields": {
+        "Parameter": "None",
+        "IgnoredAxis": "EAALUF_None"}},
+        "OverrideAttachBehavior": "FXOverrideAttach_None",
+        "OverrideAttachLocationOffset": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "OverrideAttachRotationOffset": {"type": "Rotator", "pitch": 0, "yaw": 0, "roll": 0},
+        "bCreateDuplicates": false,
+        "bExistingComponent": false,
+        "bExistingAttachment": true}, {
+        "Name": "BoostConeMesh02",
+        "SkeletalMeshAttachName": "None",
+        "SocketOrBoneName": "chassis_jnt",
+        "AttachToParameter": "None",
+        "AttachDelay": 0,
+        "DetachDelay": 0,
+        "LifeTime": 0,
+        "Target": "FXComponentTarget_All",
+        "Component": {"index": 438, "name": "StaticMeshComponent_51"},
+        "AttachAny": {"type": "ArrayObject", "elements": [{"index": -82, "name": "Boost"}]},
+        "DetachAny": {"type": "ArrayName", "elements": []},
+        "AttachAll": {"type": "ArrayName", "elements": []},
+        "RuntimeParameters": {"type": "ArrayName", "elements": []},
+        "Traits": {"type": "ArrayName", "elements": []},
+        "AttachToParameterActor": {"_struct": "AttachToParameterWithUnlockAxes", "fields": {
+        "Parameter": "None",
+        "IgnoredAxis": "EAALUF_None"}},
+        "OverrideAttachBehavior": "FXOverrideAttach_None",
+        "OverrideAttachLocationOffset": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "OverrideAttachRotationOffset": {"type": "Rotator", "pitch": 0, "yaw": 0, "roll": 0},
+        "bCreateDuplicates": false,
+        "bExistingComponent": false,
+        "bExistingAttachment": true}, {
+        "Name": "AmbientBoostMesh",
+        "SkeletalMeshAttachName": "None",
+        "SocketOrBoneName": "chassis_jnt",
+        "AttachToParameter": "None",
+        "AttachDelay": 0,
+        "DetachDelay": 0,
+        "LifeTime": 0,
+        "Target": "FXComponentTarget_Local",
+        "Component": {"index": 437, "name": "StaticMeshComponent_2"},
+        "AttachAny": {"type": "ArrayObject", "elements": [{"index": -83, "name": "Spawned"}]},
+        "DetachAny": {"type": "ArrayName", "elements": []},
+        "AttachAll": {"type": "ArrayName", "elements": []},
+        "RuntimeParameters": {"type": "ArrayName", "elements": []},
+        "Traits": {"type": "ArrayName", "elements": []},
+        "AttachToParameterActor": {"_struct": "AttachToParameterWithUnlockAxes", "fields": {
+        "Parameter": "None",
+        "IgnoredAxis": "EAALUF_None"}},
+        "OverrideAttachBehavior": "FXOverrideAttach_None",
+        "OverrideAttachLocationOffset": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "OverrideAttachRotationOffset": {"type": "Rotator", "pitch": 0, "yaw": 0, "roll": 0},
+        "bCreateDuplicates": false,
+        "bExistingComponent": false,
+        "bExistingAttachment": true}]},
+        "Parent": {"index": 12, "name": "Body_FXActor"},
+        "Parameters": {"index": 225, "name": "ParameterDispenser_X_0"},
+        "Location": {"type": "Vector", "x": -976, "y": 0, "z": 496},
+        "CreationTime": 45.8656,
+        "Tag": "FXActor_TA"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ConfRibbons_D_Mat",
+      "class": "Material",
+      "outer": "Boost_Confetti",
+      "outer_index": 170,
+      "properties": {
+        "EmissiveColor": {"_struct": "ColorMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"},
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1}},
+        "Opacity": {"_struct": "ScalarMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "Distortion": {"_struct": "Vector2MaterialInput", "fields": {
+        "OutputIndex": -1}},
+        "BlendMode": "BLEND_Translucent",
+        "LightingModel": "MLM_Unlit",
+        "WorldPositionOffset": {"_struct": "VectorMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "TwoSided": true,
+        "bUsedWithStaticLighting": true,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 28, "name": "MaterialExpressionScalarParameter_0"}]}
+      }
+    },
+    {
+      "index": 17,
+      "name": "BoostCone_Flame_Grad_Mat",
+      "class": "Material",
+      "outer": "Materials",
+      "outer_index": 175,
+      "properties": {
+        "Normal": {"_struct": "VectorMaterialInput", "fields": {
+        "OutputIndex": -1}},
+        "EmissiveColor": {"_struct": "ColorMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "Opacity": {"_struct": "ScalarMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "Distortion": {"_struct": "Vector2MaterialInput", "fields": {
+        "OutputIndex": -1}},
+        "BlendMode": "BLEND_Additive",
+        "LightingModel": "MLM_Unlit",
+        "WorldPositionOffset": {"_struct": "VectorMaterialInput", "fields": {
+        "OutputIndex": -1}},
+        "TwoSided": true,
+        "bUsedWithParticleSprites": true,
+        "bUsedWithParticleSubUV": true,
+        "bUsedWithInstancedMeshParticles": true,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 122, "name": "MaterialExpressionVectorParameter_0"}, {"index": 0, "name": "None"}, {"index": 29, "name": "MaterialExpressionScalarParameter_0"}, {"index": 31, "name": "MaterialExpressionScalarParameter_2"}, {"index": 123, "name": "MaterialExpressionVectorParameter_5"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 30, "name": "MaterialExpressionScalarParameter_1"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]}
+      }
+    },
+    {
+      "index": 18,
+      "name": "BoostCone_Flame_Mat",
+      "class": "Material",
+      "outer": "Materials",
+      "outer_index": 175,
+      "properties": {
+        "Normal": {"_struct": "VectorMaterialInput", "fields": {
+        "OutputIndex": -1}},
+        "EmissiveColor": {"_struct": "ColorMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "Opacity": {"_struct": "ScalarMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "Distortion": {"_struct": "Vector2MaterialInput", "fields": {
+        "OutputIndex": -1}},
+        "BlendMode": "BLEND_Additive",
+        "LightingModel": "MLM_Unlit",
+        "WorldPositionOffset": {"_struct": "VectorMaterialInput", "fields": {
+        "OutputIndex": -1}},
+        "TwoSided": true,
+        "bUsedWithParticleSprites": true,
+        "bUsedWithParticleSubUV": true,
+        "bUsedWithInstancedMeshParticles": true,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 124, "name": "MaterialExpressionVectorParameter_0"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 32, "name": "MaterialExpressionScalarParameter_0"}, {"index": 33, "name": "MaterialExpressionScalarParameter_2"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]}
+      }
+    },
+    {
+      "index": 22,
+      "name": "BoostFXMesh_Mat",
+      "class": "Material",
+      "outer": "FX_Parents",
+      "outer_index": 192,
+      "properties": {
+        "EmissiveColor": {"_struct": "ColorMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "Opacity": {"_struct": "ScalarMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "BlendMode": "BLEND_Translucent",
+        "LightingModel": "MLM_Unlit",
+        "WorldPositionOffset": {"_struct": "VectorMaterialInput", "fields": {
+        "Expression": {"index": 0, "name": "None"}}},
+        "TwoSided": true,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 39, "name": "MaterialExpressionScalarParameter_0"}, {"index": 128, "name": "MaterialExpressionVectorParameter_2"}, {"index": 0, "name": "None"}, {"index": 44, "name": "MaterialExpressionScalarParameter_7"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 45, "name": "MaterialExpressionScalarParameter_9"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 41, "name": "MaterialExpressionScalarParameter_15"}, {"index": 42, "name": "MaterialExpressionScalarParameter_16"}, {"index": 43, "name": "MaterialExpressionScalarParameter_18"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 40, "name": "MaterialExpressionScalarParameter_1"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "MaterialFunctionInfos": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "StateId": {"type": "Guid", "raw_size": 16},
+        "Function": {"index": 144, "name": "VS_BoostStretch"}}]}
+      }
+    },
+    {
+      "index": 27,
+      "name": "MaterialExpressionScalarParameter_0",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "ConfRibbons_D_Mat",
+      "outer_index": 16,
+      "properties": {
+        "DefaultValue": 10,
+        "ParameterName": "Speed",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 16, "name": "ConfRibbons_D_Mat"}
+      }
+    },
+    {
+      "index": 28,
+      "name": "MaterialExpressionScalarParameter_0",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostCone_Flame_Grad_Mat",
+      "outer_index": 18,
+      "properties": {
+        "DefaultValue": 2,
+        "ParameterName": "PanSpeed",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 18, "name": "BoostCone_Flame_Grad_Mat"}
+      }
+    },
+    {
+      "index": 29,
+      "name": "MaterialExpressionScalarParameter_1",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostCone_Flame_Grad_Mat",
+      "outer_index": 18,
+      "properties": {
+        "DefaultValue": 2,
+        "ParameterName": "GradientPower",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 18, "name": "BoostCone_Flame_Grad_Mat"}
+      }
+    },
+    {
+      "index": 30,
+      "name": "MaterialExpressionScalarParameter_2",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostCone_Flame_Grad_Mat",
+      "outer_index": 18,
+      "properties": {
+        "DefaultValue": 0.1,
+        "ParameterName": "UVDistort",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 18, "name": "BoostCone_Flame_Grad_Mat"},
+        "Desc": "0.125"
+      }
+    },
+    {
+      "index": 31,
+      "name": "MaterialExpressionScalarParameter_0",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostCone_Flame_Mat",
+      "outer_index": 19,
+      "properties": {
+        "DefaultValue": 2,
+        "ParameterName": "PanSpeed",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 19, "name": "BoostCone_Flame_Mat"}
+      }
+    },
+    {
+      "index": 32,
+      "name": "MaterialExpressionScalarParameter_2",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostCone_Flame_Mat",
+      "outer_index": 19,
+      "properties": {
+        "DefaultValue": 0.1,
+        "ParameterName": "UVDistort",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 19, "name": "BoostCone_Flame_Mat"},
+        "Desc": "0.125"
+      }
+    },
+    {
+      "index": 38,
+      "name": "MaterialExpressionScalarParameter_0",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "ParameterName": "Stretch",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"},
+        "Desc": "Additive in unreal units, 32-64 is good range for burst"
+      }
+    },
+    {
+      "index": 39,
+      "name": "MaterialExpressionScalarParameter_1",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "DefaultValue": 3.5,
+        "ParameterName": "Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"}
+      }
+    },
+    {
+      "index": 40,
+      "name": "MaterialExpressionScalarParameter_15",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "PanSpeed",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"}
+      }
+    },
+    {
+      "index": 41,
+      "name": "MaterialExpressionScalarParameter_16",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "ConeLength",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"}
+      }
+    },
+    {
+      "index": 42,
+      "name": "MaterialExpressionScalarParameter_18",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "TileAmount",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"}
+      }
+    },
+    {
+      "index": 43,
+      "name": "MaterialExpressionScalarParameter_7",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "DefaultValue": 0.75,
+        "ParameterName": "UTiling",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"}
+      }
+    },
+    {
+      "index": 44,
+      "name": "MaterialExpressionScalarParameter_9",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "DefaultValue": 1.25,
+        "ParameterName": "VTiling",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"}
+      }
+    },
+    {
+      "index": 121,
+      "name": "MaterialExpressionVectorParameter_0",
+      "class": "MaterialExpressionVectorParameter",
+      "outer": "BoostCone_Flame_Grad_Mat",
+      "outer_index": 18,
+      "properties": {
+        "DefaultValue": {"type": "LinearColor", "r": 1, "g": 0.187655, "b": 0.00951111, "a": 1},
+        "ParameterName": "Red",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 18, "name": "BoostCone_Flame_Grad_Mat"}
+      }
+    },
+    {
+      "index": 122,
+      "name": "MaterialExpressionVectorParameter_5",
+      "class": "MaterialExpressionVectorParameter",
+      "outer": "BoostCone_Flame_Grad_Mat",
+      "outer_index": 18,
+      "properties": {
+        "DefaultValue": {"type": "LinearColor", "r": 0, "g": 0.240269, "b": 1, "a": 1},
+        "ParameterName": "Blue",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 18, "name": "BoostCone_Flame_Grad_Mat"}
+      }
+    },
+    {
+      "index": 123,
+      "name": "MaterialExpressionVectorParameter_0",
+      "class": "MaterialExpressionVectorParameter",
+      "outer": "BoostCone_Flame_Mat",
+      "outer_index": 19,
+      "properties": {
+        "DefaultValue": {"type": "LinearColor", "r": 1, "g": 0.248737, "b": 0, "a": 1},
+        "ParameterName": "Color",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 19, "name": "BoostCone_Flame_Mat"}
+      }
+    },
+    {
+      "index": 127,
+      "name": "MaterialExpressionVectorParameter_2",
+      "class": "MaterialExpressionVectorParameter",
+      "outer": "BoostFXMesh_Mat",
+      "outer_index": 23,
+      "properties": {
+        "DefaultValue": {"type": "LinearColor", "r": 1, "g": 1, "b": 1, "a": 1},
+        "ParameterName": "Color",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 23, "name": "BoostFXMesh_Mat"}
+      }
+    },
+    {
+      "index": 143,
+      "name": "VS_BoostStretch",
+      "class": "MaterialFunction",
+      "outer": "Psy_MaterialFunctions",
+      "outer_index": 210,
+      "properties": {
+        "StateId": {"type": "Guid", "raw_size": 16},
+        "FunctionExpressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]}
+      }
+    },
+    {
+      "index": 147,
+      "name": "ConfRibbons_MIC",
+      "class": "MaterialInstanceConstant",
+      "outer": "Boost_Confetti",
+      "outer_index": 170,
+      "properties": {
+        "ScalarParameterValues": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "ParameterName": "Speed",
+        "ParameterValue": 10,
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16}}]},
+        "Parent": {"index": 16, "name": "ConfRibbons_D_Mat"},
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16}
+      }
+    },
+    {
+      "index": 148,
+      "name": "BoostCone_Flame_Grad_MIC",
+      "class": "MaterialInstanceConstant",
+      "outer": "Materials",
+      "outer_index": 175,
+      "properties": {
+        "ScalarParameterValues": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "ParameterName": "GradientPower",
+        "ParameterValue": 4,
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16}}]},
+        "Parent": {"index": 18, "name": "BoostCone_Flame_Grad_Mat"},
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16}
+      }
+    },
+    {
+      "index": 149,
+      "name": "BoostCone_Flame_MIC",
+      "class": "MaterialInstanceConstant",
+      "outer": "Materials",
+      "outer_index": 175,
+      "properties": {
+        "ScalarParameterValues": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "ParameterName": "PanSpeed",
+        "ParameterValue": 0.25,
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16}}]},
+        "VectorParameterValues": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "ParameterName": "Color",
+        "ParameterValue": {"type": "LinearColor", "r": 0.00316215, "g": 0.387169, "b": 1, "a": 1},
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16}}]},
+        "Parent": {"index": 19, "name": "BoostCone_Flame_Mat"},
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16}
+      }
+    },
+    {
+      "index": 151,
+      "name": "BoostFXMesh_Cone_MIC",
+      "class": "MaterialInstanceConstant",
+      "outer": "FX_Parents",
+      "outer_index": 192,
+      "properties": {
+        "ScalarParameterValues": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "ParameterName": "ConeLength",
+        "ParameterValue": 1,
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16}}]},
+        "Parent": {"index": 23, "name": "BoostFXMesh_Mat"},
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16}
+      }
+    },
+    {
+      "index": 158,
+      "name": "StandaloneSeekFreeReferencer",
+      "class": "ObjectReferencer",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+        "ReferencedObjects": {"type": "ArrayObject", "elements": [{"index": 355, "name": "Body_Octane_Dev"}, {"index": 354, "name": "Body_Octane"}]}
+      }
+    },
+    {
+      "index": 159,
+      "name": "Body_AT",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 161,
+      "name": "Body_FX",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 163,
+      "name": "Body_Octane",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 165,
+      "name": "Body_Octane_SF",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 166,
+      "name": "Body_Octane_Textures",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 169,
+      "name": "Boost_Confetti",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 171,
+      "name": "Boost_Propulsion",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 172,
+      "name": "Boost_Sec",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 173,
+      "name": "AmbientBoost",
+      "class": "Package",
+      "outer": "Boost_Sec",
+      "outer_index": 173,
+      "properties": {
+      }
+    },
+    {
+      "index": 174,
+      "name": "Materials",
+      "class": "Package",
+      "outer": "AmbientBoost",
+      "outer_index": 174,
+      "properties": {
+      }
+    },
+    {
+      "index": 175,
+      "name": "Meshes",
+      "class": "Package",
+      "outer": "AmbientBoost",
+      "outer_index": 174,
+      "properties": {
+      }
+    },
+    {
+      "index": 176,
+      "name": "Global",
+      "class": "Package",
+      "outer": "Boost_Sec",
+      "outer_index": 173,
+      "properties": {
+      }
+    },
+    {
+      "index": 177,
+      "name": "Meshes",
+      "class": "Package",
+      "outer": "Global",
+      "outer_index": 177,
+      "properties": {
+      }
+    },
+    {
+      "index": 178,
+      "name": "Textures",
+      "class": "Package",
+      "outer": "Global",
+      "outer_index": 177,
+      "properties": {
+      }
+    },
+    {
+      "index": 191,
+      "name": "FX_Parents",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 192,
+      "name": "FX_Parents_Textures",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 209,
+      "name": "Psy_MaterialFunctions",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 222,
+      "name": "ParameterDispenser_X_0",
+      "class": "ParameterDispenser_X",
+      "outer": "Body_FXActor",
+      "outer_index": 12,
+      "properties": {
+      }
+    },
+    {
+      "index": 224,
+      "name": "ParameterDispenser_X_0",
+      "class": "ParameterDispenser_X",
+      "outer": "FXActor",
+      "outer_index": 14,
+      "properties": {
+      }
+    },
+    {
+      "index": 225,
+      "name": "ParticleLODLevel_4",
+      "class": "ParticleLODLevel",
+      "outer": "ParticleSpriteEmitter_5",
+      "outer_index": 325,
+      "properties": {
+        "RequiredModule": {"index": 282, "name": "ParticleModuleRequired_5"},
+        "Modules": {"type": "ArrayObject", "elements": [{"index": 257, "name": "ParticleModuleLifetime_5"}, {"index": 293, "name": "ParticleModuleSize_6"}, {"index": 315, "name": "ParticleModuleVelocity_6"}, {"index": 301, "name": "ParticleModuleSizeMultiplyLife_6"}, {"index": 237, "name": "ParticleModuleColor_10"}, {"index": 245, "name": "ParticleModuleColorOverLife_11"}, {"index": 290, "name": "ParticleModuleRotation_6"}, {"index": 281, "name": "ParticleModuleParameterDynamic_11"}, {"index": 248, "name": "ParticleModuleColorScaleOverLife_2"}, {"index": 323, "name": "ParticleModuleVelocityOverLifetime_2"}, {"index": 265, "name": "ParticleModuleLocation_2"}]},
+        "SpawnModule": {"index": 305, "name": "ParticleModuleSpawn_5"},
+        "PeakActiveParticles": 6
+      }
+    },
+    {
+      "index": 236,
+      "name": "ParticleModuleColor_10",
+      "class": "ParticleModuleColor",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "StartColor": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0.25, 5, 5, 1, 0.25, 5, 1, 0.25]}}},
+        "StartAlpha": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"}}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 244,
+      "name": "ParticleModuleColorOverLife_11",
+      "class": "ParticleModuleColorOverLife",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "ColorOverLife": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0, 20, 20, 0.5, 1, 18.96, 0.656, 1, 16.48, 1.028, 1, 13.52, 1.472, 1, 11.04, 1.844, 1, 10, 2, 1, 10, 1.896, 0.896, 10, 1.648, 0.648, 10, 1.352, 0.352, 10, 1.104, 0.104, 10, 1, 0]},
+        "LookupTableTimeScale": 20}},
+        "AlphaOverLife": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0, 1, 0, 0.104, 0.352, 0.648, 0.896, 1, 0.976709, 0.912848, 0.81743, 0.699474, 0.567994, 0.432006, 0.300526, 0.182569, 0.0871526, 0.0232909, 0]},
+        "LookupTableTimeScale": 20}},
+        "bEnabled": false,
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 247,
+      "name": "ParticleModuleColorScaleOverLife_2",
+      "class": "ParticleModuleColorScaleOverLife",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "ColorScaleOverLife": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0.25, 3, 3, 1, 0.25, 3, 1, 0.25]}}},
+        "AlphaScaleOverLife": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0, 1, 0, 0.028, 0.104, 0.216, 0.352, 0.5, 0.648, 0.784, 0.896, 0.972, 1, 0.972, 0.896, 0.784, 0.648, 0.5, 0.352, 0.216, 0.104, 0.028, 0]},
+        "LookupTableTimeScale": 20}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 256,
+      "name": "ParticleModuleLifetime_5",
+      "class": "ParticleModuleLifetime",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "LifeTime": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0.35, 0.35, 0.35, 0.35]}}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 264,
+      "name": "ParticleModuleLocation_2",
+      "class": "ParticleModuleLocation",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "StartLocation": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [-3.5, 1, -3.5, 0, 1, -3.5, 0, 1]}}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 280,
+      "name": "ParticleModuleParameterDynamic_11",
+      "class": "ParticleModuleParameterDynamic",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "DynamicParams": {"type": "ArrayStruct", "count": 4, "elements": [{
+        "ParamName": "DistortionAmount",
+        "bUseEmitterTime": false,
+        "bSpawnTimeOnly": false,
+        "ValueMethod": "EDPV_UserSet",
+        "bScaleVelocityByParamValue": false,
+        "ParamValue": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "Type": 0,
+        "Op": 1,
+        "LookupTableNumElements": 1,
+        "LookupTableChunkSize": 1,
+        "LookupTable": {"type": "ArrayFloat", "elements": [0.5, 0.5, 0.5, 0.5]},
+        "LookupTableTimeScale": 0,
+        "LookupTableStartTime": 0}}}, {
+        "ParamName": "Brightness",
+        "bUseEmitterTime": false,
+        "bSpawnTimeOnly": false,
+        "ValueMethod": "EDPV_UserSet",
+        "bScaleVelocityByParamValue": false,
+        "ParamValue": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "Type": 0,
+        "Op": 1,
+        "LookupTableNumElements": 1,
+        "LookupTableChunkSize": 1,
+        "LookupTable": {"type": "ArrayFloat", "elements": [0, 2, 2, 1.9855, 1.944, 1.8785, 1.792, 1.6875, 1.568, 1.4365, 1.296, 1.1495, 1, 0.8505, 0.704, 0.5635, 0.432, 0.3125, 0.208, 0.1215, 0.0559998, 0.0144999, 0]},
+        "LookupTableTimeScale": 20,
+        "LookupTableStartTime": 0}}}, {
+        "ParamName": "SoftAmount",
+        "bUseEmitterTime": false,
+        "bSpawnTimeOnly": false,
+        "ValueMethod": "EDPV_UserSet",
+        "bScaleVelocityByParamValue": false,
+        "ParamValue": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "Type": 0,
+        "Op": 1,
+        "LookupTableNumElements": 1,
+        "LookupTableChunkSize": 1,
+        "LookupTable": {"type": "ArrayFloat", "elements": [1, 1, 1, 1]},
+        "LookupTableTimeScale": 0,
+        "LookupTableStartTime": 0}}}, {
+        "ParamName": "NoiseAmount",
+        "bUseEmitterTime": false,
+        "bSpawnTimeOnly": false,
+        "ValueMethod": "EDPV_UserSet",
+        "bScaleVelocityByParamValue": false,
+        "ParamValue": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "Type": 0,
+        "Op": 1,
+        "LookupTableNumElements": 1,
+        "LookupTableChunkSize": 1,
+        "LookupTable": {"type": "ArrayFloat", "elements": [0.85, 0.952, 0.85, 0.852856, 0.860608, 0.872032, 0.885904, 0.901, 0.916096, 0.929968, 0.941392, 0.949144, 0.952]},
+        "LookupTableTimeScale": 20,
+        "LookupTableStartTime": 0}}}]},
+        "UpdateFlags": 15,
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 281,
+      "name": "ParticleModuleRequired_5",
+      "class": "ParticleModuleRequired",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "Material": {"index": -123, "name": "Flame_03_Trans_MAT"},
+        "InterpolationMethod": "PSUVIM_Random_Blend",
+        "bAllowImageFlipping": true,
+        "bUseLocalSpace": true,
+        "bKillOnDeactivate": true,
+        "bKillOnCompleted": true,
+        "bUseLegacyEmitterTime": false,
+        "EmitterDuration": 0.35,
+        "SpawnRate": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"}}},
+        "EmitterDelay": 1,
+        "SubImages_Horizontal": 4,
+        "SubImages_Vertical": 4,
+        "RandomImageTime": 1,
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 289,
+      "name": "ParticleModuleRotation_6",
+      "class": "ParticleModuleRotation",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "StartRotation": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"}}},
+        "bEnabled": false,
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 292,
+      "name": "ParticleModuleSize_6",
+      "class": "ParticleModuleSize",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "StartSize": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "Op": 2,
+        "LookupTableNumElements": 2,
+        "LookupTableChunkSize": 6,
+        "LookupTable": {"type": "ArrayFloat", "elements": [5, 25, 5, 12.5, 12.5, 10, 25, 12.5, 5, 12.5, 12.5, 10, 25, 12.5]}}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 300,
+      "name": "ParticleModuleSizeMultiplyLife_6",
+      "class": "ParticleModuleSizeMultiplyLife",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "LifeMultiplier": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0.5, 2, 0.5, 0.5, 0.5, 0.510875, 0.510875, 0.510875, 0.542, 0.542, 0.542, 0.591125, 0.591125, 0.591125, 0.656, 0.656, 0.656, 0.734375, 0.734375, 0.734375, 0.824, 0.824, 0.824, 0.922625, 0.922625, 0.922625, 1.028, 1.028, 1.028, 1.13788, 1.13788, 1.13788, 1.25, 1.25, 1.25, 1.36213, 1.36213, 1.36213, 1.472, 1.472, 1.472, 1.57738, 1.57738, 1.57738, 1.676, 1.676, 1.676, 1.76562, 1.76562, 1.76562, 1.844, 1.844, 1.844, 1.90887, 1.90887, 1.90887, 1.958, 1.958, 1.958, 1.98913, 1.98913, 1.98913, 2, 2, 2]},
+        "LookupTableTimeScale": 20}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 304,
+      "name": "ParticleModuleSpawn_5",
+      "class": "ParticleModuleSpawn",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "Rate": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [10, 10, 10, 10]}}},
+        "RateScale": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"}}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 314,
+      "name": "ParticleModuleVelocity_6",
+      "class": "ParticleModuleVelocity",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "StartVelocity": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "Op": 2,
+        "LookupTableNumElements": 2,
+        "LookupTableChunkSize": 6,
+        "LookupTable": {"type": "ArrayFloat", "elements": [-10, 5, -10, -5, -5, -20, 5, 5, -10, -5, -5, -20, 5, 5]}}},
+        "StartVelocityRadial": {"_struct": "RawDistributionFloat", "fields": {
+        "Distribution": {"index": 0, "name": "None"}}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 322,
+      "name": "ParticleModuleVelocityOverLifetime_2",
+      "class": "ParticleModuleVelocityOverLifetime",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "VelOverLife": {"_struct": "RawDistributionVector", "fields": {
+        "Distribution": {"index": 0, "name": "None"},
+        "LookupTable": {"type": "ArrayFloat", "elements": [0, 1, 1, 1, 0, 1, 1, 0.00725, 1, 1, 0.028, 1, 1, 0.06075, 1, 1, 0.104, 1, 1, 0.15625, 1, 1, 0.216, 1, 1, 0.28175, 1, 1, 0.352, 1, 1, 0.42525, 1, 1, 0.5, 1, 1, 0.57475, 1, 1, 0.648, 1, 1, 0.71825, 1, 1, 0.784, 1, 1, 0.84375, 1, 1, 0.896, 1, 1, 0.93925, 1, 1, 0.972, 1, 1, 0.99275, 1, 1, 1]},
+        "LookupTableTimeScale": 20}},
+        "LODValidity": 1
+      }
+    },
+    {
+      "index": 323,
+      "name": "ParticleSpriteEmitter_3",
+      "class": "ParticleSpriteEmitter",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "EmitterName": "Main",
+        "bCookedOut": true
+      }
+    },
+    {
+      "index": 324,
+      "name": "ParticleSpriteEmitter_5",
+      "class": "ParticleSpriteEmitter",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "EmitterName": "Main",
+        "LODLevels": {"type": "ArrayObject", "elements": [{"index": 226, "name": "ParticleLODLevel_4"}]}
+      }
+    },
+    {
+      "index": 325,
+      "name": "ParticleSpriteEmitter_7",
+      "class": "ParticleSpriteEmitter",
+      "outer": "OctaneAmb_PS",
+      "outer_index": 336,
+      "properties": {
+        "EmitterName": "Main",
+        "bCookedOut": true
+      }
+    },
+    {
+      "index": 335,
+      "name": "OctaneAmb_PS",
+      "class": "ParticleSystem",
+      "outer": "Boost_Sec",
+      "outer_index": 173,
+      "properties": {
+        "LODMethod": "PARTICLESYSTEMLODMETHOD_DirectSet",
+        "UpdateTime_Delta": 0.0166667,
+        "Emitters": {"type": "ArrayObject", "elements": [{"index": 326, "name": "ParticleSpriteEmitter_7"}, {"index": 324, "name": "ParticleSpriteEmitter_3"}, {"index": 325, "name": "ParticleSpriteEmitter_5"}]},
+        "bShouldResetPeakCounts": true,
+        "LODDistances": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}]},
+        "LODSettings": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "bLit": false}]},
+        "FixedRelativeBoundingBox": {"type": "Box", "raw_size": 25}
+      }
+    },
+    {
+      "index": 339,
+      "name": "ParticleSystemComponent_0",
+      "class": "ParticleSystemComponent",
+      "outer": "Body_FXActor",
+      "outer_index": 12,
+      "properties": {
+        "Template": {"index": -135, "name": "Supersonic_Team1_PS"},
+        "bIsCachedInPool": true,
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "bOnlyOwnerSee": true
+      }
+    },
+    {
+      "index": 340,
+      "name": "ParticleSystemComponent_1",
+      "class": "ParticleSystemComponent",
+      "outer": "Body_FXActor",
+      "outer_index": 12,
+      "properties": {
+        "Template": {"index": -136, "name": "Supersonic_Team2_PS"},
+        "bIsCachedInPool": true,
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "bOnlyOwnerSee": true
+      }
+    },
+    {
+      "index": 341,
+      "name": "ParticleSystemComponent_0",
+      "class": "ParticleSystemComponent",
+      "outer": "FXActor",
+      "outer_index": 14,
+      "properties": {
+        "Template": {"index": 336, "name": "OctaneAmb_PS"},
+        "bIsCachedInPool": true,
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "bOnlyOwnerSee": true
+      }
+    },
+    {
+      "index": 342,
+      "name": "ParticleSystemComponent_1",
+      "class": "ParticleSystemComponent",
+      "outer": "FXActor",
+      "outer_index": 14,
+      "properties": {
+        "Template": {"index": 336, "name": "OctaneAmb_PS"},
+        "bIsCachedInPool": true,
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "bOnlyOwnerSee": true
+      }
+    },
+    {
+      "index": 353,
+      "name": "Body_Octane",
+      "class": "ProductAsset_Body_TA",
+      "outer": "Body_Octane",
+      "outer_index": 164,
+      "properties": {
+        "Mesh": {"index": 510, "name": "Body_Octane_PremiumSkin_SK"},
+        "AnimTreeTemplate": {"index": 2, "name": "Body_AT"},
+        "HandlingPreset": {"index": -122, "name": "Octane"},
+        "FrontAxle": {"_struct": "VehicleAxleSettings", "fields": {
+        "WheelMeshRadius": 12.5,
+        "WheelWidth": 11.5,
+        "WheelMeshOffsetSide": 0.25,
+        "WheelRadius": 12.5}},
+        "BackAxle": {"_struct": "VehicleAxleSettings", "fields": {
+        "WheelWidth": 13,
+        "WheelMeshOffsetSide": 0.25}},
+        "ChassisRotationScale": 20,
+        "bUseLegacySuspensionOffsets": true,
+        "EngineAudioReference": {"index": 358, "name": "ProductAssetReference_TA_28"},
+        "FXActor": {"index": 14, "name": "FXActor"},
+        "SkinMaterialIndex": 1,
+        "BoostEmitterSockets": {"type": "ArrayName", "elements": ["BoostEmitterLeft", "BoostEmitterRight"]},
+        "BoostFlapsAngle": -100,
+        "EquipProfile": {"index": 365, "name": "ProductEquipProfile_TA_0"},
+        "BoostParticleParameters": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "Name": "ConfettiRibbon",
+        "ParamType": "PSPT_Mesh",
+        "Scalar": 0,
+        "Scalar_Low": 0,
+        "Vector": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "Vector_Low": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "Color": {"type": "Color", "r": 0, "g": 0, "b": 0, "a": 0},
+        "Actor": {"index": 0, "name": "None"},
+        "Material": {"index": 0, "name": "None"},
+        "Mesh": {"index": 429, "name": "OctaneRibbons_SM"}}]},
+        "SkinParameters": {"_struct": "MaterialParams", "fields": {
+        "TextureParameters": {"type": "ArrayStruct", "count": 5, "elements": [{
+        "Name": "BodyMasks",
+        "Value": {"index": -141, "name": "Pepe_Body_BlankSkin"}}, {
+        "Name": "BodyNormalMap",
+        "Value": {"index": 445, "name": "Body_Octane_Bevel_N"}}, {
+        "Name": "Diffuse",
+        "Value": {"index": -142, "name": "Pepe_Body_D"}}, {
+        "Name": "FXMasks",
+        "Value": {"index": 446, "name": "Body_Octane_Bevel_RGB"}}, {
+        "Name": "CurvaturePack",
+        "Value": {"index": -140, "name": "Body_Octane_Curvature_New"}}]},
+        "VectorParameters": {"type": "ArrayStruct", "count": 2, "elements": [{
+        "Name": "TrimSheet1_Transform",
+        "Value": {"type": "LinearColor", "r": 2.3, "g": 1.5, "b": 0, "a": 0.675}}, {
+        "Name": "TrimSheet1Mirrored_Offset",
+        "Value": {"type": "LinearColor", "r": 0, "g": 0, "b": 0, "a": 0}}]},
+        "ScalarParameters": {"type": "ArrayStruct", "count": 3, "elements": [{
+        "Name": "TrimSheet1_Rotation",
+        "Value": 0}, {
+        "Name": "TrimSheet1Mirrored_Opacity",
+        "Value": 0}, {
+        "Name": "TrimSheet1Mirrored_RotationOffset",
+        "Value": 0}]}}},
+        "ThumbnailWheelAsset": {"index": 360, "name": "ProductAssetReferenceWheel_TA_50"},
+        "ThumbnailKeyLightBrightnessScale": 1,
+        "Attributes": {"type": "ArrayObject", "elements": [{"index": 362, "name": "ProductAttribute_PaintSettings_TA_14"}]}
+      }
+    },
+    {
+      "index": 354,
+      "name": "Body_Octane_Dev",
+      "class": "ProductAsset_Body_TA",
+      "outer": "Body_Octane",
+      "outer_index": 164,
+      "properties": {
+        "Mesh": {"index": -139, "name": "Body_Octane_SK"},
+        "AnimTreeTemplate": {"index": 2, "name": "Body_AT"},
+        "HandlingPreset": {"index": -122, "name": "Octane"},
+        "FrontAxle": {"_struct": "VehicleAxleSettings", "fields": {
+        "WheelMeshRadius": 12.5,
+        "WheelWidth": 11.5,
+        "WheelMeshOffsetSide": 0.25,
+        "WheelRadius": 12.5}},
+        "BackAxle": {"_struct": "VehicleAxleSettings", "fields": {
+        "WheelWidth": 13,
+        "WheelMeshOffsetSide": 0.25}},
+        "bUseLegacySuspensionOffsets": true,
+        "EngineAudioReference": {"index": 359, "name": "ProductAssetReference_TA_28"},
+        "FXActor": {"index": 14, "name": "FXActor"},
+        "SkinMaterialIndex": 1,
+        "BoostEmitterSockets": {"type": "ArrayName", "elements": ["BoostEmitterLeft", "BoostEmitterRight"]},
+        "BoostFlapsAngle": -100,
+        "EquipProfile": {"index": 366, "name": "ProductEquipProfile_TA_0"},
+        "BoostParticleParameters": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "Name": "ConfettiRibbon",
+        "ParamType": "PSPT_Mesh",
+        "Scalar": 0,
+        "Scalar_Low": 0,
+        "Vector": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "Vector_Low": {"type": "Vector", "x": 0, "y": 0, "z": 0},
+        "Color": {"type": "Color", "r": 0, "g": 0, "b": 0, "a": 0},
+        "Actor": {"index": 0, "name": "None"},
+        "Material": {"index": 0, "name": "None"},
+        "Mesh": {"index": 429, "name": "OctaneRibbons_SM"}}]},
+        "SkinParameters": {"_struct": "MaterialParams", "fields": {
+        "TextureParameters": {"type": "ArrayStruct", "count": 4, "elements": [{
+        "Name": "BodyMasks",
+        "Value": {"index": -141, "name": "Pepe_Body_BlankSkin"}}, {
+        "Name": "BodyNormalMap",
+        "Value": {"index": 445, "name": "Body_Octane_Bevel_N"}}, {
+        "Name": "Diffuse",
+        "Value": {"index": -142, "name": "Pepe_Body_D"}}, {
+        "Name": "FXMasks",
+        "Value": {"index": 446, "name": "Body_Octane_Bevel_RGB"}}]},
+        "VectorParameters": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "Name": "Logo1Transform",
+        "Value": {"type": "LinearColor", "r": 10, "g": 10, "b": 0.414, "a": 0.77}}]},
+        "ScalarParameters": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "Name": "Logo1Rotation",
+        "Value": 0}]}}},
+        "ThumbnailWheelAsset": {"index": 361, "name": "ProductAssetReferenceWheel_TA_50"},
+        "ThumbnailKeyLightBrightnessScale": 1,
+        "Attributes": {"type": "ArrayObject", "elements": [{"index": 363, "name": "ProductAttribute_PaintSettings_TA_14"}]}
+      }
+    },
+    {
+      "index": 357,
+      "name": "ProductAssetReference_TA_28",
+      "class": "ProductAssetReference_TA",
+      "outer": "Body_Octane",
+      "outer_index": 354,
+      "properties": {
+        "ProductID": 1794
+      }
+    },
+    {
+      "index": 358,
+      "name": "ProductAssetReference_TA_28",
+      "class": "ProductAssetReference_TA",
+      "outer": "Body_Octane_Dev",
+      "outer_index": 355,
+      "properties": {
+        "ProductID": 1794
+      }
+    },
+    {
+      "index": 359,
+      "name": "ProductAssetReferenceWheel_TA_50",
+      "class": "ProductAssetReferenceWheel_TA",
+      "outer": "Body_Octane",
+      "outer_index": 354,
+      "properties": {
+        "ProductID": 376
+      }
+    },
+    {
+      "index": 360,
+      "name": "ProductAssetReferenceWheel_TA_50",
+      "class": "ProductAssetReferenceWheel_TA",
+      "outer": "Body_Octane_Dev",
+      "outer_index": 355,
+      "properties": {
+        "ProductID": 376
+      }
+    },
+    {
+      "index": 361,
+      "name": "ProductAttribute_PaintSettings_TA_14",
+      "class": "ProductAttribute_PaintSettings_TA",
+      "outer": "Body_Octane",
+      "outer_index": 354,
+      "properties": {
+        "MaterialGroups[1]": {"_struct": "PaintMaterialGroup", "fields": {
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}]}}},
+        "bPaintBody": true,
+        "PaintParameterName": "TrimColor",
+        "IncludePaintIDs": {"type": "ArrayObject", "elements": [{"index": 1, "name": "None"}, {"index": 2, "name": "Body_AT"}, {"index": 3, "name": "None"}, {"index": 4, "name": "None"}, {"index": 5, "name": "None"}, {"index": 6, "name": "None"}, {"index": 7, "name": "None"}, {"index": 8, "name": "None"}, {"index": 9, "name": "None"}, {"index": 10, "name": "None"}, {"index": 11, "name": "None"}, {"index": 12, "name": "Body_FXActor"}, {"index": 13, "name": "None"}, {"index": 14, "name": "FXActor"}, {"index": 15, "name": "None"}, {"index": 16, "name": "ConfRibbons_D_Mat"}, {"index": 17, "name": "None"}, {"index": 18, "name": "BoostCone_Flame_Grad_Mat"}]},
+        "PaintsToOverride": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "PaintToOverride": {"index": -106, "name": "Black_00"},
+        "Overrides": {"type": "ArrayObject", "elements": [{"index": 368, "name": "ProductOverride_MaterialParameter_TA_0"}]}}]}
+      }
+    },
+    {
+      "index": 362,
+      "name": "ProductAttribute_PaintSettings_TA_14",
+      "class": "ProductAttribute_PaintSettings_TA",
+      "outer": "Body_Octane_Dev",
+      "outer_index": 355,
+      "properties": {
+        "bPaintBody": true,
+        "PaintParameterName": "TrimColor",
+        "IncludePaintIDs": {"type": "ArrayObject", "elements": [{"index": 1, "name": "None"}, {"index": 2, "name": "Body_AT"}, {"index": 3, "name": "None"}, {"index": 4, "name": "None"}, {"index": 5, "name": "None"}, {"index": 6, "name": "None"}, {"index": 7, "name": "None"}, {"index": 8, "name": "None"}, {"index": 9, "name": "None"}, {"index": 10, "name": "None"}, {"index": 11, "name": "None"}, {"index": 12, "name": "Body_FXActor"}, {"index": 13, "name": "None"}]},
+        "UnsupportedPaints": {"type": "ArrayObject", "elements": [{"index": -108, "name": "GoldMetal_00"}, {"index": -110, "name": "RoseGoldMetal_00"}, {"index": -111, "name": "WhiteGoldMetal_00"}, {"index": -107, "name": "BlackMetal_00"}, {"index": -109, "name": "PlatinumMetal_00"}]}
+      }
+    },
+    {
+      "index": 364,
+      "name": "ProductEquipProfile_TA_0",
+      "class": "ProductEquipProfile_TA",
+      "outer": "Body_Octane",
+      "outer_index": 354,
+      "properties": {
+      }
+    },
+    {
+      "index": 365,
+      "name": "ProductEquipProfile_TA_0",
+      "class": "ProductEquipProfile_TA",
+      "outer": "Body_Octane_Dev",
+      "outer_index": 355,
+      "properties": {
+      }
+    },
+    {
+      "index": 367,
+      "name": "ProductOverride_MaterialParameter_TA_0",
+      "class": "ProductOverride_MaterialParameter_TA",
+      "outer": "ProductAttribute_PaintSettings_TA_14",
+      "outer_index": 362,
+      "properties": {
+        "MaterialName": "MIC_Body_Octane",
+        "VectorParameterValues": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "ParameterName": "TrimColor",
+        "ParameterValue": {"type": "LinearColor", "r": 0.01, "g": 0.01, "b": 0.01, "a": 1},
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16}}]}
+      }
+    },
+    {
+      "index": 375,
+      "name": "SkelControlLookAt_0",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_X",
+        "TargetSpaceBoneName": "BR_Shock_B_jnt",
+        "bInvertLookAtAxis": true,
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 376,
+      "name": "SkelControlLookAt_1",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_Y",
+        "TargetSpaceBoneName": "BR_Shock_A_jnt",
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 377,
+      "name": "SkelControlLookAt_10",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_X",
+        "TargetSpaceBoneName": "FR_Shock_B_jnt",
+        "bInvertLookAtAxis": true,
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 378,
+      "name": "SkelControlLookAt_11",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "TargetSpaceBoneName": "FR_WheelTranslation_jnt",
+        "bInvertLookAtAxis": true,
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 379,
+      "name": "SkelControlLookAt_2",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "TargetSpaceBoneName": "BR_WheelTranslation_jnt",
+        "bInvertLookAtAxis": true,
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 380,
+      "name": "SkelControlLookAt_3",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_Y",
+        "TargetSpaceBoneName": "BL_Shock_A_jnt",
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 381,
+      "name": "SkelControlLookAt_4",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_X",
+        "TargetSpaceBoneName": "BL_Shock_B_jnt",
+        "bInvertLookAtAxis": true,
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 382,
+      "name": "SkelControlLookAt_5",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "TargetSpaceBoneName": "BL_WheelTranslation_jnt",
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 383,
+      "name": "SkelControlLookAt_6",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_Y",
+        "TargetSpaceBoneName": "FL_Shock_A_jnt",
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 384,
+      "name": "SkelControlLookAt_7",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_X",
+        "TargetSpaceBoneName": "FL_Shock_B_jnt",
+        "bInvertLookAtAxis": true,
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 385,
+      "name": "SkelControlLookAt_8",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "TargetSpaceBoneName": "FL_WheelTranslation_jnt",
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 386,
+      "name": "SkelControlLookAt_9",
+      "class": "SkelControlLookAt",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "TargetLocationSpace": "BCS_OtherBoneSpace",
+        "LookAtAxis": "AXIS_Z",
+        "UpAxis": "AXIS_Y",
+        "TargetSpaceBoneName": "FR_Shock_A_jnt",
+        "IgnoreAtOrAboveLOD": 1
+      }
+    },
+    {
+      "index": 387,
+      "name": "SkelControlSingleBone_1",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyTranslation": true,
+        "bAddTranslation": true,
+        "BoneTranslationSpace": "BCS_ComponentSpace",
+        "ControlName": "FRWheelTranslateControl"
+      }
+    },
+    {
+      "index": 388,
+      "name": "SkelControlSingleBone_10",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "ControlName": "FRWheelRollControl",
+        "bIgnoreWhenNotRendered": true,
+        "IgnoreAtOrAboveLOD": 2
+      }
+    },
+    {
+      "index": 389,
+      "name": "SkelControlSingleBone_11",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyTranslation": true,
+        "bApplyRotation": true,
+        "bAddTranslation": true,
+        "bAddRotation": true,
+        "BoneTranslationSpace": "BCS_ComponentSpace",
+        "BoneRotationSpace": "BCS_ComponentSpace",
+        "ControlName": "ChassisSpring"
+      }
+    },
+    {
+      "index": 390,
+      "name": "SkelControlSingleBone_12",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyTranslation": true,
+        "bAddTranslation": true,
+        "BoneTranslationSpace": "BCS_ComponentSpace",
+        "ControlName": "BRWheelTranslateControl"
+      }
+    },
+    {
+      "index": 391,
+      "name": "SkelControlSingleBone_13",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyTranslation": true,
+        "bAddTranslation": true,
+        "BoneTranslationSpace": "BCS_ComponentSpace",
+        "ControlName": "BLWheelTranslateControl"
+      }
+    },
+    {
+      "index": 392,
+      "name": "SkelControlSingleBone_14",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "bAddRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "ControlName": "FRWheelSteerControl",
+        "bIgnoreWhenNotRendered": true
+      }
+    },
+    {
+      "index": 393,
+      "name": "SkelControlSingleBone_15",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "ControlName": "BRWheelRollControl",
+        "bIgnoreWhenNotRendered": true,
+        "IgnoreAtOrAboveLOD": 2
+      }
+    },
+    {
+      "index": 394,
+      "name": "SkelControlSingleBone_2",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "bAddRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "BoneRotation": {"type": "Rotator", "pitch": -8192, "yaw": 0, "roll": 0},
+        "ControlName": "BoostControl3",
+        "ControlStrength": 0,
+        "StrengthTarget": 0
+      }
+    },
+    {
+      "index": 395,
+      "name": "SkelControlSingleBone_3",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "bAddRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "BoneRotation": {"type": "Rotator", "pitch": -8192, "yaw": 0, "roll": 0},
+        "ControlName": "BoostControl0",
+        "ControlStrength": 0,
+        "StrengthTarget": 0
+      }
+    },
+    {
+      "index": 396,
+      "name": "SkelControlSingleBone_4",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "bAddRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "BoneRotation": {"type": "Rotator", "pitch": -8192, "yaw": 0, "roll": 0},
+        "ControlName": "BoostControl1",
+        "ControlStrength": 0,
+        "StrengthTarget": 0
+      }
+    },
+    {
+      "index": 397,
+      "name": "SkelControlSingleBone_5",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "bAddRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "BoneRotation": {"type": "Rotator", "pitch": -8192, "yaw": 0, "roll": 0},
+        "ControlName": "BoostControl2",
+        "ControlStrength": 0,
+        "StrengthTarget": 0
+      }
+    },
+    {
+      "index": 398,
+      "name": "SkelControlSingleBone_6",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "ControlName": "BLWheelRollControl",
+        "bIgnoreWhenNotRendered": true,
+        "IgnoreAtOrAboveLOD": 2
+      }
+    },
+    {
+      "index": 399,
+      "name": "SkelControlSingleBone_7",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyTranslation": true,
+        "bAddTranslation": true,
+        "BoneTranslationSpace": "BCS_ComponentSpace",
+        "ControlName": "FLWheelTranslateControl"
+      }
+    },
+    {
+      "index": 400,
+      "name": "SkelControlSingleBone_8",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "bAddRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "ControlName": "FLWheelSteerControl",
+        "bIgnoreWhenNotRendered": true
+      }
+    },
+    {
+      "index": 401,
+      "name": "SkelControlSingleBone_9",
+      "class": "SkelControlSingleBone",
+      "outer": "Body_AT",
+      "outer_index": 2,
+      "properties": {
+        "bApplyRotation": true,
+        "BoneRotationSpace": "BCS_BoneSpace",
+        "ControlName": "FLWheelRollControl",
+        "bIgnoreWhenNotRendered": true,
+        "IgnoreAtOrAboveLOD": 2
+      }
+    },
+    {
+      "index": 426,
+      "name": "Octane_Boost",
+      "class": "StaticMesh",
+      "outer": "Body_Octane",
+      "outer_index": 164,
+      "properties": {
+        "LightMapCoordinateIndex": 1,
+        "LightMapResolution": 32
+      }
+    },
+    {
+      "index": 427,
+      "name": "OctaneAmbientBoost_SM",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 176,
+      "properties": {
+        "LightMapCoordinateIndex": 1,
+        "LightMapResolution": 32
+      }
+    },
+    {
+      "index": 428,
+      "name": "OctaneRibbons_SM",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 178,
+      "properties": {
+        "LightMapCoordinateIndex": 1,
+        "LightMapResolution": 32
+      }
+    },
+    {
+      "index": 435,
+      "name": "StaticMeshComponent_110",
+      "class": "StaticMeshComponent",
+      "outer": "FXActor",
+      "outer_index": 14,
+      "properties": {
+        "StaticMesh": {"index": 427, "name": "Octane_Boost"},
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 152, "name": "BoostFXMesh_Cone_MIC"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "bAcceptsLights": false
+      }
+    },
+    {
+      "index": 436,
+      "name": "StaticMeshComponent_2",
+      "class": "StaticMeshComponent",
+      "outer": "FXActor",
+      "outer_index": 14,
+      "properties": {
+        "StaticMesh": {"index": 428, "name": "OctaneAmbientBoost_SM"},
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 150, "name": "BoostCone_Flame_MIC"}, {"index": 149, "name": "BoostCone_Flame_Grad_MIC"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "bOnlyOwnerSee": true,
+        "bAcceptsLights": false
+      }
+    },
+    {
+      "index": 437,
+      "name": "StaticMeshComponent_51",
+      "class": "StaticMeshComponent",
+      "outer": "FXActor",
+      "outer_index": 14,
+      "properties": {
+        "ReplacementPrimitive": {"index": 0, "name": "None"}
+      }
+    },
+    {
+      "index": 508,
+      "name": "Body_Octane_Premium",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 509,
+      "name": "Body_Octane_PremiumSkin_SK",
+      "class": "SkeletalMesh",
+      "outer": "Body_Octane_Premium",
+      "outer_index": 509,
+      "properties": {
+        "ClothingAssets": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "Sockets": {"type": "ArrayObject", "elements": [{"index": 511, "name": "SkeletalMeshSocket_13"}, {"index": 512, "name": "SkeletalMeshSocket_14"}, {"index": 513, "name": "SkeletalMeshSocket_15"}, {"index": 514, "name": "SkeletalMeshSocket_16"}, {"index": 515, "name": "SkeletalMeshSocket_17"}, {"index": 516, "name": "SkeletalMeshSocket_18"}, {"index": 517, "name": "SkeletalMeshSocket_19"}, {"index": 518, "name": "SkeletalMeshSocket_20"}, {"index": 519, "name": "SkeletalMeshSocket_21"}]},
+        "LODInfo": {"type": "ArrayStruct", "count": 1, "elements": [{
+        "DisplayFactor": 0,
+        "LODHysteresis": 0.02,
+        "LODMaterialMap": {"type": "ArrayName", "elements": []},
+        "bEnableShadowCasting": {"type": "Array", "count": 2, "raw_size": 6},
+        "TriangleSortSettings": {"type": "ArrayStruct", "count": 2, "elements": [{
+        "TriangleSorting": "TRISORT_None",
+        "CustomLeftRightAxis": "TSA_X_Axis",
+        "CustomLeftRightBoneName": "None"}, {
+        "TriangleSorting": "TRISORT_None",
+        "CustomLeftRightAxis": "TSA_X_Axis",
+        "CustomLeftRightBoneName": "None"}]},
+        "bDisableCompressions": false,
+        "bHasBeenSimplified": false}]},
+        "ClothTearFactor": 3
+      }
+    },
+    {
+      "index": 510,
+      "name": "SkeletalMeshSocket_13",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "AntennaSocket",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": -25.8564, "y": -18.1061, "z": 23}
+      }
+    },
+    {
+      "index": 511,
+      "name": "SkeletalMeshSocket_14",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "FrontSocket",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": 78.0077, "y": 0, "z": -1.5}
+      }
+    },
+    {
+      "index": 512,
+      "name": "SkeletalMeshSocket_15",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "HatSocket",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": 19.8932, "y": 0, "z": 29.5543},
+        "RelativeRotation": {"type": "Rotator", "pitch": -2498, "yaw": 0, "roll": 0}
+      }
+    },
+    {
+      "index": 513,
+      "name": "SkeletalMeshSocket_16",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "RocketBoost",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": -48.5055, "y": 0, "z": 9}
+      }
+    },
+    {
+      "index": 514,
+      "name": "SkeletalMeshSocket_17",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "BoostEmitterLeft",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": -48, "y": -9, "z": 9}
+      }
+    },
+    {
+      "index": 515,
+      "name": "SkeletalMeshSocket_18",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "BoostEmitterRight",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": -48, "y": 9, "z": 9}
+      }
+    },
+    {
+      "index": 516,
+      "name": "SkeletalMeshSocket_19",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "AmbBoost_L",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": -46, "y": -14.6, "z": 10.5}
+      }
+    },
+    {
+      "index": 517,
+      "name": "SkeletalMeshSocket_20",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "AmbBoost_R",
+        "BoneName": "chassis_jnt",
+        "RelativeLocation": {"type": "Vector", "x": -46, "y": 14.6, "z": 10.5}
+      }
+    },
+    {
+      "index": 518,
+      "name": "SkeletalMeshSocket_21",
+      "class": "SkeletalMeshSocket",
+      "outer": "Body_Octane_PremiumSkin_SK",
+      "outer_index": 510,
+      "properties": {
+        "SocketName": "Underglow",
+        "BoneName": "root_jnt"
+      }
+    }
+  ]
+}
