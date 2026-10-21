@@ -1,0 +1,29 @@
+{
+  "package": "Body_Topple_T_SF.upk",
+  "exports": [
+    {
+      "index": 0,
+      "name": "StandaloneSeekFreeReferencer",
+      "class": "ObjectReferencer",
+      "outer": "None",
+      "outer_index": 0,
+      "archetype": "None",
+      "archetype_index": 0,
+      "properties": {
+        "ReferencedObjects": {"type": "ArrayObject", "elements": [{"index": 5, "name": "Body_Topple_TThumbnail"}, {"index": 4, "name": "Body_Topple_T"}]}
+      }
+    },
+    {
+      "index": 3,
+      "name": "Body_Topple_T",
+      "class": "ProductThumbnailAsset_TA",
+      "outer": "Body_Topple_T",
+      "outer_index": 2,
+      "archetype": "None",
+      "archetype_index": 0,
+      "properties": {
+        "Thumbnail": {"index": 5, "name": "Body_Topple_TThumbnail"}
+      }
+    }
+  ]
+}

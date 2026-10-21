@@ -1,0 +1,7 @@
+Diffuse=Chassis_Topple_D
+Normal=Chassis_Topple_N
+Emissive=Chassis_Topple_E
+Other[0]=Chassis_Topple_RGB
+Other[1]=Endo_Chassis_N
+Other[2]=Endo_Chassis_D
+Other[3]=Endo_Chassis_RGB
