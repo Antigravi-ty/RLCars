@@ -1,0 +1,774 @@
+{
+  "carId": "Breakout_Force",
+  "displayName": "Breakout / Force (Body_Force_SF)",
+  "sourcePackage": "Body_Force_SF.upk",
+  "extraPackages": [],
+  "rocketSimPreset": "CAR_CONFIG_BREAKOUT (Index 3)",
+  "rocketSimPhysicsParameters": {
+    "hitboxSize": [
+      131.4924,
+      80.521,
+      30.3
+    ],
+    "hitboxPosOffset": [
+      12.5,
+      0.0,
+      11.75
+    ],
+    "frontWheels": {
+      "wheelRadius": 12.5,
+      "suspensionRestLength": 32.65,
+      "connectionPointOffset": [
+        57.5,
+        26.5,
+        11.75
+      ]
+    },
+    "backWheels": {
+      "wheelRadius": 13.5,
+      "suspensionRestLength": 29.8,
+      "connectionPointOffset": [
+        -35.0,
+        30.5,
+        11.75
+      ]
+    },
+    "threeWheelFrontOffset": [
+      57.5,
+      5.0,
+      11.75
+    ]
+  },
+  "upkExtractedObjects": {
+    "ProductAsset_Body_TA": [],
+    "RB_BodySetup_Hitbox": [],
+    "SkeletalMeshSockets": [],
+    "CarWheelControl_TA": [],
+    "SkelControlSingleBone": [],
+    "SkelControlLookAt": [],
+    "FXActor_Body_TA": [],
+    "MaterialInstanceConstants": [],
+    "Materials": []
+  },
+  "extraPackageDumps": {},
+  "skeletalBoneHierarchy": {
+    "boneCount": 28,
+    "bones": [
+      {
+        "jointIndex": 0,
+        "nodeIndex": 1,
+        "boneName": "root_jnt",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          2,
+          15,
+          19,
+          22,
+          25
+        ]
+      },
+      {
+        "jointIndex": 1,
+        "nodeIndex": 2,
+        "boneName": "chassis_jnt",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "jointIndex": 2,
+        "nodeIndex": 3,
+        "boneName": "FL_axleShaft_jnt",
+        "translation": [
+          0.515068,
+          -0.063741,
+          0.0
+        ],
+        "rotation": [
+          -2.3492e-16,
+          0.707107,
+          2.36146e-16,
+          0.707107
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 3,
+        "nodeIndex": 4,
+        "boneName": "FR_axleShaft_jnt",
+        "translation": [
+          0.515068,
+          -0.063741,
+          0.0
+        ],
+        "rotation": [
+          5.51986e-17,
+          0.707107,
+          5.51986e-17,
+          0.707107
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 4,
+        "nodeIndex": 5,
+        "boneName": "BR_Shock_A_jnt",
+        "translation": [
+          -0.366695,
+          0.0930394,
+          0.116713
+        ],
+        "rotation": [
+          3.4861e-08,
+          0.887011,
+          -0.461749,
+          6.69675e-08
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 5,
+        "nodeIndex": 6,
+        "boneName": "BL_Shock_A_jnt",
+        "translation": [
+          -0.366695,
+          0.0930394,
+          -0.116713
+        ],
+        "rotation": [
+          -3.4861e-08,
+          0.887011,
+          0.461749,
+          6.69675e-08
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 6,
+        "nodeIndex": 7,
+        "boneName": "FL_Shock_A_jnt",
+        "translation": [
+          0.515075,
+          0.0638189,
+          -0.0703543
+        ],
+        "rotation": [
+          -4.80785e-08,
+          0.887011,
+          0.461749,
+          6.00869e-08
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 7,
+        "nodeIndex": 8,
+        "boneName": "FR_Shock_A_jnt",
+        "translation": [
+          0.515075,
+          0.0638189,
+          0.0703543
+        ],
+        "rotation": [
+          2.16436e-08,
+          0.887011,
+          -0.461749,
+          7.3848e-08
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 8,
+        "nodeIndex": 9,
+        "boneName": "BL_axleShaft_jnt",
+        "translation": [
+          -0.366732,
+          -0.0481403,
+          0.0
+        ],
+        "rotation": [
+          9.49761e-17,
+          0.707107,
+          -6.1149e-17,
+          0.707107
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 9,
+        "nodeIndex": 10,
+        "boneName": "BR_axleShaft_jnt",
+        "translation": [
+          -0.366732,
+          -0.0481403,
+          0.0
+        ],
+        "rotation": [
+          1.94289e-16,
+          0.707107,
+          2.77556e-17,
+          0.707107
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 10,
+        "nodeIndex": 11,
+        "boneName": "en_panel_left_JNT",
+        "translation": [
+          -0.563578,
+          0.0836657,
+          -0.133258
+        ],
+        "rotation": [
+          -0.707107,
+          0.0,
+          0.0,
+          0.707107
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 11,
+        "nodeIndex": 12,
+        "boneName": "en_panel_up_JNT",
+        "translation": [
+          -0.563578,
+          0.216924,
+          9.85589e-07
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 12,
+        "nodeIndex": 13,
+        "boneName": "en_panel_right_JNT",
+        "translation": [
+          -0.563578,
+          0.0836657,
+          0.133258
+        ],
+        "rotation": [
+          0.707107,
+          0.0,
+          0.0,
+          0.707107
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 13,
+        "nodeIndex": 14,
+        "boneName": "en_panel_low_JNT",
+        "translation": [
+          -0.563578,
+          -0.0495922,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          6.12323e-17
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 14,
+        "nodeIndex": 15,
+        "boneName": "FL_WheelTranslation_jnt",
+        "translation": [
+          0.515441,
+          -0.0591073,
+          -0.19385
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          16,
+          18
+        ]
+      },
+      {
+        "jointIndex": 15,
+        "nodeIndex": 16,
+        "boneName": "FL_Pivot_jnt",
+        "translation": [
+          -3.94537e-06,
+          -0.000442378,
+          -0.0532124
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          17
+        ]
+      },
+      {
+        "jointIndex": 16,
+        "nodeIndex": 17,
+        "boneName": "FL_Disc_jnt",
+        "translation": [
+          3.96236e-05,
+          1.22869e-06,
+          -0.019685
+        ],
+        "rotation": [
+          0.0,
+          2.18557e-08,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 17,
+        "nodeIndex": 18,
+        "boneName": "FL_Shock_B_jnt",
+        "translation": [
+          0.0,
+          0.0364016,
+          0.0
+        ],
+        "rotation": [
+          -4.80785e-08,
+          0.887011,
+          0.461749,
+          6.00869e-08
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 18,
+        "nodeIndex": 19,
+        "boneName": "BR_WheelTranslation_jnt",
+        "translation": [
+          -0.366437,
+          -0.0591124,
+          0.249696
+        ],
+        "rotation": [
+          8.32667e-17,
+          7.706e-17,
+          -1.49576e-17,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          20,
+          21
+        ]
+      },
+      {
+        "jointIndex": 19,
+        "nodeIndex": 20,
+        "boneName": "BR_Shock_B_jnt",
+        "translation": [
+          0.0,
+          0.0589528,
+          0.0
+        ],
+        "rotation": [
+          6.95177e-17,
+          0.887011,
+          -0.461749,
+          -1.05221e-16
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 20,
+        "nodeIndex": 21,
+        "boneName": "BR_Disc_jnt",
+        "translation": [
+          3.56107e-05,
+          2.00008e-07,
+          0.101095
+        ],
+        "rotation": [
+          0.0,
+          -2.49095e-33,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 21,
+        "nodeIndex": 22,
+        "boneName": "BL_WheelTranslation_jnt",
+        "translation": [
+          -0.366437,
+          -0.0591124,
+          -0.249697
+        ],
+        "rotation": [
+          -4.23516e-22,
+          1.11022e-16,
+          -4.23516e-22,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          23,
+          24
+        ]
+      },
+      {
+        "jointIndex": 22,
+        "nodeIndex": 23,
+        "boneName": "BL_Shock_B_jnt",
+        "translation": [
+          0.0,
+          0.0589528,
+          0.0
+        ],
+        "rotation": [
+          -3.48078e-08,
+          0.887011,
+          0.461749,
+          6.68651e-08
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 23,
+        "nodeIndex": 24,
+        "boneName": "BL_Disc_jnt",
+        "translation": [
+          3.57398e-05,
+          2.00008e-07,
+          -0.10109
+        ],
+        "rotation": [
+          0.0,
+          3.58732e-43,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 24,
+        "nodeIndex": 25,
+        "boneName": "FR_WheelTranslation_jnt",
+        "translation": [
+          0.515441,
+          -0.0591073,
+          0.19385
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          26,
+          28
+        ]
+      },
+      {
+        "jointIndex": 25,
+        "nodeIndex": 26,
+        "boneName": "FR_Pivot_jnt",
+        "translation": [
+          -3.62076e-06,
+          -0.000442378,
+          0.0532124
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": [
+          27
+        ]
+      },
+      {
+        "jointIndex": 26,
+        "nodeIndex": 27,
+        "boneName": "FR_Disc_jnt",
+        "translation": [
+          3.96269e-05,
+          1.22869e-06,
+          0.019685
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      },
+      {
+        "jointIndex": 27,
+        "nodeIndex": 28,
+        "boneName": "FR_Shock_B_jnt",
+        "translation": [
+          0.0,
+          0.0364016,
+          0.0
+        ],
+        "rotation": [
+          2.16436e-08,
+          0.887011,
+          -0.461749,
+          7.3848e-08
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "children": []
+      }
+    ]
+  },
+  "glbSurfaceMaterialCategories": {
+    "Body_Force_PremiumSkin_SK": [
+      {
+        "materialSlotName": "Chassis_DarkMetal_Undercarriage__ForceChassis_MIC",
+        "surfaceCategory": "Chassis_DarkMetal_Undercarriage",
+        "ue3OriginalMaterial": "ForceChassis_MIC",
+        "vertexCount": 15017,
+        "triangleCount": 19050,
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.46,
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "materialSlotName": "Chassis_Chrome_Exhaust_Suspension__ForceChassis_MIC",
+        "surfaceCategory": "Chassis_Chrome_Exhaust_Suspension",
+        "ue3OriginalMaterial": "ForceChassis_MIC",
+        "vertexCount": 85,
+        "triangleCount": 72,
+        "metallicFactor": 0.94,
+        "roughnessFactor": 0.18,
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "materialSlotName": "Body_PrimaryPaint_And_Decal__Body_Force_MIC",
+        "surfaceCategory": "Body_PrimaryPaint_And_Decal",
+        "ue3OriginalMaterial": "Body_Force_MIC",
+        "vertexCount": 5174,
+        "triangleCount": 7642,
+        "metallicFactor": 0.58,
+        "roughnessFactor": 0.24,
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "materialSlotName": "Windshield_And_Windows_Glass__Body_Force_MIC",
+        "surfaceCategory": "Windshield_And_Windows_Glass",
+        "ue3OriginalMaterial": "Body_Force_MIC",
+        "vertexCount": 501,
+        "triangleCount": 454,
+        "metallicFactor": 0.9,
+        "roughnessFactor": 0.08,
+        "alphaMode": "BLEND"
+      },
+      {
+        "materialSlotName": "Trim_Bumper_Rollbar_Plastic__Body_Force_MIC",
+        "surfaceCategory": "Trim_Bumper_Rollbar_Plastic",
+        "ue3OriginalMaterial": "Body_Force_MIC",
+        "vertexCount": 293,
+        "triangleCount": 220,
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.62,
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "materialSlotName": "BoostCone_Nozzle__Force_Boost",
+        "surfaceCategory": "BoostCone_Emissive",
+        "ue3OriginalMaterial": "BoostCone_MAT",
+        "vertexCount": 230,
+        "triangleCount": 272,
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.2,
+        "alphaMode": "BLEND"
+      }
+    ]
+  }
+}
