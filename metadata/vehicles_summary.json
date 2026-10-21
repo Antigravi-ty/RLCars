@@ -1,0 +1,678 @@
+{
+  "repository": "Antigravi-ty/RLCars",
+  "vehicles": [
+    {
+      "car_id": "Body_Topple",
+      "display_name": "BMW M4 GT3 EVO (Internal Codename: Topple)",
+      "branch": "body-topple",
+      "packages": [
+        "body_topple_SF",
+        "Body_Topple_T_SF"
+      ],
+      "handling_preset": "MuscleCar",
+      "rocketsim_preset": {
+        "preset_name": "CAR_CONFIG_DOMINUS",
+        "hitbox_size_uu": {
+          "x": 127.9268,
+          "y": 83.27995,
+          "z": 31.3
+        },
+        "hitbox_offset_uu": {
+          "x": 9.0,
+          "y": 0.0,
+          "z": 15.75
+        },
+        "front_axle": {
+          "connection_point_offset_uu": {
+            "x": 50.0,
+            "y": 31.5,
+            "z": 15.75
+          },
+          "wheel_radius_uu": 12.5,
+          "suspension_rest_length_uu": 36.3
+        },
+        "back_axle": {
+          "connection_point_offset_uu": {
+            "x": -43.0,
+            "y": 33.0,
+            "z": 15.75
+          },
+          "wheel_radius_uu": 13.5,
+          "suspension_rest_length_uu": 34.599998
+        }
+      },
+      "bones_count": 44,
+      "sockets_count": 7,
+      "surface_primitives": [
+        {
+          "material_slot": "Body_Topple_Chassis_Undercarriage",
+          "triangles": 18160,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Topple_Chassis_BrushedMetal",
+          "triangles": 979,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Topple_Chassis_Chrome_Accent",
+          "triangles": 67,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Topple_Chassis_Headlight_Emissive",
+          "triangles": 1068,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Topple_Chassis_Taillight_BoostGlow",
+          "triangles": 24,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "MIC_Topple_CarbonFiber",
+          "triangles": 20346,
+          "category": "DedicatedSlot"
+        },
+        {
+          "material_slot": "MIC_Topple_Windshield",
+          "triangles": 676,
+          "category": "DedicatedSlot"
+        },
+        {
+          "material_slot": "MIC_Topple_Lenses",
+          "triangles": 1024,
+          "category": "DedicatedSlot"
+        },
+        {
+          "material_slot": "MIC_Topple_Plastic",
+          "triangles": 6139,
+          "category": "DedicatedSlot"
+        },
+        {
+          "material_slot": "MAT_Vehicle_Glass_Translucent",
+          "triangles": 260,
+          "category": "DedicatedSlot"
+        },
+        {
+          "material_slot": "Body_Topple_Body_PrimaryPaint",
+          "triangles": 38788,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Topple_Body_Windshield_Glass",
+          "triangles": 2417,
+          "category": "Body"
+        }
+      ]
+    },
+    {
+      "car_id": "Body_Octane",
+      "display_name": "Octane (八角车 / 标准默认载具)",
+      "branch": "body-octane",
+      "packages": [
+        "Body_Octane_SF"
+      ],
+      "handling_preset": "Octane",
+      "rocketsim_preset": {
+        "preset_name": "CAR_CONFIG_OCTANE",
+        "hitbox_size_uu": {
+          "x": 118.0074,
+          "y": 84.19941,
+          "z": 36.15907
+        },
+        "hitbox_offset_uu": {
+          "x": 13.87566,
+          "y": 0.0,
+          "z": 20.75499
+        },
+        "front_axle": {
+          "connection_point_offset_uu": {
+            "x": 51.25,
+            "y": 25.89,
+            "z": 20.75
+          },
+          "wheel_radius_uu": 12.5,
+          "suspension_rest_length_uu": 38.755
+        },
+        "back_axle": {
+          "connection_point_offset_uu": {
+            "x": -33.75,
+            "y": 29.5,
+            "z": 20.75
+          },
+          "wheel_radius_uu": 13.5,
+          "suspension_rest_length_uu": 37.055
+        },
+        "three_wheel_psyclops_variant": {
+          "preset_name": "CAR_CONFIG_PSYCLOPS (body_tritip)",
+          "front_wheel_centered_offset_uu": {
+            "x": 49.0,
+            "y": 0.0,
+            "z": 20.75
+          },
+          "num_active_wheels": 3
+        }
+      },
+      "bones_count": 36,
+      "sockets_count": 9,
+      "surface_primitives": [
+        {
+          "material_slot": "Body_Octane_Body_PrimaryPaint",
+          "triangles": 1899,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Octane_Body_SecondaryTrim",
+          "triangles": 12369,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Octane_Body_Windshield_Glass",
+          "triangles": 1892,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Octane_Body_PrimaryPaint",
+          "triangles": 1954,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Octane_Body_SecondaryTrim",
+          "triangles": 9489,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Octane_Body_Windshield_Glass",
+          "triangles": 875,
+          "category": "Body"
+        }
+      ]
+    },
+    {
+      "car_id": "Body_Dominus",
+      "display_name": "Dominus (Internal Codename: MuscleCar)",
+      "branch": "body-dominus",
+      "packages": [
+        "Body_MuscleCar_SF"
+      ],
+      "handling_preset": "MuscleCar",
+      "rocketsim_preset": {
+        "preset_name": "CAR_CONFIG_DOMINUS",
+        "hitbox_size_uu": {
+          "x": 127.9268,
+          "y": 83.27995,
+          "z": 31.3
+        },
+        "hitbox_offset_uu": {
+          "x": 9.0,
+          "y": 0.0,
+          "z": 15.75
+        },
+        "front_axle": {
+          "connection_point_offset_uu": {
+            "x": 50.0,
+            "y": 31.5,
+            "z": 15.75
+          },
+          "wheel_radius_uu": 12.5,
+          "suspension_rest_length_uu": 36.3
+        },
+        "back_axle": {
+          "connection_point_offset_uu": {
+            "x": -43.0,
+            "y": 33.0,
+            "z": 15.75
+          },
+          "wheel_radius_uu": 13.5,
+          "suspension_rest_length_uu": 34.599998
+        }
+      },
+      "bones_count": 36,
+      "sockets_count": 26,
+      "surface_primitives": [
+        {
+          "material_slot": "Body_Dominus_Body_PrimaryPaint",
+          "triangles": 8839,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Dominus_Body_SecondaryTrim",
+          "triangles": 39,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Dominus_Body_Windshield_Glass",
+          "triangles": 18,
+          "category": "Body"
+        },
+        {
+          "material_slot": "MIC_Vehicle_Trim_MuscleCar",
+          "triangles": 6086,
+          "category": "DedicatedSlot"
+        },
+        {
+          "material_slot": "Body_Dominus_Chassis_Undercarriage",
+          "triangles": 8846,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Dominus_Chassis_BrushedMetal",
+          "triangles": 5714,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Dominus_Chassis_Chrome_Accent",
+          "triangles": 104,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Dominus_Chassis_Headlight_Emissive",
+          "triangles": 375,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Dominus_Chassis_Taillight_BoostGlow",
+          "triangles": 486,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "MIC_Vehicle_Windshield_MuscleCar",
+          "triangles": 264,
+          "category": "DedicatedSlot"
+        }
+      ]
+    },
+    {
+      "car_id": "Body_Breakout",
+      "display_name": "Breakout (Internal Codename: Force / LongCar)",
+      "branch": "body-breakout",
+      "packages": [
+        "Body_Force_SF"
+      ],
+      "handling_preset": "LongCar",
+      "rocketsim_preset": {
+        "preset_name": "CAR_CONFIG_BREAKOUT",
+        "hitbox_size_uu": {
+          "x": 131.4924,
+          "y": 80.521,
+          "z": 30.3
+        },
+        "hitbox_offset_uu": {
+          "x": 12.5,
+          "y": 0.0,
+          "z": 11.75
+        },
+        "front_axle": {
+          "connection_point_offset_uu": {
+            "x": 53.5,
+            "y": 26.5,
+            "z": 11.75
+          },
+          "wheel_radius_uu": 12.5,
+          "suspension_rest_length_uu": 32.3
+        },
+        "back_axle": {
+          "connection_point_offset_uu": {
+            "x": -48.5,
+            "y": 35.0,
+            "z": 11.75
+          },
+          "wheel_radius_uu": 15.0,
+          "suspension_rest_length_uu": 29.8
+        }
+      },
+      "bones_count": 28,
+      "sockets_count": 11,
+      "surface_primitives": [
+        {
+          "material_slot": "Body_Breakout_Chassis_Undercarriage",
+          "triangles": 18904,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Breakout_Chassis_Chrome_Accent",
+          "triangles": 18,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Breakout_Chassis_Headlight_Emissive",
+          "triangles": 130,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Breakout_Chassis_Taillight_BoostGlow",
+          "triangles": 70,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Breakout_Body_PrimaryPaint",
+          "triangles": 6421,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Breakout_Body_SecondaryTrim",
+          "triangles": 1620,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Breakout_Body_Windshield_Glass",
+          "triangles": 275,
+          "category": "Body"
+        }
+      ]
+    },
+    {
+      "car_id": "Body_Merc",
+      "display_name": "Merc (Internal Codename: Vanquish)",
+      "branch": "body-merc",
+      "packages": [
+        "Body_Vanquish_SF"
+      ],
+      "handling_preset": "Merc",
+      "rocketsim_preset": {
+        "preset_name": "CAR_CONFIG_MERC",
+        "hitbox_size_uu": {
+          "x": 120.7202,
+          "y": 76.71031,
+          "z": 41.65907
+        },
+        "hitbox_offset_uu": {
+          "x": 11.37566,
+          "y": 0.0,
+          "z": 21.50499
+        },
+        "front_axle": {
+          "connection_point_offset_uu": {
+            "x": 44.25,
+            "y": 25.89,
+            "z": 21.5
+          },
+          "wheel_radius_uu": 13.5,
+          "suspension_rest_length_uu": 41.659
+        },
+        "back_axle": {
+          "connection_point_offset_uu": {
+            "x": -39.75,
+            "y": 29.5,
+            "z": 21.5
+          },
+          "wheel_radius_uu": 13.5,
+          "suspension_rest_length_uu": 41.659
+        }
+      },
+      "bones_count": 24,
+      "sockets_count": 13,
+      "surface_primitives": [
+        {
+          "material_slot": "Body_Merc_Chassis_Undercarriage",
+          "triangles": 6375,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Merc_Chassis_BrushedMetal",
+          "triangles": 9270,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Merc_Chassis_Chrome_Accent",
+          "triangles": 319,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Merc_Chassis_Headlight_Emissive",
+          "triangles": 204,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Merc_Chassis_Taillight_BoostGlow",
+          "triangles": 210,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Merc_Body_PrimaryPaint",
+          "triangles": 6400,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Merc_Body_SecondaryTrim",
+          "triangles": 549,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Merc_Body_Windshield_Glass",
+          "triangles": 697,
+          "category": "Body"
+        }
+      ]
+    },
+    {
+      "car_id": "Body_Scarab",
+      "display_name": "Scarab (圣甲虫)",
+      "branch": "body-scarab",
+      "packages": [
+        "Body_Scarab_SF"
+      ],
+      "handling_preset": "Octane",
+      "rocketsim_preset": {
+        "preset_name": "CAR_CONFIG_OCTANE",
+        "hitbox_size_uu": {
+          "x": 118.0074,
+          "y": 84.19941,
+          "z": 36.15907
+        },
+        "hitbox_offset_uu": {
+          "x": 13.87566,
+          "y": 0.0,
+          "z": 20.75499
+        },
+        "front_axle": {
+          "connection_point_offset_uu": {
+            "x": 51.25,
+            "y": 25.89,
+            "z": 20.75
+          },
+          "wheel_radius_uu": 12.5,
+          "suspension_rest_length_uu": 38.755
+        },
+        "back_axle": {
+          "connection_point_offset_uu": {
+            "x": -33.75,
+            "y": 29.5,
+            "z": 20.75
+          },
+          "wheel_radius_uu": 13.5,
+          "suspension_rest_length_uu": 37.055
+        },
+        "three_wheel_psyclops_variant": {
+          "preset_name": "CAR_CONFIG_PSYCLOPS (body_tritip)",
+          "front_wheel_centered_offset_uu": {
+            "x": 49.0,
+            "y": 0.0,
+            "z": 20.75
+          },
+          "num_active_wheels": 3
+        }
+      },
+      "bones_count": 40,
+      "sockets_count": 7,
+      "surface_primitives": [
+        {
+          "material_slot": "Body_Scarab_Chassis_Undercarriage",
+          "triangles": 6859,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Scarab_Chassis_BrushedMetal",
+          "triangles": 12401,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Scarab_Chassis_Chrome_Accent",
+          "triangles": 90,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Scarab_Chassis_Headlight_Emissive",
+          "triangles": 26,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Scarab_Chassis_Taillight_BoostGlow",
+          "triangles": 12,
+          "category": "Chassis"
+        },
+        {
+          "material_slot": "Body_Scarab_Body_PrimaryPaint",
+          "triangles": 5805,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Scarab_Body_SecondaryTrim",
+          "triangles": 4043,
+          "category": "Body"
+        },
+        {
+          "material_slot": "Body_Scarab_Body_Windshield_Glass",
+          "triangles": 3884,
+          "category": "Body"
+        }
+      ]
+    }
+  ],
+  "rocketsim_presets": {
+    "Octane": {
+      "preset_name": "CAR_CONFIG_OCTANE",
+      "hitbox_size_uu": {
+        "x": 118.0074,
+        "y": 84.19941,
+        "z": 36.15907
+      },
+      "hitbox_offset_uu": {
+        "x": 13.87566,
+        "y": 0.0,
+        "z": 20.75499
+      },
+      "front_axle": {
+        "connection_point_offset_uu": {
+          "x": 51.25,
+          "y": 25.89,
+          "z": 20.75
+        },
+        "wheel_radius_uu": 12.5,
+        "suspension_rest_length_uu": 38.755
+      },
+      "back_axle": {
+        "connection_point_offset_uu": {
+          "x": -33.75,
+          "y": 29.5,
+          "z": 20.75
+        },
+        "wheel_radius_uu": 13.5,
+        "suspension_rest_length_uu": 37.055
+      },
+      "three_wheel_psyclops_variant": {
+        "preset_name": "CAR_CONFIG_PSYCLOPS (body_tritip)",
+        "front_wheel_centered_offset_uu": {
+          "x": 49.0,
+          "y": 0.0,
+          "z": 20.75
+        },
+        "num_active_wheels": 3
+      }
+    },
+    "MuscleCar": {
+      "preset_name": "CAR_CONFIG_DOMINUS",
+      "hitbox_size_uu": {
+        "x": 127.9268,
+        "y": 83.27995,
+        "z": 31.3
+      },
+      "hitbox_offset_uu": {
+        "x": 9.0,
+        "y": 0.0,
+        "z": 15.75
+      },
+      "front_axle": {
+        "connection_point_offset_uu": {
+          "x": 50.0,
+          "y": 31.5,
+          "z": 15.75
+        },
+        "wheel_radius_uu": 12.5,
+        "suspension_rest_length_uu": 36.3
+      },
+      "back_axle": {
+        "connection_point_offset_uu": {
+          "x": -43.0,
+          "y": 33.0,
+          "z": 15.75
+        },
+        "wheel_radius_uu": 13.5,
+        "suspension_rest_length_uu": 34.599998
+      }
+    },
+    "LongCar": {
+      "preset_name": "CAR_CONFIG_BREAKOUT",
+      "hitbox_size_uu": {
+        "x": 131.4924,
+        "y": 80.521,
+        "z": 30.3
+      },
+      "hitbox_offset_uu": {
+        "x": 12.5,
+        "y": 0.0,
+        "z": 11.75
+      },
+      "front_axle": {
+        "connection_point_offset_uu": {
+          "x": 53.5,
+          "y": 26.5,
+          "z": 11.75
+        },
+        "wheel_radius_uu": 12.5,
+        "suspension_rest_length_uu": 32.3
+      },
+      "back_axle": {
+        "connection_point_offset_uu": {
+          "x": -48.5,
+          "y": 35.0,
+          "z": 11.75
+        },
+        "wheel_radius_uu": 15.0,
+        "suspension_rest_length_uu": 29.8
+      }
+    },
+    "Merc": {
+      "preset_name": "CAR_CONFIG_MERC",
+      "hitbox_size_uu": {
+        "x": 120.7202,
+        "y": 76.71031,
+        "z": 41.65907
+      },
+      "hitbox_offset_uu": {
+        "x": 11.37566,
+        "y": 0.0,
+        "z": 21.50499
+      },
+      "front_axle": {
+        "connection_point_offset_uu": {
+          "x": 44.25,
+          "y": 25.89,
+          "z": 21.5
+        },
+        "wheel_radius_uu": 13.5,
+        "suspension_rest_length_uu": 41.659
+      },
+      "back_axle": {
+        "connection_point_offset_uu": {
+          "x": -39.75,
+          "y": 29.5,
+          "z": 21.5
+        },
+        "wheel_radius_uu": 13.5,
+        "suspension_rest_length_uu": 41.659
+      }
+    }
+  }
+}
