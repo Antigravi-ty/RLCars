@@ -1,0 +1,265 @@
+{
+  "repository": "Antigravi-ty/RLCars",
+  "branches": [
+    {
+      "branch": "octane",
+      "carId": "Octane",
+      "displayName": "Octane (Body_Octane_SF)",
+      "sourcePackage": "Body_Octane_SF.upk",
+      "extraPackages": [],
+      "rocketSimPreset": "CAR_CONFIG_OCTANE (Index 0) / CAR_CONFIG_PSYCLOPS (Index 6)",
+      "hitbox": {
+        "hitboxSize": [
+          118.0074,
+          84.19941,
+          36.15907
+        ],
+        "hitboxPosOffset": [
+          13.87566,
+          0.0,
+          20.75499
+        ],
+        "frontWheels": {
+          "wheelRadius": 12.5,
+          "suspensionRestLength": 38.755,
+          "connectionPointOffset": [
+            51.25,
+            25.9,
+            20.755
+          ]
+        },
+        "backWheels": {
+          "wheelRadius": 13.5,
+          "suspensionRestLength": 37.055,
+          "connectionPointOffset": [
+            -33.75,
+            29.5,
+            20.755
+          ]
+        },
+        "threeWheelFrontOffset": [
+          51.25,
+          5.0,
+          20.755
+        ]
+      }
+    },
+    {
+      "branch": "dominus-musclecar",
+      "carId": "Dominus_MuscleCar",
+      "displayName": "Dominus / MuscleCar (Body_MuscleCar_SF)",
+      "sourcePackage": "Body_MuscleCar_SF.upk",
+      "extraPackages": [],
+      "rocketSimPreset": "CAR_CONFIG_DOMINUS (Index 1)",
+      "hitbox": {
+        "hitboxSize": [
+          127.9268,
+          83.27995,
+          31.3
+        ],
+        "hitboxPosOffset": [
+          9.0,
+          0.0,
+          15.75
+        ],
+        "frontWheels": {
+          "wheelRadius": 12.5,
+          "suspensionRestLength": 36.65,
+          "connectionPointOffset": [
+            55.0,
+            26.5,
+            15.75
+          ]
+        },
+        "backWheels": {
+          "wheelRadius": 13.5,
+          "suspensionRestLength": 33.8,
+          "connectionPointOffset": [
+            -37.2,
+            33.0,
+            15.75
+          ]
+        },
+        "threeWheelFrontOffset": [
+          55.0,
+          5.0,
+          15.75
+        ]
+      }
+    },
+    {
+      "branch": "breakout-force",
+      "carId": "Breakout_Force",
+      "displayName": "Breakout / Force (Body_Force_SF)",
+      "sourcePackage": "Body_Force_SF.upk",
+      "extraPackages": [],
+      "rocketSimPreset": "CAR_CONFIG_BREAKOUT (Index 3)",
+      "hitbox": {
+        "hitboxSize": [
+          131.4924,
+          80.521,
+          30.3
+        ],
+        "hitboxPosOffset": [
+          12.5,
+          0.0,
+          11.75
+        ],
+        "frontWheels": {
+          "wheelRadius": 12.5,
+          "suspensionRestLength": 32.65,
+          "connectionPointOffset": [
+            57.5,
+            26.5,
+            11.75
+          ]
+        },
+        "backWheels": {
+          "wheelRadius": 13.5,
+          "suspensionRestLength": 29.8,
+          "connectionPointOffset": [
+            -35.0,
+            30.5,
+            11.75
+          ]
+        },
+        "threeWheelFrontOffset": [
+          57.5,
+          5.0,
+          11.75
+        ]
+      }
+    },
+    {
+      "branch": "scarab",
+      "carId": "Scarab",
+      "displayName": "Scarab (Body_Scarab_SF)",
+      "sourcePackage": "Body_Scarab_SF.upk",
+      "extraPackages": [],
+      "rocketSimPreset": "CAR_CONFIG_OCTANE (Index 0)",
+      "hitbox": {
+        "hitboxSize": [
+          118.0074,
+          84.19941,
+          36.15907
+        ],
+        "hitboxPosOffset": [
+          13.87566,
+          0.0,
+          20.75499
+        ],
+        "frontWheels": {
+          "wheelRadius": 12.5,
+          "suspensionRestLength": 38.755,
+          "connectionPointOffset": [
+            51.25,
+            25.9,
+            20.755
+          ]
+        },
+        "backWheels": {
+          "wheelRadius": 13.5,
+          "suspensionRestLength": 37.055,
+          "connectionPointOffset": [
+            -33.75,
+            29.5,
+            20.755
+          ]
+        },
+        "threeWheelFrontOffset": [
+          51.25,
+          5.0,
+          20.755
+        ]
+      }
+    },
+    {
+      "branch": "merc-vanquish",
+      "carId": "Merc_Vanquish",
+      "displayName": "Merc / Vanquish (Body_Vanquish_SF)",
+      "sourcePackage": "Body_Vanquish_SF.upk",
+      "extraPackages": [],
+      "rocketSimPreset": "CAR_CONFIG_MERC (Index 5)",
+      "hitbox": {
+        "hitboxSize": [
+          120.7202,
+          76.71031,
+          41.65999
+        ],
+        "hitboxPosOffset": [
+          11.37566,
+          0.0,
+          21.50499
+        ],
+        "frontWheels": {
+          "wheelRadius": 13.5,
+          "suspensionRestLength": 41.6,
+          "connectionPointOffset": [
+            50.0,
+            26.0,
+            21.505
+          ]
+        },
+        "backWheels": {
+          "wheelRadius": 13.5,
+          "suspensionRestLength": 41.6,
+          "connectionPointOffset": [
+            -36.0,
+            26.0,
+            21.505
+          ]
+        },
+        "threeWheelFrontOffset": [
+          50.0,
+          5.0,
+          21.505
+        ]
+      }
+    },
+    {
+      "branch": "topple-tricycle",
+      "carId": "Topple_Tricycle",
+      "displayName": "Topple / Confidential_ThirdWheel_Test (body_topple_SF + Body_Topple_T_SF)",
+      "sourcePackage": "body_topple_SF.upk",
+      "extraPackages": [
+        "Body_Topple_T_SF.upk"
+      ],
+      "rocketSimPreset": "CAR_CONFIG_PSYCLOPS (Index 6, threeWheels = true)",
+      "hitbox": {
+        "hitboxSize": [
+          118.495,
+          83.2725,
+          36.3
+        ],
+        "hitboxPosOffset": [
+          13.88,
+          0.0,
+          20.75
+        ],
+        "frontWheels": {
+          "wheelRadius": 12.5,
+          "suspensionRestLength": 33.0,
+          "connectionPointOffset": [
+            51.25,
+            5.0,
+            20.755
+          ]
+        },
+        "backWheels": {
+          "wheelRadius": 13.5,
+          "suspensionRestLength": 31.3,
+          "connectionPointOffset": [
+            -33.75,
+            29.5,
+            20.755
+          ]
+        },
+        "threeWheelFrontOffset": [
+          51.25,
+          5.0,
+          20.755
+        ]
+      }
+    }
+  ]
+}
