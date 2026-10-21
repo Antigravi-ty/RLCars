@@ -1,0 +1,52 @@
+{
+  "package": "Body_Topple_T_SF.upk",
+  "imports": [
+    {"index": -1, "name": "Package", "class": "Class", "outer": "Core", "outer_index": -5},
+    {"index": -2, "name": "ObjectReferencer", "class": "Class", "outer": "Engine", "outer_index": -6},
+    {"index": -3, "name": "Texture2D", "class": "Class", "outer": "Engine", "outer_index": -6},
+    {"index": -4, "name": "ProductThumbnailAsset_TA", "class": "Class", "outer": "TAGame", "outer_index": -7},
+    {"index": -5, "name": "Core", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -6, "name": "Engine", "class": "Package", "outer": "None", "outer_index": 0},
+    {"index": -7, "name": "TAGame", "class": "Package", "outer": "None", "outer_index": 0}
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "name": "StandaloneSeekFreeReferencer",
+      "class": "ObjectReferencer",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+        "ReferencedObjects": {"type": "ArrayObject", "elements": [{"index": 5, "name": "Body_Topple_TThumbnail"}, {"index": 4, "name": "Body_Topple_T"}]}
+      }
+    },
+    {
+      "index": 1,
+      "name": "Body_Topple_T",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 2,
+      "name": "body_topple_T_SF",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 3,
+      "name": "Body_Topple_T",
+      "class": "ProductThumbnailAsset_TA",
+      "outer": "Body_Topple_T",
+      "outer_index": 2,
+      "properties": {
+        "Thumbnail": {"index": 5, "name": "Body_Topple_TThumbnail"}
+      }
+    }
+  ]
+}

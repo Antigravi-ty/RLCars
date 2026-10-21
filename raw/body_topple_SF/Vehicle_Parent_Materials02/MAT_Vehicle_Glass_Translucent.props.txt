@@ -1,0 +1,57 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'SpaceStation_FieldAssets.Tex.Blank_N'
+}
+Expressions[32] =
+{
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'Vehicle_Parent_Materials02.MAT_Vehicle_Glass_Translucent.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'Vehicle_Parent_Materials02.MAT_Vehicle_Glass_Translucent.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[19] = MaterialExpressionScalarParameter'Vehicle_Parent_Materials02.MAT_Vehicle_Glass_Translucent.MaterialExpressionScalarParameter_0'
+    Expressions[20] = MaterialExpressionVectorParameter'Vehicle_Parent_Materials02.MAT_Vehicle_Glass_Translucent.MaterialExpressionVectorParameter_0'
+    Expressions[27] = MaterialExpressionScalarParameter'Vehicle_Parent_Materials02.MAT_Vehicle_Glass_Translucent.MaterialExpressionScalarParameter_4'
+    Expressions[31] = MaterialExpressionScalarParameter'Vehicle_Parent_Materials02.MAT_Vehicle_Glass_Translucent.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'SpaceStation_FieldAssets.Tex.Blank_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'SpaceStation_FieldAssets.Tex.Blank_N'
+        Name = Normal
+        Group = window
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=OverlayENV_Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=ENVMap_ClampMin, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.01, G=0.01, B=0.01, A=1 }
+        Name = Tint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
