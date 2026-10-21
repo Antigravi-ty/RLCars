@@ -1,0 +1,1147 @@
+{
+  "car_id": "Body_Breakout",
+  "display_name": "Breakout (Internal Codename: Force / LongCar)",
+  "branch": "body-breakout",
+  "source_packages": [
+    "Body_Force_SF"
+  ],
+  "handling_preset_archetype": "LongCar",
+  "rocketsim_physics_preset": {
+    "preset_name": "CAR_CONFIG_BREAKOUT",
+    "hitbox_size_uu": {
+      "x": 131.4924,
+      "y": 80.521,
+      "z": 30.3
+    },
+    "hitbox_offset_uu": {
+      "x": 12.5,
+      "y": 0.0,
+      "z": 11.75
+    },
+    "front_axle": {
+      "connection_point_offset_uu": {
+        "x": 53.5,
+        "y": 26.5,
+        "z": 11.75
+      },
+      "wheel_radius_uu": 12.5,
+      "suspension_rest_length_uu": 32.3
+    },
+    "back_axle": {
+      "connection_point_offset_uu": {
+        "x": -48.5,
+        "y": 35.0,
+        "z": 11.75
+      },
+      "wheel_radius_uu": 15.0,
+      "suspension_rest_length_uu": 29.8
+    }
+  },
+  "upk_product_asset_body_ta": [
+    {
+      "name": "Body_Force",
+      "properties": {
+        "Mesh": {
+          "index": 273,
+          "name": "Body_Force_PremiumSkin_SK"
+        },
+        "AnimTreeTemplate": {
+          "index": 2,
+          "name": "Body_AT"
+        },
+        "PhysicsAsset": {
+          "index": 221,
+          "name": "Body_Force_Physics"
+        },
+        "HandlingPreset": {
+          "index": -179,
+          "name": "LongCar"
+        },
+        "FrontAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelMeshRadius": 13.5,
+            "WheelWidth": 13,
+            "WheelMeshOffsetSide": 2,
+            "WheelRadius": 13.5
+          }
+        },
+        "BackAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelMeshOffsetSide": -1
+          }
+        },
+        "ChassisRotationScale": 15,
+        "SuspensionTravelMin": 1,
+        "bUseLegacySuspensionOffsets": true,
+        "EngineAudioReference": {
+          "index": 234,
+          "name": "ProductAssetReference_TA_11"
+        },
+        "FXActor": {
+          "index": 12,
+          "name": "FXActor"
+        },
+        "SkinMaterialIndex": 1,
+        "BoostFlapsAngle": -24,
+        "EquipProfile": {
+          "index": 333,
+          "name": "ProductEquipProfile_TA_1"
+        },
+        "BoostParticleParameters": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "Name": "BoostCone",
+              "ParamType": "PSPT_Mesh",
+              "Scalar": 0,
+              "Scalar_Low": 0,
+              "Vector": {
+                "type": "Vector",
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Vector_Low": {
+                "type": "Vector",
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Color": {
+                "type": "Color",
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "Actor": {
+                "index": 0,
+                "name": "None"
+              },
+              "Material": {
+                "index": 0,
+                "name": "None"
+              },
+              "Mesh": {
+                "index": 291,
+                "name": "BoostCone_Force_SM"
+              }
+            }
+          ]
+        },
+        "SkinParameters": {
+          "_struct": "MaterialParams",
+          "fields": {
+            "TextureParameters": {
+              "type": "ArrayStruct",
+              "count": 5,
+              "elements": [
+                {
+                  "Name": "BodyMasks",
+                  "Value": {
+                    "index": 370,
+                    "name": "Force_Body_BlankSkin"
+                  }
+                },
+                {
+                  "Name": "BodyNormalMap",
+                  "Value": {
+                    "index": 302,
+                    "name": "Body_Breakout_PremiumSkin_N"
+                  }
+                },
+                {
+                  "Name": "Diffuse",
+                  "Value": {
+                    "index": 371,
+                    "name": "Force_Body_D"
+                  }
+                },
+                {
+                  "Name": "FXMasks",
+                  "Value": {
+                    "index": 303,
+                    "name": "Body_Breakout_PremiumSkin_RGB"
+                  }
+                },
+                {
+                  "Name": "CurvaturePack",
+                  "Value": {
+                    "index": 369,
+                    "name": "Body_Force_Curvature"
+                  }
+                }
+              ]
+            },
+            "VectorParameters": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "Name": "TrimSheet1_Transform",
+                  "Value": {
+                    "type": "LinearColor",
+                    "r": 2,
+                    "g": 2,
+                    "b": 0,
+                    "a": 0.7775
+                  }
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_Offset ",
+                  "Value": {
+                    "type": "LinearColor",
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  }
+                }
+              ]
+            },
+            "ScalarParameters": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "Name": "TrimSheet1_Rotation",
+                  "Value": 0
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_Opacity",
+                  "Value": 0
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_RotationOffset",
+                  "Value": 0
+                }
+              ]
+            }
+          }
+        },
+        "ThumbnailWheelAsset": {
+          "index": 235,
+          "name": "ProductAssetReferenceWheel_TA_26"
+        },
+        "ThumbnailKeyLightBrightnessScale": 1,
+        "ThumbnailCameraTranslationOffset": {
+          "type": "Vector",
+          "x": -12,
+          "y": -4,
+          "z": 0
+        },
+        "Attributes": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 236,
+              "name": "ProductAttribute_PaintSettings_TA_9"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "upk_rb_body_setup": [
+    {
+      "BoneName": "root_jnt",
+      "PreCachedPhysDataVersion": 34079889,
+      "AggGeom": {
+        "_struct": "KAggregateGeom",
+        "fields": {
+          "BoxElems": {
+            "type": "ArrayStruct",
+            "count": 1,
+            "elements": [
+              {
+                "TM": {
+                  "type": "Matrix",
+                  "raw_size": 64
+                },
+                "X": 131.492,
+                "Y": 76.3652,
+                "Z": 30.3,
+                "bNoRBCollision": false,
+                "bPerPolyShape": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "skeletal_mesh_sockets": [
+    {
+      "SocketName": "AntennaSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -50,
+        "y": -18,
+        "z": 17
+      }
+    },
+    {
+      "SocketName": "AmbBoost_01",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -56,
+        "y": -2.5,
+        "z": 15.75
+      }
+    },
+    {
+      "SocketName": "RocketBoost",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -57,
+        "y": 0,
+        "z": -2.5
+      }
+    },
+    {
+      "SocketName": "AmbBoost_02",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -56,
+        "y": 2.5,
+        "z": 15.75
+      }
+    },
+    {
+      "SocketName": "AmbBoost_03",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -56.8934,
+        "y": -15.6257,
+        "z": -0.190112
+      },
+      "RelativeRotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 4551
+      }
+    },
+    {
+      "SocketName": "AmbBoost_04",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -56.8934,
+        "y": 15.6257,
+        "z": -0.190112
+      },
+      "RelativeRotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 0,
+        "roll": -4551
+      }
+    },
+    {
+      "SocketName": "TailLight_L",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -56.7326,
+        "y": -28.7317,
+        "z": 13.25
+      }
+    },
+    {
+      "SocketName": "TailLight_R",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -56.7326,
+        "y": 28.7317,
+        "z": 13.25
+      }
+    },
+    {
+      "SocketName": "Underglow",
+      "BoneName": "root_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": -13.25
+      }
+    },
+    {
+      "SocketName": "FrontSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 89,
+        "y": 0,
+        "z": -3
+      }
+    },
+    {
+      "SocketName": "HatSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": 25
+      }
+    }
+  ],
+  "skeleton_bones_count": 28,
+  "skeleton_bones": [
+    {
+      "node_index": 1,
+      "name": "root_jnt",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "children": [
+        2,
+        15,
+        19,
+        22,
+        25
+      ]
+    },
+    {
+      "node_index": 2,
+      "name": "chassis_jnt",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "node_index": 3,
+      "name": "FL_axleShaft_jnt",
+      "translation_m": [
+        0.515068,
+        -0.063741,
+        0
+      ],
+      "rotation_quat": [
+        -2.3492e-16,
+        0.707107,
+        2.36146e-16,
+        0.707107
+      ],
+      "children": []
+    },
+    {
+      "node_index": 4,
+      "name": "FR_axleShaft_jnt",
+      "translation_m": [
+        0.515068,
+        -0.063741,
+        0
+      ],
+      "rotation_quat": [
+        5.51986e-17,
+        0.707107,
+        5.51986e-17,
+        0.707107
+      ],
+      "children": []
+    },
+    {
+      "node_index": 5,
+      "name": "BR_Shock_A_jnt",
+      "translation_m": [
+        -0.366695,
+        0.0930394,
+        0.116713
+      ],
+      "rotation_quat": [
+        3.4861e-08,
+        0.887011,
+        -0.461749,
+        6.69675e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 6,
+      "name": "BL_Shock_A_jnt",
+      "translation_m": [
+        -0.366695,
+        0.0930394,
+        -0.116713
+      ],
+      "rotation_quat": [
+        -3.4861e-08,
+        0.887011,
+        0.461749,
+        6.69675e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 7,
+      "name": "FL_Shock_A_jnt",
+      "translation_m": [
+        0.515075,
+        0.0638189,
+        -0.0703543
+      ],
+      "rotation_quat": [
+        -4.80785e-08,
+        0.887011,
+        0.461749,
+        6.00869e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 8,
+      "name": "FR_Shock_A_jnt",
+      "translation_m": [
+        0.515075,
+        0.0638189,
+        0.0703543
+      ],
+      "rotation_quat": [
+        2.16436e-08,
+        0.887011,
+        -0.461749,
+        7.3848e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 9,
+      "name": "BL_axleShaft_jnt",
+      "translation_m": [
+        -0.366732,
+        -0.0481403,
+        0
+      ],
+      "rotation_quat": [
+        9.49761e-17,
+        0.707107,
+        -6.1149e-17,
+        0.707107
+      ],
+      "children": []
+    },
+    {
+      "node_index": 10,
+      "name": "BR_axleShaft_jnt",
+      "translation_m": [
+        -0.366732,
+        -0.0481403,
+        0
+      ],
+      "rotation_quat": [
+        1.94289e-16,
+        0.707107,
+        2.77556e-17,
+        0.707107
+      ],
+      "children": []
+    },
+    {
+      "node_index": 11,
+      "name": "en_panel_left_JNT",
+      "translation_m": [
+        -0.563578,
+        0.0836657,
+        -0.133258
+      ],
+      "rotation_quat": [
+        -0.707107,
+        0,
+        0,
+        0.707107
+      ],
+      "children": []
+    },
+    {
+      "node_index": 12,
+      "name": "en_panel_up_JNT",
+      "translation_m": [
+        -0.563578,
+        0.216924,
+        9.85589e-07
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 13,
+      "name": "en_panel_right_JNT",
+      "translation_m": [
+        -0.563578,
+        0.0836657,
+        0.133258
+      ],
+      "rotation_quat": [
+        0.707107,
+        0,
+        0,
+        0.707107
+      ],
+      "children": []
+    },
+    {
+      "node_index": 14,
+      "name": "en_panel_low_JNT",
+      "translation_m": [
+        -0.563578,
+        -0.0495922,
+        0
+      ],
+      "rotation_quat": [
+        1,
+        0,
+        0,
+        6.12323e-17
+      ],
+      "children": []
+    },
+    {
+      "node_index": 15,
+      "name": "FL_WheelTranslation_jnt",
+      "translation_m": [
+        0.515441,
+        -0.0591073,
+        -0.19385
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        16,
+        18
+      ]
+    },
+    {
+      "node_index": 16,
+      "name": "FL_Pivot_jnt",
+      "translation_m": [
+        -3.94537e-06,
+        -0.000442378,
+        -0.0532124
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        17
+      ]
+    },
+    {
+      "node_index": 17,
+      "name": "FL_Disc_jnt",
+      "translation_m": [
+        3.96236e-05,
+        1.22869e-06,
+        -0.019685
+      ],
+      "rotation_quat": [
+        0,
+        2.18557e-08,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 18,
+      "name": "FL_Shock_B_jnt",
+      "translation_m": [
+        0,
+        0.0364016,
+        0
+      ],
+      "rotation_quat": [
+        -4.80785e-08,
+        0.887011,
+        0.461749,
+        6.00869e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 19,
+      "name": "BR_WheelTranslation_jnt",
+      "translation_m": [
+        -0.366437,
+        -0.0591124,
+        0.249696
+      ],
+      "rotation_quat": [
+        8.32667e-17,
+        7.706e-17,
+        -1.49576e-17,
+        1
+      ],
+      "children": [
+        20,
+        21
+      ]
+    },
+    {
+      "node_index": 20,
+      "name": "BR_Shock_B_jnt",
+      "translation_m": [
+        0,
+        0.0589528,
+        0
+      ],
+      "rotation_quat": [
+        6.95177e-17,
+        0.887011,
+        -0.461749,
+        -1.05221e-16
+      ],
+      "children": []
+    },
+    {
+      "node_index": 21,
+      "name": "BR_Disc_jnt",
+      "translation_m": [
+        3.56107e-05,
+        2.00008e-07,
+        0.101095
+      ],
+      "rotation_quat": [
+        0,
+        -2.49095e-33,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 22,
+      "name": "BL_WheelTranslation_jnt",
+      "translation_m": [
+        -0.366437,
+        -0.0591124,
+        -0.249697
+      ],
+      "rotation_quat": [
+        -4.23516e-22,
+        1.11022e-16,
+        -4.23516e-22,
+        1
+      ],
+      "children": [
+        23,
+        24
+      ]
+    },
+    {
+      "node_index": 23,
+      "name": "BL_Shock_B_jnt",
+      "translation_m": [
+        0,
+        0.0589528,
+        0
+      ],
+      "rotation_quat": [
+        -3.48078e-08,
+        0.887011,
+        0.461749,
+        6.68651e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 24,
+      "name": "BL_Disc_jnt",
+      "translation_m": [
+        3.57398e-05,
+        2.00008e-07,
+        -0.10109
+      ],
+      "rotation_quat": [
+        0,
+        3.58732e-43,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 25,
+      "name": "FR_WheelTranslation_jnt",
+      "translation_m": [
+        0.515441,
+        -0.0591073,
+        0.19385
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        26,
+        28
+      ]
+    },
+    {
+      "node_index": 26,
+      "name": "FR_Pivot_jnt",
+      "translation_m": [
+        -3.62076e-06,
+        -0.000442378,
+        0.0532124
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        27
+      ]
+    },
+    {
+      "node_index": 27,
+      "name": "FR_Disc_jnt",
+      "translation_m": [
+        3.96269e-05,
+        1.22869e-06,
+        0.019685
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 28,
+      "name": "FR_Shock_B_jnt",
+      "translation_m": [
+        0,
+        0.0364016,
+        0
+      ],
+      "rotation_quat": [
+        2.16436e-08,
+        0.887011,
+        -0.461749,
+        7.3848e-08
+      ],
+      "children": []
+    }
+  ],
+  "detailed_surface_primitives": [
+    {
+      "material_slot": "Body_Breakout_Chassis_Undercarriage",
+      "triangles": 18904,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Breakout_Chassis_Chrome_Accent",
+      "triangles": 18,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Breakout_Chassis_Headlight_Emissive",
+      "triangles": 130,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Breakout_Chassis_Taillight_BoostGlow",
+      "triangles": 70,
+      "category": "Chassis"
+    },
+    {
+      "material_slot": "Body_Breakout_Body_PrimaryPaint",
+      "triangles": 6421,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Breakout_Body_SecondaryTrim",
+      "triangles": 1620,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Breakout_Body_Windshield_Glass",
+      "triangles": 275,
+      "category": "Body"
+    }
+  ],
+  "material_instance_constants": [
+    {
+      "name": "ForceChassis_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 2,
+          "elements": [
+            {
+              "ParameterName": "Brake",
+              "ParameterValue": 0,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "HeadlightBrightness",
+              "ParameterValue": 20,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 306,
+                "name": "Force_Parts_D"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Masks",
+              "ParameterValue": {
+                "index": 305,
+                "name": "Force_Mask"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Normal",
+              "ParameterValue": {
+                "index": 307,
+                "name": "Force_Parts_N"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "HeadlightColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 2.89888,
+                "g": 1.43326,
+                "b": 0.0766305,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": -181,
+          "name": "MasterChassis_MAT"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "BoostCone_Flame_Grad_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "GradientPower",
+              "ParameterValue": 4,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 17,
+          "name": "BoostCone_Flame_Grad_Mat"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "BoostCone_Flame_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "PanSpeed",
+              "ParameterValue": 0.25,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "Color",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.00316215,
+                "g": 0.387169,
+                "b": 1,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 18,
+          "name": "BoostCone_Flame_Mat"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "Body_Force_MIC",
+      "properties": {
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "CurvaturePack",
+              "ParameterValue": {
+                "index": 369,
+                "name": "Body_Force_Curvature"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 371,
+                "name": "Force_Body_D"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            },
+            {
+              "ParameterName": "Skin",
+              "ParameterValue": {
+                "index": 370,
+                "name": "Force_Body_BlankSkin"
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": -182,
+          "name": "MIC_Body_Paintable_All"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        },
+        "bHasQualitySwitch": true
+      }
+    }
+  ]
+}
