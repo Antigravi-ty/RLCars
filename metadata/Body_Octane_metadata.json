@@ -1,0 +1,1321 @@
+{
+  "car_id": "Body_Octane",
+  "display_name": "Octane (八角车 / 标准默认载具)",
+  "branch": "body-octane",
+  "source_packages": [
+    "Body_Octane_SF"
+  ],
+  "handling_preset_archetype": "Octane",
+  "rocketsim_physics_preset": {
+    "preset_name": "CAR_CONFIG_OCTANE",
+    "hitbox_size_uu": {
+      "x": 118.0074,
+      "y": 84.19941,
+      "z": 36.15907
+    },
+    "hitbox_offset_uu": {
+      "x": 13.87566,
+      "y": 0.0,
+      "z": 20.75499
+    },
+    "front_axle": {
+      "connection_point_offset_uu": {
+        "x": 51.25,
+        "y": 25.89,
+        "z": 20.75
+      },
+      "wheel_radius_uu": 12.5,
+      "suspension_rest_length_uu": 38.755
+    },
+    "back_axle": {
+      "connection_point_offset_uu": {
+        "x": -33.75,
+        "y": 29.5,
+        "z": 20.75
+      },
+      "wheel_radius_uu": 13.5,
+      "suspension_rest_length_uu": 37.055
+    },
+    "three_wheel_psyclops_variant": {
+      "preset_name": "CAR_CONFIG_PSYCLOPS (body_tritip)",
+      "front_wheel_centered_offset_uu": {
+        "x": 49.0,
+        "y": 0.0,
+        "z": 20.75
+      },
+      "num_active_wheels": 3
+    }
+  },
+  "upk_product_asset_body_ta": [
+    {
+      "name": "Body_Octane",
+      "properties": {
+        "Mesh": {
+          "index": 510,
+          "name": "Body_Octane_PremiumSkin_SK"
+        },
+        "AnimTreeTemplate": {
+          "index": 2,
+          "name": "Body_AT"
+        },
+        "HandlingPreset": {
+          "index": -122,
+          "name": "Octane"
+        },
+        "FrontAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelMeshRadius": 12.5,
+            "WheelWidth": 11.5,
+            "WheelMeshOffsetSide": 0.25,
+            "WheelRadius": 12.5
+          }
+        },
+        "BackAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelWidth": 13,
+            "WheelMeshOffsetSide": 0.25
+          }
+        },
+        "ChassisRotationScale": 20,
+        "bUseLegacySuspensionOffsets": true,
+        "EngineAudioReference": {
+          "index": 358,
+          "name": "ProductAssetReference_TA_28"
+        },
+        "FXActor": {
+          "index": 14,
+          "name": "FXActor"
+        },
+        "SkinMaterialIndex": 1,
+        "BoostEmitterSockets": {
+          "type": "ArrayName",
+          "elements": [
+            "BoostEmitterLeft",
+            "BoostEmitterRight"
+          ]
+        },
+        "BoostFlapsAngle": -100,
+        "EquipProfile": {
+          "index": 365,
+          "name": "ProductEquipProfile_TA_0"
+        },
+        "BoostParticleParameters": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "Name": "ConfettiRibbon",
+              "ParamType": "PSPT_Mesh",
+              "Scalar": 0,
+              "Scalar_Low": 0,
+              "Vector": {
+                "type": "Vector",
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Vector_Low": {
+                "type": "Vector",
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Color": {
+                "type": "Color",
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "Actor": {
+                "index": 0,
+                "name": "None"
+              },
+              "Material": {
+                "index": 0,
+                "name": "None"
+              },
+              "Mesh": {
+                "index": 429,
+                "name": "OctaneRibbons_SM"
+              }
+            }
+          ]
+        },
+        "SkinParameters": {
+          "_struct": "MaterialParams",
+          "fields": {
+            "TextureParameters": {
+              "type": "ArrayStruct",
+              "count": 5,
+              "elements": [
+                {
+                  "Name": "BodyMasks",
+                  "Value": {
+                    "index": -141,
+                    "name": "Pepe_Body_BlankSkin"
+                  }
+                },
+                {
+                  "Name": "BodyNormalMap",
+                  "Value": {
+                    "index": 445,
+                    "name": "Body_Octane_Bevel_N"
+                  }
+                },
+                {
+                  "Name": "Diffuse",
+                  "Value": {
+                    "index": -142,
+                    "name": "Pepe_Body_D"
+                  }
+                },
+                {
+                  "Name": "FXMasks",
+                  "Value": {
+                    "index": 446,
+                    "name": "Body_Octane_Bevel_RGB"
+                  }
+                },
+                {
+                  "Name": "CurvaturePack",
+                  "Value": {
+                    "index": -140,
+                    "name": "Body_Octane_Curvature_New"
+                  }
+                }
+              ]
+            },
+            "VectorParameters": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "Name": "TrimSheet1_Transform",
+                  "Value": {
+                    "type": "LinearColor",
+                    "r": 2.3,
+                    "g": 1.5,
+                    "b": 0,
+                    "a": 0.675
+                  }
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_Offset",
+                  "Value": {
+                    "type": "LinearColor",
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  }
+                }
+              ]
+            },
+            "ScalarParameters": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "Name": "TrimSheet1_Rotation",
+                  "Value": 0
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_Opacity",
+                  "Value": 0
+                },
+                {
+                  "Name": "TrimSheet1Mirrored_RotationOffset",
+                  "Value": 0
+                }
+              ]
+            }
+          }
+        },
+        "ThumbnailWheelAsset": {
+          "index": 360,
+          "name": "ProductAssetReferenceWheel_TA_50"
+        },
+        "ThumbnailKeyLightBrightnessScale": 1,
+        "Attributes": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 362,
+              "name": "ProductAttribute_PaintSettings_TA_14"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Body_Octane_Dev",
+      "properties": {
+        "Mesh": {
+          "index": -139,
+          "name": "Body_Octane_SK"
+        },
+        "AnimTreeTemplate": {
+          "index": 2,
+          "name": "Body_AT"
+        },
+        "HandlingPreset": {
+          "index": -122,
+          "name": "Octane"
+        },
+        "FrontAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelMeshRadius": 12.5,
+            "WheelWidth": 11.5,
+            "WheelMeshOffsetSide": 0.25,
+            "WheelRadius": 12.5
+          }
+        },
+        "BackAxle": {
+          "_struct": "VehicleAxleSettings",
+          "fields": {
+            "WheelWidth": 13,
+            "WheelMeshOffsetSide": 0.25
+          }
+        },
+        "bUseLegacySuspensionOffsets": true,
+        "EngineAudioReference": {
+          "index": 359,
+          "name": "ProductAssetReference_TA_28"
+        },
+        "FXActor": {
+          "index": 14,
+          "name": "FXActor"
+        },
+        "SkinMaterialIndex": 1,
+        "BoostEmitterSockets": {
+          "type": "ArrayName",
+          "elements": [
+            "BoostEmitterLeft",
+            "BoostEmitterRight"
+          ]
+        },
+        "BoostFlapsAngle": -100,
+        "EquipProfile": {
+          "index": 366,
+          "name": "ProductEquipProfile_TA_0"
+        },
+        "BoostParticleParameters": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "Name": "ConfettiRibbon",
+              "ParamType": "PSPT_Mesh",
+              "Scalar": 0,
+              "Scalar_Low": 0,
+              "Vector": {
+                "type": "Vector",
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Vector_Low": {
+                "type": "Vector",
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Color": {
+                "type": "Color",
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "Actor": {
+                "index": 0,
+                "name": "None"
+              },
+              "Material": {
+                "index": 0,
+                "name": "None"
+              },
+              "Mesh": {
+                "index": 429,
+                "name": "OctaneRibbons_SM"
+              }
+            }
+          ]
+        },
+        "SkinParameters": {
+          "_struct": "MaterialParams",
+          "fields": {
+            "TextureParameters": {
+              "type": "ArrayStruct",
+              "count": 4,
+              "elements": [
+                {
+                  "Name": "BodyMasks",
+                  "Value": {
+                    "index": -141,
+                    "name": "Pepe_Body_BlankSkin"
+                  }
+                },
+                {
+                  "Name": "BodyNormalMap",
+                  "Value": {
+                    "index": 445,
+                    "name": "Body_Octane_Bevel_N"
+                  }
+                },
+                {
+                  "Name": "Diffuse",
+                  "Value": {
+                    "index": -142,
+                    "name": "Pepe_Body_D"
+                  }
+                },
+                {
+                  "Name": "FXMasks",
+                  "Value": {
+                    "index": 446,
+                    "name": "Body_Octane_Bevel_RGB"
+                  }
+                }
+              ]
+            },
+            "VectorParameters": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "Name": "Logo1Transform",
+                  "Value": {
+                    "type": "LinearColor",
+                    "r": 10,
+                    "g": 10,
+                    "b": 0.414,
+                    "a": 0.77
+                  }
+                }
+              ]
+            },
+            "ScalarParameters": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "Name": "Logo1Rotation",
+                  "Value": 0
+                }
+              ]
+            }
+          }
+        },
+        "ThumbnailWheelAsset": {
+          "index": 361,
+          "name": "ProductAssetReferenceWheel_TA_50"
+        },
+        "ThumbnailKeyLightBrightnessScale": 1,
+        "Attributes": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 363,
+              "name": "ProductAttribute_PaintSettings_TA_14"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "upk_rb_body_setup": [],
+  "skeletal_mesh_sockets": [
+    {
+      "SocketName": "AntennaSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -25.8564,
+        "y": -18.1061,
+        "z": 23
+      }
+    },
+    {
+      "SocketName": "FrontSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 78.0077,
+        "y": 0,
+        "z": -1.5
+      }
+    },
+    {
+      "SocketName": "HatSocket",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": 19.8932,
+        "y": 0,
+        "z": 29.5543
+      },
+      "RelativeRotation": {
+        "type": "Rotator",
+        "pitch": -2498,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+      "SocketName": "RocketBoost",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -48.5055,
+        "y": 0,
+        "z": 9
+      }
+    },
+    {
+      "SocketName": "BoostEmitterLeft",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -48,
+        "y": -9,
+        "z": 9
+      }
+    },
+    {
+      "SocketName": "BoostEmitterRight",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -48,
+        "y": 9,
+        "z": 9
+      }
+    },
+    {
+      "SocketName": "AmbBoost_L",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -46,
+        "y": -14.6,
+        "z": 10.5
+      }
+    },
+    {
+      "SocketName": "AmbBoost_R",
+      "BoneName": "chassis_jnt",
+      "RelativeLocation": {
+        "type": "Vector",
+        "x": -46,
+        "y": 14.6,
+        "z": 10.5
+      }
+    },
+    {
+      "SocketName": "Underglow",
+      "BoneName": "root_jnt"
+    }
+  ],
+  "skeleton_bones_count": 36,
+  "skeleton_bones": [
+    {
+      "node_index": 1,
+      "name": "root_jnt",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quat": [
+        -3.06162e-17,
+        0,
+        0,
+        -1
+      ],
+      "children": [
+        2,
+        19,
+        24,
+        29,
+        33
+      ]
+    },
+    {
+      "node_index": 2,
+      "name": "chassis_jnt",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "node_index": 3,
+      "name": "FL_axleShaft_jnt",
+      "translation_m": [
+        0.512807,
+        -0.0597186,
+        -0.052008
+      ],
+      "rotation_quat": [
+        4.67404e-22,
+        0.707111,
+        -4.32976e-17,
+        0.707103
+      ],
+      "children": [
+        4
+      ]
+    },
+    {
+      "node_index": 4,
+      "name": "FL_Shock_c_jnt",
+      "translation_m": [
+        0.130572,
+        0,
+        9.64608e-10
+      ],
+      "rotation_quat": [
+        -4.67404e-22,
+        -0.707111,
+        4.32976e-17,
+        0.707103
+      ],
+      "children": [
+        5
+      ]
+    },
+    {
+      "node_index": 5,
+      "name": "FL_Shock_B_jnt",
+      "translation_m": [
+        -6.54848e-09,
+        0.035777,
+        -1.12322e-07
+      ],
+      "rotation_quat": [
+        -3.32023e-08,
+        0.932008,
+        0.362438,
+        8.53794e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 6,
+      "name": "FR_axleShaft_jnt",
+      "translation_m": [
+        0.512807,
+        -0.0597186,
+        0.052008
+      ],
+      "rotation_quat": [
+        0,
+        0.707107,
+        -4.32978e-17,
+        0.707107
+      ],
+      "children": [
+        7
+      ]
+    },
+    {
+      "node_index": 7,
+      "name": "FR_Shock_c_jnt",
+      "translation_m": [
+        -0.130572,
+        2.18262e-08,
+        -1.38817e-06
+      ],
+      "rotation_quat": [
+        -5.90996e-08,
+        -0.707107,
+        -5.90996e-08,
+        0.707107
+      ],
+      "children": [
+        8
+      ]
+    },
+    {
+      "node_index": 8,
+      "name": "FR_Shock_B_jnt",
+      "translation_m": [
+        -9.91546e-09,
+        0.035777,
+        1.0994e-07
+      ],
+      "rotation_quat": [
+        -9.96972e-08,
+        0.932008,
+        -0.362438,
+        8.53292e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 9,
+      "name": "BL_axleShaft_jnt",
+      "translation_m": [
+        -0.343204,
+        -0.0431987,
+        -0.065601
+      ],
+      "rotation_quat": [
+        -3.67956e-13,
+        0.707111,
+        -2.98935e-06,
+        0.707103
+      ],
+      "children": [
+        10
+      ]
+    },
+    {
+      "node_index": 10,
+      "name": "BL_Shock_c_jnt",
+      "translation_m": [
+        0.144775,
+        -1.53165e-09,
+        -1.04491e-09
+      ],
+      "rotation_quat": [
+        3.67956e-13,
+        -0.707111,
+        2.98935e-06,
+        0.707103
+      ],
+      "children": [
+        11
+      ]
+    },
+    {
+      "node_index": 11,
+      "name": "BL_Shock_B_jnt",
+      "translation_m": [
+        1.0403e-07,
+        0.0404531,
+        -1.27096e-08
+      ],
+      "rotation_quat": [
+        -0.0021964,
+        0.99587,
+        0.0872273,
+        0.0250762
+      ],
+      "children": []
+    },
+    {
+      "node_index": 12,
+      "name": "BR_axleShaft_jnt",
+      "translation_m": [
+        -0.343204,
+        -0.0431987,
+        0.065601
+      ],
+      "rotation_quat": [
+        0,
+        0.707107,
+        -4.32978e-17,
+        0.707107
+      ],
+      "children": [
+        13
+      ]
+    },
+    {
+      "node_index": 13,
+      "name": "BR_Shock_c_jnt",
+      "translation_m": [
+        -0.144775,
+        -6.2e-07,
+        -1.68e-06
+      ],
+      "rotation_quat": [
+        0,
+        -0.707107,
+        4.32978e-17,
+        0.707107
+      ],
+      "children": [
+        14
+      ]
+    },
+    {
+      "node_index": 14,
+      "name": "BR_Shock_B_jnt",
+      "translation_m": [
+        1.0403e-07,
+        0.0404531,
+        1.27096e-08
+      ],
+      "rotation_quat": [
+        -0.0021964,
+        0.99587,
+        -0.0872273,
+        -0.0250762
+      ],
+      "children": []
+    },
+    {
+      "node_index": 15,
+      "name": "FL_Shock_A_jnt",
+      "translation_m": [
+        0.512805,
+        0.0787457,
+        -0.0884841
+      ],
+      "rotation_quat": [
+        -3.32023e-08,
+        0.932008,
+        0.362438,
+        8.53794e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 16,
+      "name": "FR_Shock_A_jnt",
+      "translation_m": [
+        0.512805,
+        0.0787457,
+        0.0884841
+      ],
+      "rotation_quat": [
+        -9.96972e-08,
+        0.932008,
+        -0.362438,
+        8.53292e-08
+      ],
+      "children": []
+    },
+    {
+      "node_index": 17,
+      "name": "BL_Shock_A_jnt",
+      "translation_m": [
+        -0.344424,
+        0.134421,
+        -0.186193
+      ],
+      "rotation_quat": [
+        -0.0021964,
+        0.99587,
+        0.0872273,
+        0.0250762
+      ],
+      "children": []
+    },
+    {
+      "node_index": 18,
+      "name": "BR_Shock_A_jnt",
+      "translation_m": [
+        -0.344424,
+        0.134421,
+        0.186193
+      ],
+      "rotation_quat": [
+        -0.0021964,
+        0.99587,
+        -0.0872273,
+        -0.0250762
+      ],
+      "children": []
+    },
+    {
+      "node_index": 19,
+      "name": "FL_WheelTranslation_jnt",
+      "translation_m": [
+        0.512805,
+        -0.0597168,
+        -0.24822
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        20
+      ]
+    },
+    {
+      "node_index": 20,
+      "name": "FL_Pivot_jnt",
+      "translation_m": [
+        -4.54346e-09,
+        1.03043e-09,
+        -0.00452303
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        21,
+        23
+      ]
+    },
+    {
+      "node_index": 21,
+      "name": "FL_Disc_jnt",
+      "translation_m": [
+        4.54346e-09,
+        1.22859e-06,
+        -0.011812
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        22
+      ]
+    },
+    {
+      "node_index": 22,
+      "name": "FL_Disc_geo_jnt",
+      "translation_m": [
+        -4.54346e-09,
+        1.40697e-09,
+        4.82e-09
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 23,
+      "name": "FL_Brakepad_jnt",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 24,
+      "name": "FR_WheelTranslation_jnt",
+      "translation_m": [
+        0.512805,
+        -0.0597168,
+        0.244726
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        25
+      ]
+    },
+    {
+      "node_index": 25,
+      "name": "FR_Pivot_jnt",
+      "translation_m": [
+        -4.54346e-09,
+        1.03043e-09,
+        0.00452302
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        26,
+        28
+      ]
+    },
+    {
+      "node_index": 26,
+      "name": "FR_Disc_jnt",
+      "translation_m": [
+        4.54346e-09,
+        1.22859e-06,
+        0.011812
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        27
+      ]
+    },
+    {
+      "node_index": 27,
+      "name": "FR_Disc_geo_jnt",
+      "translation_m": [
+        -4.54346e-09,
+        1.40697e-09,
+        -1.53609e-09
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 28,
+      "name": "FR_Brakepad_jnt",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 29,
+      "name": "BL_WheelTranslation_jnt",
+      "translation_m": [
+        -0.343206,
+        -0.0431982,
+        -0.26595
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        30,
+        32
+      ]
+    },
+    {
+      "node_index": 30,
+      "name": "BL_Disc_jnt",
+      "translation_m": [
+        2.13163e-16,
+        2.0016e-07,
+        -0.028
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        31
+      ]
+    },
+    {
+      "node_index": 31,
+      "name": "BL_Disc_geo_jnt",
+      "translation_m": [
+        -2.13163e-16,
+        -1.60114e-10,
+        0
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 32,
+      "name": "BL_Brakepad_jnt",
+      "translation_m": [
+        0,
+        0,
+        -0.01
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 33,
+      "name": "BR_WheelTranslation_jnt",
+      "translation_m": [
+        -0.343206,
+        -0.0431982,
+        0.26595
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        34,
+        36
+      ]
+    },
+    {
+      "node_index": 34,
+      "name": "BR_Disc_jnt",
+      "translation_m": [
+        2.13163e-16,
+        2.0016e-07,
+        0.028
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        35
+      ]
+    },
+    {
+      "node_index": 35,
+      "name": "BR_Disc_geo_jnt",
+      "translation_m": [
+        -2.13163e-16,
+        -1.60114e-10,
+        -2.90257e-14
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    },
+    {
+      "node_index": 36,
+      "name": "BR_Brakepad_jnt",
+      "translation_m": [
+        0,
+        0,
+        0.01
+      ],
+      "rotation_quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": []
+    }
+  ],
+  "detailed_surface_primitives": [
+    {
+      "material_slot": "Body_Octane_Body_PrimaryPaint",
+      "triangles": 1899,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Octane_Body_SecondaryTrim",
+      "triangles": 12369,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Octane_Body_Windshield_Glass",
+      "triangles": 1892,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Octane_Body_PrimaryPaint",
+      "triangles": 1954,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Octane_Body_SecondaryTrim",
+      "triangles": 9489,
+      "category": "Body"
+    },
+    {
+      "material_slot": "Body_Octane_Body_Windshield_Glass",
+      "triangles": 875,
+      "category": "Body"
+    }
+  ],
+  "material_instance_constants": [
+    {
+      "name": "ConfRibbons_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "Speed",
+              "ParameterValue": 10,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 16,
+          "name": "ConfRibbons_D_Mat"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "BoostCone_Flame_Grad_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "GradientPower",
+              "ParameterValue": 4,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 18,
+          "name": "BoostCone_Flame_Grad_Mat"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "BoostCone_Flame_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "PanSpeed",
+              "ParameterValue": 0.25,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "Color",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.00316215,
+                "g": 0.387169,
+                "b": 1,
+                "a": 1
+              },
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 19,
+          "name": "BoostCone_Flame_Mat"
+        },
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    },
+    {
+      "name": "BoostFXMesh_Cone_MIC",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "ConeLength",
+              "ParameterValue": 1,
+              "ExpressionGUID": {
+                "type": "Guid",
+                "raw_size": 16
+              }
+            }
+          ]
+        },
+        "Parent": {
+          "index": 23,
+          "name": "BoostFXMesh_Mat"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {
+          "type": "Guid",
+          "raw_size": 16
+        }
+      }
+    }
+  ]
+}
