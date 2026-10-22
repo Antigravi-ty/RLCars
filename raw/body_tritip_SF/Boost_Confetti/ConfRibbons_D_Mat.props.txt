@@ -1,0 +1,69 @@
+EmissiveColor =
+{
+    Expression = None
+    Mask = 1
+    MaskR = 1
+    MaskG = 1
+    MaskB = 1
+}
+Opacity =
+{
+    Expression = None
+}
+Distortion =
+{
+    OutputIndex = -1
+}
+BlendMode = BLEND_Translucent
+LightingModel = MLM_Unlit
+WorldPositionOffset =
+{
+    Expression = None
+}
+TwoSided = True
+bUsedWithStaticLighting = True
+Expressions[42] =
+{
+    Expressions[0] = None
+    Expressions[1] = None
+    Expressions[2] = None
+    Expressions[3] = None
+    Expressions[4] = None
+    Expressions[5] = None
+    Expressions[6] = None
+    Expressions[7] = None
+    Expressions[8] = None
+    Expressions[9] = None
+    Expressions[10] = None
+    Expressions[11] = None
+    Expressions[12] = None
+    Expressions[13] = None
+    Expressions[14] = None
+    Expressions[15] = None
+    Expressions[16] = None
+    Expressions[17] = None
+    Expressions[18] = None
+    Expressions[19] = None
+    Expressions[20] = None
+    Expressions[21] = None
+    Expressions[22] = None
+    Expressions[23] = None
+    Expressions[24] = None
+    Expressions[25] = None
+    Expressions[26] = None
+    Expressions[27] = None
+    Expressions[28] = None
+    Expressions[29] = None
+    Expressions[30] = None
+    Expressions[31] = None
+    Expressions[32] = None
+    Expressions[33] = None
+    Expressions[34] = None
+    Expressions[35] = None
+    Expressions[36] = None
+    Expressions[37] = None
+    Expressions[38] = None
+    Expressions[39] = None
+    Expressions[40] = None
+    Expressions[41] = MaterialExpressionScalarParameter_0
+}

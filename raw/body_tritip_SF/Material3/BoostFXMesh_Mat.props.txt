@@ -1,0 +1,91 @@
+EmissiveColor =
+{
+    Expression = None
+}
+Opacity =
+{
+    Expression = None
+}
+BlendMode = BLEND_Translucent
+LightingModel = MLM_Unlit
+WorldPositionOffset =
+{
+    Expression = None
+}
+TwoSided = True
+Expressions[65] =
+{
+    Expressions[0] = MaterialExpressionScalarParameter_0
+    Expressions[1] = MaterialExpressionVectorParameter_2
+    Expressions[2] = None
+    Expressions[3] = MaterialExpressionScalarParameter_7
+    Expressions[4] = None
+    Expressions[5] = None
+    Expressions[6] = None
+    Expressions[7] = None
+    Expressions[8] = None
+    Expressions[9] = None
+    Expressions[10] = None
+    Expressions[11] = None
+    Expressions[12] = None
+    Expressions[13] = None
+    Expressions[14] = None
+    Expressions[15] = None
+    Expressions[16] = None
+    Expressions[17] = None
+    Expressions[18] = None
+    Expressions[19] = MaterialExpressionScalarParameter_9
+    Expressions[20] = None
+    Expressions[21] = None
+    Expressions[22] = None
+    Expressions[23] = None
+    Expressions[24] = None
+    Expressions[25] = None
+    Expressions[26] = None
+    Expressions[27] = None
+    Expressions[28] = MaterialExpressionScalarParameter_15
+    Expressions[29] = MaterialExpressionScalarParameter_16
+    Expressions[30] = MaterialExpressionScalarParameter_18
+    Expressions[31] = None
+    Expressions[32] = None
+    Expressions[33] = None
+    Expressions[34] = None
+    Expressions[35] = None
+    Expressions[36] = None
+    Expressions[37] = None
+    Expressions[38] = None
+    Expressions[39] = None
+    Expressions[40] = None
+    Expressions[41] = None
+    Expressions[42] = None
+    Expressions[43] = None
+    Expressions[44] = None
+    Expressions[45] = None
+    Expressions[46] = None
+    Expressions[47] = None
+    Expressions[48] = None
+    Expressions[49] = None
+    Expressions[50] = None
+    Expressions[51] = None
+    Expressions[52] = None
+    Expressions[53] = None
+    Expressions[54] = None
+    Expressions[55] = None
+    Expressions[56] = None
+    Expressions[57] = None
+    Expressions[58] = None
+    Expressions[59] = None
+    Expressions[60] = None
+    Expressions[61] = MaterialExpressionScalarParameter_1
+    Expressions[62] = None
+    Expressions[63] = None
+    Expressions[64] = None
+}
+MaterialFunctionInfos[1] =
+{
+    MaterialFunctionInfos[0] =
+    {
+        StateId = 28fc02fa97af5242ad68fd5bdce395ea
+        Function = Psy_MaterialFunctions.VS_BoostStretch
+    }
+}

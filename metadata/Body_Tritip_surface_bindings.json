@@ -1,0 +1,905 @@
+{
+  "mesh_name": "Body_Tritip_SK",
+  "total_vertices": 16081,
+  "total_triangles": 22151,
+  "original_sections_count": 3,
+  "detailed_surface_regions_count": 11,
+  "original_sections": [
+    {
+      "region_id": 0,
+      "material_name": "Slot0_OctaneChassis_MIC",
+      "display_name": "Original UE3 Section 0 (OctaneChassis_MIC)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "OctaneChassis_MIC",
+      "triangle_count": 12075,
+      "vertex_count": 9819,
+      "classification_rule": "Original FSkelMeshSection[0] (FirstIndex=0, NumTriangles=12075)",
+      "evidence": {
+        "section": {
+          "section_index": 0,
+          "material_index": 0,
+          "material_name": "OctaneChassis_MIC",
+          "chunk_index": 0,
+          "first_index": 0,
+          "num_triangles": 12075,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -51.6243,
+          -31.6419,
+          -13.1591
+        ],
+        "max": [
+          78.6808,
+          31.6829,
+          39.2486
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0022,
+          0.0006
+        ],
+        "max": [
+          0.9878,
+          0.9961
+        ]
+      },
+      "rigged_bones": [
+        "BL_Brakepad_jnt",
+        "BL_Disc_geo_jnt",
+        "BL_Shock_A_jnt",
+        "BL_Shock_B_jnt",
+        "BL_Shock_c_jnt",
+        "BL_WheelTranslation_jnt",
+        "BL_axleShaft_jnt",
+        "BR_Brakepad_jnt",
+        "BR_Disc_geo_jnt",
+        "BR_Shock_A_jnt",
+        "BR_Shock_B_jnt",
+        "BR_Shock_c_jnt",
+        "BR_WheelTranslation_jnt",
+        "BR_axleShaft_jnt",
+        "FL_Brakepad_jnt",
+        "FL_Disc_geo_jnt",
+        "FL_Pivot_jnt",
+        "FL_Shock_c_jnt",
+        "FL_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.65,
+        "roughnessFactor": 0.45,
+        "emissiveFactor": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_Chassis_BaseColor",
+        "mrTex": "Tritip_Chassis_MetallicRoughness",
+        "normalTex": "Tritip_Chassis_Normal",
+        "emissiveTex": "Tritip_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 1,
+      "material_name": "Slot1_MIC_Body_Octane",
+      "display_name": "Original UE3 Section 1 (MIC_Body_Octane)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MIC_Body_Octane",
+      "triangle_count": 8624,
+      "vertex_count": 5407,
+      "classification_rule": "Original FSkelMeshSection[1] (FirstIndex=36225, NumTriangles=8624)",
+      "evidence": {
+        "section": {
+          "section_index": 1,
+          "material_index": 1,
+          "material_name": "MIC_Body_Octane",
+          "chunk_index": 1,
+          "first_index": 36225,
+          "num_triangles": 8624,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -50.4647,
+          -36.2123,
+          -9.3541
+        ],
+        "max": [
+          74.4812,
+          36.2533,
+          32.7888
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0051,
+          0.0177
+        ],
+        "max": [
+          0.9146,
+          0.9897
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.28,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_OctaneBody_BaseColor",
+        "mrTex": "Tritip_OctaneBody_MetallicRoughness",
+        "normalTex": "Tritip_OctaneBody_Normal"
+      }
+    },
+    {
+      "region_id": 2,
+      "material_name": "Slot2_MIC_Body_Tritip",
+      "display_name": "Original UE3 Section 2 (MIC_Body_Tritip)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MIC_Body_Tritip",
+      "triangle_count": 1452,
+      "vertex_count": 853,
+      "classification_rule": "Original FSkelMeshSection[2] (FirstIndex=62097, NumTriangles=1452)",
+      "evidence": {
+        "section": {
+          "section_index": 2,
+          "material_index": 2,
+          "material_name": "MIC_Body_Tritip",
+          "chunk_index": 2,
+          "first_index": 62097,
+          "num_triangles": 1452,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          7.4638,
+          -23.5125,
+          -6.828
+        ],
+        "max": [
+          74.6668,
+          23.5125,
+          16.8994
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0057,
+          0.1892
+        ],
+        "max": [
+          0.9941,
+          0.9961
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.25,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_NoseCone_BaseColor",
+        "mrTex": "Tritip_NoseCone_MetallicRoughness"
+      }
+    }
+  ],
+  "detailed_surface_regions": [
+    {
+      "region_id": 0,
+      "material_name": "Tritip_Chassis_Headlight_And_Taillight_Emissive",
+      "display_name": "车头大灯发光体与尾灯/喷口发光组件 (Chassis Headlights & Taillights Emissive)",
+      "category": "Chassis_Lights",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "OctaneChassis_MIC",
+      "triangle_count": 187,
+      "vertex_count": 226,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && (Endo_Chassis_RGB.R > 80 || G > 80 || B > 80)",
+      "evidence": {
+        "mask_texture": "Endo_Chassis_RGB (R=Headlight, G=Taillight, B=BoostGlow)"
+      },
+      "bounds_uu": {
+        "min": [
+          -47.1806,
+          -30.4747,
+          -13.1591
+        ],
+        "max": [
+          78.6808,
+          30.5157,
+          30.3462
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.004,
+          0.2367
+        ],
+        "max": [
+          0.9751,
+          0.98
+        ]
+      },
+      "rigged_bones": [
+        "BL_Brakepad_jnt",
+        "BL_Disc_geo_jnt",
+        "BR_Brakepad_jnt",
+        "BR_Disc_geo_jnt",
+        "FL_Brakepad_jnt",
+        "FL_Disc_geo_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.95,
+          0.85,
+          0.7,
+          1.0
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.15,
+        "emissiveFactor": [
+          0.95,
+          0.75,
+          0.55
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_Chassis_BaseColor",
+        "mrTex": "Tritip_Chassis_MetallicRoughness",
+        "normalTex": "Tritip_Chassis_Normal",
+        "emissiveTex": "Tritip_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 1,
+      "material_name": "Tritip_Chassis_FrontSingleWheel_Suspension",
+      "display_name": "前部中置单轮转向叉、减震器与前轴总成 (Centerline Single Front Wheel Suspension)",
+      "category": "Chassis_Suspension_FrontSingle",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "OctaneChassis_MIC",
+      "triangle_count": 81,
+      "vertex_count": 65,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && PrimaryBone in {FL_axleShaft_jnt, FL_Shock_c_jnt, FL_Pivot_jnt}",
+      "evidence": {
+        "three_wheel_evidence": "Native 3-wheel skeleton: FL_WheelTranslation_jnt is positioned at Y = 0.0 (centerline) with no FR_* bones in RefSkeleton",
+        "bone_binding": "FL_axleShaft_jnt, FL_Shock_c_jnt, FL_Pivot_jnt"
+      },
+      "bounds_uu": {
+        "min": [
+          48.2235,
+          1.9494,
+          -10.0886
+        ],
+        "max": [
+          53.9261,
+          9.4643,
+          5.8266
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.3276,
+          0.056
+        ],
+        "max": [
+          0.5498,
+          0.4116
+        ]
+      },
+      "rigged_bones": [
+        "FL_Pivot_jnt",
+        "FL_Shock_c_jnt",
+        "FL_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.55,
+          0.58,
+          0.62,
+          1.0
+        ],
+        "metallicFactor": 0.75,
+        "roughnessFactor": 0.35,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_Chassis_BaseColor",
+        "mrTex": "Tritip_Chassis_MetallicRoughness",
+        "normalTex": "Tritip_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 2,
+      "material_name": "Tritip_Chassis_RearWheels_Suspension",
+      "display_name": "后桥双轮独立悬挂减震器与传动半轴 (Rear Left/Right Suspension & Axles)",
+      "category": "Chassis_Suspension_Rear",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "OctaneChassis_MIC",
+      "triangle_count": 1652,
+      "vertex_count": 1292,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && PrimaryBone in {BL/BR_Shock_A/B/c_jnt, BL/BR_axleShaft_jnt, BL/BR_WheelTranslation_jnt}",
+      "evidence": {
+        "bone_binding": "BL_Shock_A/B/c_jnt, BR_Shock_A/B/c_jnt, BL/BR_axleShaft_jnt, BL/BR_WheelTranslation_jnt"
+      },
+      "bounds_uu": {
+        "min": [
+          -37.1185,
+          -28.3362,
+          -7.1525
+        ],
+        "max": [
+          -31.4158,
+          28.3771,
+          14.5538
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.011,
+          0.0437
+        ],
+        "max": [
+          0.9839,
+          0.9941
+        ]
+      },
+      "rigged_bones": [
+        "BL_Shock_A_jnt",
+        "BL_Shock_B_jnt",
+        "BL_Shock_c_jnt",
+        "BL_WheelTranslation_jnt",
+        "BL_axleShaft_jnt",
+        "BR_Shock_A_jnt",
+        "BR_Shock_B_jnt",
+        "BR_Shock_c_jnt",
+        "BR_WheelTranslation_jnt",
+        "BR_axleShaft_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.5,
+          0.52,
+          0.56,
+          1.0
+        ],
+        "metallicFactor": 0.72,
+        "roughnessFactor": 0.38,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_Chassis_BaseColor",
+        "mrTex": "Tritip_Chassis_MetallicRoughness",
+        "normalTex": "Tritip_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 3,
+      "material_name": "Tritip_Chassis_ThreeWheel_BrakeDiscs_And_Calipers",
+      "display_name": "三轮刹车盘与卡钳总成（前单轮 + 后双轮） (Three-Wheel Brake Discs & Calipers)",
+      "category": "Chassis_Brakes",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "OctaneChassis_MIC",
+      "triangle_count": 1184,
+      "vertex_count": 996,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && PrimaryBone in {FL_Disc_geo_jnt, FL_Brakepad_jnt, BL_Disc_geo_jnt, BL_Brakepad_jnt, BR_Disc_geo_jnt, BR_Brakepad_jnt}",
+      "evidence": {
+        "bone_binding": "FL_Disc_geo_jnt (336 tris), BL_Disc_geo_jnt (336 tris), BR_Disc_geo_jnt (336 tris), FL/BL/BR_Brakepad_jnt (284 tris)"
+      },
+      "bounds_uu": {
+        "min": [
+          -40.4834,
+          -31.6419,
+          -13.1591
+        ],
+        "max": [
+          56.9774,
+          31.6829,
+          1.9253
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.011,
+          0.0629
+        ],
+        "max": [
+          0.9751,
+          0.9932
+        ]
+      },
+      "rigged_bones": [
+        "BL_Brakepad_jnt",
+        "BL_Disc_geo_jnt",
+        "BR_Brakepad_jnt",
+        "BR_Disc_geo_jnt",
+        "FL_Brakepad_jnt",
+        "FL_Disc_geo_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.74,
+          0.76,
+          0.78,
+          1.0
+        ],
+        "metallicFactor": 0.85,
+        "roughnessFactor": 0.28,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_Chassis_BaseColor",
+        "mrTex": "Tritip_Chassis_MetallicRoughness",
+        "normalTex": "Tritip_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 4,
+      "material_name": "Tritip_Chassis_BrushedMetal_Engine_And_Exhaust",
+      "display_name": "外露后置引擎缸体、排气管与防滚架金属件 (Exposed Engine Block & Exhaust Metal)",
+      "category": "Chassis_Metal",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "OctaneChassis_MIC",
+      "triangle_count": 3251,
+      "vertex_count": 3029,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && Bone==chassis_jnt && Endo_Chassis_D.MeanRGB > 45",
+      "evidence": {
+        "mask_evidence": "Endo_Chassis_D high-reflectance metallic UV islands on chassis_jnt"
+      },
+      "bounds_uu": {
+        "min": [
+          -51.6243,
+          -31.1316,
+          -11.0974
+        ],
+        "max": [
+          78.6808,
+          31.1726,
+          39.2486
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0022,
+          0.0006
+        ],
+        "max": [
+          0.9668,
+          0.9961
+        ]
+      },
+      "rigged_bones": [
+        "FL_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.68,
+          0.7,
+          0.73,
+          1.0
+        ],
+        "metallicFactor": 0.82,
+        "roughnessFactor": 0.32,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_Chassis_BaseColor",
+        "mrTex": "Tritip_Chassis_MetallicRoughness",
+        "normalTex": "Tritip_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 5,
+      "material_name": "Tritip_Chassis_Frame_Undercarriage",
+      "display_name": "钢管车架、底盘护板与散热器格栅 (Tubular Frame & Undercarriage)",
+      "category": "Chassis_Structure",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "OctaneChassis_MIC",
+      "triangle_count": 5720,
+      "vertex_count": 5282,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && Bone==chassis_jnt && Endo_Chassis_D.MeanRGB <= 45",
+      "evidence": {
+        "mask_evidence": "Endo_Chassis_D dark structural chassis & Endo_Chassis_RGB.A ambient occlusion"
+      },
+      "bounds_uu": {
+        "min": [
+          -51.6243,
+          -31.1316,
+          -11.0974
+        ],
+        "max": [
+          78.6808,
+          31.1726,
+          39.2486
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0022,
+          0.0018
+        ],
+        "max": [
+          0.9878,
+          0.9951
+        ]
+      },
+      "rigged_bones": [
+        "FL_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.24,
+          0.25,
+          0.27,
+          1.0
+        ],
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.65,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_Chassis_BaseColor",
+        "mrTex": "Tritip_Chassis_MetallicRoughness",
+        "normalTex": "Tritip_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 6,
+      "material_name": "Tritip_OctaneBody_PrimaryPaint",
+      "display_name": "主车壳与尾翼金属车漆涂装层 (Octane Main Body Primary Paint - Slot 1)",
+      "category": "Body_Paint",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MIC_Body_Octane",
+      "triangle_count": 4839,
+      "vertex_count": 3524,
+      "classification_rule": "Section 1 (MIC_Body_Octane) && Body_Octane_Bevel_RGB.A > 128 && Body_Octane_Bevel_RGB.B <= 128",
+      "evidence": {
+        "mask_texture": "Body_Octane_Bevel_RGB (Channel A = Paintable Body Mask, Channel R/G = Bevel Curvature)"
+      },
+      "bounds_uu": {
+        "min": [
+          -50.4647,
+          -36.2123,
+          -9.3541
+        ],
+        "max": [
+          74.4812,
+          36.2533,
+          31.6139
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0051,
+          0.0177
+        ],
+        "max": [
+          0.9146,
+          0.9897
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.25,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_OctaneBody_BaseColor",
+        "mrTex": "Tritip_OctaneBody_MetallicRoughness",
+        "normalTex": "Tritip_OctaneBody_Normal"
+      }
+    },
+    {
+      "region_id": 7,
+      "material_name": "Tritip_OctaneBody_Windshield_And_WindowVisor",
+      "display_name": "座舱前挡风玻璃与侧窗深色玻璃面罩 (Cockpit Windshield & Side Window Visors - Slot 1)",
+      "category": "Glass_Canopy",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MIC_Body_Octane",
+      "triangle_count": 2332,
+      "vertex_count": 1646,
+      "classification_rule": "Section 1 (MIC_Body_Octane) && Body_Octane_Bevel_RGB.B > 128",
+      "evidence": {
+        "mask_texture": "Body_Octane_Bevel_RGB (Channel B = Windshield/Window Mask, X=[-32.4, 50.2], Z=[4.1, 32.8])"
+      },
+      "bounds_uu": {
+        "min": [
+          -32.4903,
+          -23.3744,
+          -6.7592
+        ],
+        "max": [
+          51.1754,
+          23.3743,
+          32.7888
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0066,
+          0.1039
+        ],
+        "max": [
+          0.9082,
+          0.9814
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.14,
+          0.18,
+          0.24,
+          1.0
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.1,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_OctaneBody_BaseColor",
+        "mrTex": "Tritip_OctaneBody_MetallicRoughness",
+        "normalTex": "Tritip_OctaneBody_Normal"
+      }
+    },
+    {
+      "region_id": 8,
+      "material_name": "Tritip_OctaneBody_Trim_BlackPlastic",
+      "display_name": "车窗边框、侧进气口与深色塑料饰件 (Octane Body Black Plastic Trim - Slot 1)",
+      "category": "Body_Trim",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MIC_Body_Octane",
+      "triangle_count": 1453,
+      "vertex_count": 1294,
+      "classification_rule": "Section 1 (MIC_Body_Octane) && Body_Octane_Bevel_RGB.A <= 128 && Body_Octane_Bevel_RGB.B <= 128",
+      "evidence": {
+        "mask_texture": "Body_Octane_Bevel_RGB (A <= 128 & B <= 128 Unpainted Trim)"
+      },
+      "bounds_uu": {
+        "min": [
+          -47.4325,
+          -35.6256,
+          -9.0341
+        ],
+        "max": [
+          74.4597,
+          35.6666,
+          31.1339
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0101,
+          0.0177
+        ],
+        "max": [
+          0.8936,
+          0.9858
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.15,
+          0.15,
+          0.16,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_OctaneBody_BaseColor",
+        "mrTex": "Tritip_OctaneBody_MetallicRoughness",
+        "normalTex": "Tritip_OctaneBody_Normal"
+      }
+    },
+    {
+      "region_id": 9,
+      "material_name": "Tritip_NoseCone_PrimaryPaint",
+      "display_name": "三轮改装版前部收窄车头鼻锥与单轮整流罩车漆层 (Tritip Three-Wheel Nose Cone Primary Paint - Slot 2)",
+      "category": "Body_Paint_Tritip",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MIC_Body_Tritip",
+      "triangle_count": 945,
+      "vertex_count": 596,
+      "classification_rule": "Section 2 (MIC_Body_Tritip, Slot 2) && Tritip_BlankSkin.R == 255 && Exterior Shell (Z >= -1.5 && Normal.Z >= -0.45)",
+      "evidence": {
+        "material": "MIC_Body_Tritip (Parent=MIC_Body_Paintable_All)",
+        "textures": "BodyMasks=Tritip_BlankSkin, CurvaturePack=Body_Tritip_Curvature, Diffuse=Tritip_Body_D",
+        "spatial_location": "Front 3-wheel nose cone X=[7.49, 74.63], Y=[-23.46, 23.46], Z=[-6.81, 16.83]"
+      },
+      "bounds_uu": {
+        "min": [
+          7.4638,
+          -23.5125,
+          -5.3657
+        ],
+        "max": [
+          74.6668,
+          23.5125,
+          16.8994
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0135,
+          0.3035
+        ],
+        "max": [
+          0.9858,
+          0.9907
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.25,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Tritip_NoseCone_BaseColor",
+        "mrTex": "Tritip_NoseCone_MetallicRoughness"
+      }
+    },
+    {
+      "region_id": 10,
+      "material_name": "Tritip_NoseCone_LowerTrim_And_WheelWell",
+      "display_name": "三轮车头下部前唇与中央单轮轮拱内衬饰件 (Tritip Nose Cone Lower Trim & Single-Wheel Well - Slot 2)",
+      "category": "Body_Trim_Tritip",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MIC_Body_Tritip",
+      "triangle_count": 507,
+      "vertex_count": 368,
+      "classification_rule": "Section 2 (MIC_Body_Tritip, Slot 2) && (Z < -1.5 || Normal.Z < -0.45) (TrimColor=[0.08, 0.08, 0.08])",
+      "evidence": {
+        "material": "MIC_Body_Tritip (VectorParameter TrimColor=[0.08, 0.08, 0.08, 1.0])"
+      },
+      "bounds_uu": {
+        "min": [
+          7.4638,
+          -22.7269,
+          -6.828
+        ],
+        "max": [
+          74.2973,
+          22.7269,
+          15.0564
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0057,
+          0.1892
+        ],
+        "max": [
+          0.9941,
+          0.9961
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.12,
+          0.12,
+          0.13,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.68,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE"
+      }
+    }
+  ]
+}

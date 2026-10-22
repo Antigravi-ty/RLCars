@@ -1,0 +1,4181 @@
+{
+  "package_name": "body_tritip_SF.upk",
+  "car_codename": "Body_Tritip (Three-Wheel Octane / Robin)",
+  "skeletal_mesh_name": "Body_Tritip_SK",
+  "upk_summary": {
+    "file_version": 868,
+    "licensee_version": 34,
+    "name_count": 1032,
+    "import_count": 169,
+    "export_count": 508
+  },
+  "physics_and_hitbox": {
+    "rb_body_setup": {
+      "BoneName": "root_jnt",
+      "PreCachedPhysDataVersion": 34079889,
+      "AggGeom": {
+        "_struct": "KAggregateGeom",
+        "fields": {
+          "BoxElems": {
+            "type": "ArrayStruct",
+            "count": 1,
+            "elements": [
+              {
+                "TM": {
+                  "type": "Matrix",
+                  "raw_floats": [
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    13.87566,
+                    0.0,
+                    15.00499
+                  ],
+                  "translation_xyz": [
+                    13.87566,
+                    0.0,
+                    15.00499
+                  ]
+                },
+                "X": 118.007378,
+                "Y": 84.199409,
+                "Z": 36.159073,
+                "bNoRBCollision": false,
+                "bPerPolyShape": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "hitbox_dimensions_uu": {
+      "length_X": 118.007378,
+      "width_Y": 84.199409,
+      "height_Z": 36.159073
+    },
+    "hitbox_offset_uu": {
+      "rb_box_elem_center_uu": [
+        13.87566,
+        0.0,
+        15.00499
+      ],
+      "handling_preset_offset_uu": [
+        0.0,
+        0.0,
+        5.75
+      ],
+      "total_effective_center_uu": [
+        13.87566,
+        0.0,
+        20.75499
+      ]
+    },
+    "handling_preset": {
+      "FrontAxle": {
+        "_struct": "VehicleAxleData",
+        "fields": {
+          "LocalRestPosition": {
+            "type": "Vector",
+            "x": 51.25,
+            "y": 5.0,
+            "z": -6.0
+          }
+        }
+      },
+      "PhysAsset": {
+        "index": 351,
+        "name": "Body_Tritip_Physics",
+        "full_path": "body_tritip.Body_Tritip_Physics"
+      }
+    },
+    "vehicle_sim": {},
+    "front_axle": {},
+    "back_axle": {},
+    "three_wheel_skeleton_architecture": {
+      "description": "Native 3-wheeled vehicle rig: Front single wheel (FL_*) is mounted on the longitudinal centerline Y = 0.0; Rear left (BL_*) and Rear right (BR_*) wheels are at Y = +/-32.5179. There are no FR_* bones in RefSkeleton.",
+      "front_single_wheel_center_uu": [
+        51.2535,
+        0.0,
+        -3.575
+      ],
+      "front_single_disc_uu": [
+        51.2535,
+        2.6606,
+        -3.575
+      ],
+      "rear_left_wheel_center_uu": [
+        -33.7603,
+        -32.5179,
+        -2.075
+      ],
+      "rear_right_wheel_center_uu": [
+        -33.7603,
+        32.5179,
+        -2.075
+      ]
+    },
+    "mesh_bounds_uu": {
+      "origin": [
+        13.528252,
+        0.020477,
+        24.836487
+      ],
+      "box_extent": [
+        130.305084,
+        72.465607,
+        40.616013
+      ],
+      "sphere_radius": 154.532654
+    }
+  },
+  "skeletal_mesh_summary": {
+    "num_vertices": 16081,
+    "num_triangles": 22151,
+    "num_uv_sets": 3,
+    "bHasVertexColors": true,
+    "num_bones": 27,
+    "num_sockets": 9,
+    "original_sections": [
+      {
+        "section_index": 0,
+        "material_index": 0,
+        "material_name": "OctaneChassis_MIC",
+        "chunk_index": 0,
+        "first_index": 0,
+        "num_triangles": 12075,
+        "triangle_sorting": 0
+      },
+      {
+        "section_index": 1,
+        "material_index": 1,
+        "material_name": "MIC_Body_Octane",
+        "chunk_index": 1,
+        "first_index": 36225,
+        "num_triangles": 8624,
+        "triangle_sorting": 0
+      },
+      {
+        "section_index": 2,
+        "material_index": 2,
+        "material_name": "MIC_Body_Tritip",
+        "chunk_index": 2,
+        "first_index": 62097,
+        "num_triangles": 1452,
+        "triangle_sorting": 0
+      }
+    ],
+    "original_materials": [
+      "OctaneChassis_MIC",
+      "MIC_Body_Octane",
+      "MIC_Body_Tritip"
+    ]
+  },
+  "sockets": [
+    {
+      "export_index": 406,
+      "object_name": "SkeletalMeshSocket_4",
+      "socket_name": "AntennaSocket",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -25.856426,
+        -18.10611,
+        23.0
+      ],
+      "relative_location_gltf_m": [
+        -0.258564,
+        0.23,
+        -0.181061
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 407,
+      "object_name": "SkeletalMeshSocket_5",
+      "socket_name": "FrontSocket",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        78.007736,
+        0.0,
+        -1.5
+      ],
+      "relative_location_gltf_m": [
+        0.780077,
+        -0.015,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 408,
+      "object_name": "SkeletalMeshSocket_6",
+      "socket_name": "HatSocket",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        19.893223,
+        0.0,
+        29.554306
+      ],
+      "relative_location_gltf_m": [
+        0.198932,
+        0.295543,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        -2498,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        -13.7219,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 402,
+      "object_name": "SkeletalMeshSocket_0",
+      "socket_name": "RocketBoost",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -48.505531,
+        0.0,
+        8.999998
+      ],
+      "relative_location_gltf_m": [
+        -0.485055,
+        0.09,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 403,
+      "object_name": "SkeletalMeshSocket_1",
+      "socket_name": "BoostEmitterLeft",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -48.0,
+        -9.0,
+        9.0
+      ],
+      "relative_location_gltf_m": [
+        -0.48,
+        0.09,
+        -0.09
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 404,
+      "object_name": "SkeletalMeshSocket_2",
+      "socket_name": "BoostEmitterRight",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -48.0,
+        9.0,
+        9.0
+      ],
+      "relative_location_gltf_m": [
+        -0.48,
+        0.09,
+        0.09
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 405,
+      "object_name": "SkeletalMeshSocket_3",
+      "socket_name": "AmbBoost_L",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -46.0,
+        -14.6,
+        10.5
+      ],
+      "relative_location_gltf_m": [
+        -0.46,
+        0.105,
+        -0.146
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 409,
+      "object_name": "SkeletalMeshSocket_7",
+      "socket_name": "AmbBoost_R",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -46.0,
+        14.6,
+        10.5
+      ],
+      "relative_location_gltf_m": [
+        -0.46,
+        0.105,
+        0.146
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 410,
+      "object_name": "SkeletalMeshSocket_8",
+      "socket_name": "Underglow",
+      "bone_name": "root_jnt",
+      "relative_location_uu": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_location_gltf_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "bones": [
+    {
+      "index": 0,
+      "name": "root_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 4,
+      "parent_index": -1,
+      "color": 4294967295
+    },
+    {
+      "index": 1,
+      "name": "chassis_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 6,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 2,
+      "name": "FL_axleShaft_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        50.987999,
+        9.606299,
+        -7.166147
+      ],
+      "num_children": 1,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 3,
+      "name": "FL_Shock_c_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        0.0,
+        -0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        1.968504,
+        -0.0,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 2,
+      "color": 4294967295
+    },
+    {
+      "index": 4,
+      "name": "FL_Shock_B_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -9e-06,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        3.937008
+      ],
+      "num_children": 0,
+      "parent_index": 3,
+      "color": 4294967295
+    },
+    {
+      "index": 5,
+      "name": "BL_axleShaft_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        -34.267139,
+        -6.692914,
+        -4.301283
+      ],
+      "num_children": 1,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 6,
+      "name": "BL_Shock_c_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        -0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        14.328718,
+        -0.0,
+        -0.0
+      ],
+      "num_children": 1,
+      "parent_index": 5,
+      "color": 4294967295
+    },
+    {
+      "index": 7,
+      "name": "BL_Shock_B_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.0,
+        0.087165,
+        0.996194,
+        -0.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        4.026611
+      ],
+      "num_children": 0,
+      "parent_index": 6,
+      "color": 4294967295
+    },
+    {
+      "index": 8,
+      "name": "BR_axleShaft_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        -34.267139,
+        6.692914,
+        -4.301283
+      ],
+      "num_children": 1,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 9,
+      "name": "BR_Shock_c_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        0.0,
+        -0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        -14.328718,
+        -0.0,
+        -0.0
+      ],
+      "num_children": 1,
+      "parent_index": 8,
+      "color": 4294967295
+    },
+    {
+      "index": 10,
+      "name": "BR_Shock_B_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.087165,
+        0.996194,
+        -0.0
+      ],
+      "position_xyz": [
+        -0.0,
+        0.0,
+        4.026611
+      ],
+      "num_children": 0,
+      "parent_index": 9,
+      "color": 4294967295
+    },
+    {
+      "index": 11,
+      "name": "FL_Shock_A_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -9e-06,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        50.987999,
+        7.637661,
+        4.493802
+      ],
+      "num_children": 0,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 12,
+      "name": "BL_Shock_A_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.0,
+        0.087165,
+        0.996194,
+        -0.0
+      ],
+      "position_xyz": [
+        -34.267139,
+        -18.604834,
+        13.430136
+      ],
+      "num_children": 0,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 13,
+      "name": "BR_Shock_A_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.087165,
+        0.996194,
+        -0.0
+      ],
+      "position_xyz": [
+        -34.267139,
+        18.604834,
+        13.430136
+      ],
+      "num_children": 0,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 14,
+      "name": "FL_WheelTranslation_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        50.987999,
+        2.362205,
+        -7.166147
+      ],
+      "num_children": 1,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 15,
+      "name": "FL_Pivot_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -2.362205,
+        0.0
+      ],
+      "num_children": 2,
+      "parent_index": 14,
+      "color": 4294967295
+    },
+    {
+      "index": 16,
+      "name": "FL_Disc_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 15,
+      "color": 4294967295
+    },
+    {
+      "index": 17,
+      "name": "FL_Disc_geo_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 16,
+      "color": 4294967295
+    },
+    {
+      "index": 18,
+      "name": "FL_Brakepad_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 15,
+      "color": 4294967295
+    },
+    {
+      "index": 19,
+      "name": "BL_WheelTranslation_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        -34.267139,
+        -27.048811,
+        -4.301283
+      ],
+      "num_children": 2,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 20,
+      "name": "BL_Disc_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -2.362205,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 19,
+      "color": 4294967295
+    },
+    {
+      "index": 21,
+      "name": "BL_Disc_geo_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 20,
+      "color": 4294967295
+    },
+    {
+      "index": 22,
+      "name": "BL_Brakepad_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 19,
+      "color": 4294967295
+    },
+    {
+      "index": 23,
+      "name": "BR_WheelTranslation_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        -34.267139,
+        27.048811,
+        -4.301283
+      ],
+      "num_children": 2,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 24,
+      "name": "BR_Disc_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        2.362205,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 23,
+      "color": 4294967295
+    },
+    {
+      "index": 25,
+      "name": "BR_Disc_geo_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 24,
+      "color": 4294967295
+    },
+    {
+      "index": 26,
+      "name": "BR_Brakepad_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 23,
+      "color": 4294967295
+    }
+  ],
+  "materials": {
+    "ConfRibbons_D_Mat": {
+      "name": "ConfRibbons_D_Mat",
+      "export_index": 20,
+      "class": "Material",
+      "full_path": "Boost_Confetti.ConfRibbons_D_Mat",
+      "group_dir": "Boost_Confetti",
+      "properties": {
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            },
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 1,
+            "MaskB": 1
+          }
+        },
+        "Opacity": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Distortion": {
+          "_struct": "Vector2MaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "BlendMode": {
+          "enum": "EBlendMode",
+          "value": "BLEND_Translucent"
+        },
+        "LightingModel": {
+          "enum": "EMaterialLightingModel",
+          "value": "MLM_Unlit"
+        },
+        "WorldPositionOffset": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "TwoSided": true,
+        "bUsedWithStaticLighting": true,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 42,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            32
+          ],
+          "as_objects": [
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 32,
+              "name": "MaterialExpressionScalarParameter_0"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "BoostCone_Flame_Grad_Mat": {
+      "name": "BoostCone_Flame_Grad_Mat",
+      "export_index": 22,
+      "class": "Material",
+      "full_path": "Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Grad_Mat",
+      "group_dir": "Boost_Sec/AmbientBoost/Materials",
+      "properties": {
+        "Normal": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Opacity": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Distortion": {
+          "_struct": "Vector2MaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "BlendMode": {
+          "enum": "EBlendMode",
+          "value": "BLEND_Additive"
+        },
+        "LightingModel": {
+          "enum": "EMaterialLightingModel",
+          "value": "MLM_Unlit"
+        },
+        "WorldPositionOffset": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "TwoSided": true,
+        "bUsedWithParticleSprites": true,
+        "bUsedWithParticleSubUV": true,
+        "bUsedWithInstancedMeshParticles": true,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 57,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            126,
+            0,
+            33,
+            35,
+            127,
+            0,
+            0,
+            34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "as_objects": [
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 126,
+              "name": "MaterialExpressionVectorParameter_0"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 33,
+              "name": "MaterialExpressionScalarParameter_0"
+            },
+            {
+              "index": 35,
+              "name": "MaterialExpressionScalarParameter_2"
+            },
+            {
+              "index": 127,
+              "name": "MaterialExpressionVectorParameter_5"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 34,
+              "name": "MaterialExpressionScalarParameter_1"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "BoostCone_Flame_Mat": {
+      "name": "BoostCone_Flame_Mat",
+      "export_index": 23,
+      "class": "Material",
+      "full_path": "Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Mat",
+      "group_dir": "Boost_Sec/AmbientBoost/Materials",
+      "properties": {
+        "Normal": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Opacity": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Distortion": {
+          "_struct": "Vector2MaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "BlendMode": {
+          "enum": "EBlendMode",
+          "value": "BLEND_Additive"
+        },
+        "LightingModel": {
+          "enum": "EMaterialLightingModel",
+          "value": "MLM_Unlit"
+        },
+        "WorldPositionOffset": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "TwoSided": true,
+        "bUsedWithParticleSprites": true,
+        "bUsedWithParticleSubUV": true,
+        "bUsedWithInstancedMeshParticles": true,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 44,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            0,
+            0,
+            36,
+            37,
+            0,
+            0,
+            0,
+            0
+          ],
+          "as_objects": [
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 128,
+              "name": "MaterialExpressionVectorParameter_0"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 36,
+              "name": "MaterialExpressionScalarParameter_0"
+            },
+            {
+              "index": 37,
+              "name": "MaterialExpressionScalarParameter_2"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "BoostFXMesh_Mat": {
+      "name": "BoostFXMesh_Mat",
+      "export_index": 27,
+      "class": "Material",
+      "full_path": "FX_Parents.BoostFXMesh_Mat",
+      "group_dir": "FX_Parents",
+      "properties": {
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Opacity": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "BlendMode": {
+          "enum": "EBlendMode",
+          "value": "BLEND_Translucent"
+        },
+        "LightingModel": {
+          "enum": "EMaterialLightingModel",
+          "value": "MLM_Unlit"
+        },
+        "WorldPositionOffset": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "TwoSided": true,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 65,
+          "values": [
+            43,
+            132,
+            0,
+            48,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            49,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            45,
+            46,
+            47,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            44,
+            0,
+            0,
+            0
+          ],
+          "as_objects": [
+            {
+              "index": 43,
+              "name": "MaterialExpressionScalarParameter_0"
+            },
+            {
+              "index": 132,
+              "name": "MaterialExpressionVectorParameter_2"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 48,
+              "name": "MaterialExpressionScalarParameter_7"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 49,
+              "name": "MaterialExpressionScalarParameter_9"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 45,
+              "name": "MaterialExpressionScalarParameter_15"
+            },
+            {
+              "index": 46,
+              "name": "MaterialExpressionScalarParameter_16"
+            },
+            {
+              "index": 47,
+              "name": "MaterialExpressionScalarParameter_18"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 44,
+              "name": "MaterialExpressionScalarParameter_1"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "MaterialFunctionInfos": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "StateId": "28fc02fa97af5242ad68fd5bdce395ea",
+              "Function": {
+                "index": 148,
+                "name": "VS_BoostStretch",
+                "full_path": "Psy_MaterialFunctions.VS_BoostStretch"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "MIC_Body_Tritip": {
+      "name": "MIC_Body_Tritip",
+      "export_index": 152,
+      "class": "MaterialInstanceConstant",
+      "full_path": "body_tritip.MIC_Body_Tritip",
+      "group_dir": "body_tritip",
+      "properties": {
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 7,
+          "elements": [
+            {
+              "ParameterName": "BodyMasks",
+              "ParameterValue": {
+                "index": 443,
+                "name": "Tritip_BlankSkin",
+                "full_path": "body_tritip.Tritip_BlankSkin"
+              },
+              "ExpressionGUID": "b6394959d582f24e8d745686cc349f12"
+            },
+            {
+              "ParameterName": "CurvaturePack",
+              "ParameterValue": {
+                "index": 442,
+                "name": "Body_Tritip_Curvature",
+                "full_path": "body_tritip.Body_Tritip_Curvature"
+              },
+              "ExpressionGUID": "3e5d815ef775cd4482dd56412e61a7e3"
+            },
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 444,
+                "name": "Tritip_Body_D",
+                "full_path": "body_tritip.Tritip_Body_D"
+              },
+              "ExpressionGUID": "71b786375fad894a889ca31eec008a34"
+            },
+            {
+              "ParameterName": "Normal",
+              "ParameterValue": {
+                "index": 0,
+                "name": "None",
+                "full_path": ""
+              },
+              "ExpressionGUID": "3d0c5468df9a6341881e98060d8118ce"
+            },
+            {
+              "ParameterName": "Skin",
+              "ParameterValue": {
+                "index": 443,
+                "name": "Tritip_BlankSkin",
+                "full_path": "body_tritip.Tritip_BlankSkin"
+              },
+              "ExpressionGUID": "a57124e1442757488670cdcc493600f7"
+            },
+            {
+              "ParameterName": "F1DetailNormal",
+              "ParameterValue": {
+                "index": -160,
+                "name": "Blank_N",
+                "full_path": "Detail_Blank.Blank_N"
+              },
+              "ExpressionGUID": "1ff700915f7b994ea82a2f8a67378f78"
+            },
+            {
+              "ParameterName": "F2DetailNormal",
+              "ParameterValue": {
+                "index": -160,
+                "name": "Blank_N",
+                "full_path": "Detail_Blank.Blank_N"
+              },
+              "ExpressionGUID": "141194712488fd49afe1c4519224f3a9"
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "TrimColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.08,
+                "g": 0.08,
+                "b": 0.08,
+                "a": 1.0
+              },
+              "ExpressionGUID": "70203be27e2a0f4895804ca4fa989e44"
+            }
+          ]
+        },
+        "Parent": {
+          "index": -133,
+          "name": "MIC_Body_Paintable_All",
+          "full_path": "Vehicle_Parent_Materials.MIC_Body_Paintable_All"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": "f1c9b3cb9772ff41a3305f7f28d9c054",
+        "bHasQualitySwitch": true
+      }
+    },
+    "ConfRibbons_MIC": {
+      "name": "ConfRibbons_MIC",
+      "export_index": 153,
+      "class": "MaterialInstanceConstant",
+      "full_path": "Boost_Confetti.ConfRibbons_MIC",
+      "group_dir": "Boost_Confetti",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "Speed",
+              "ParameterValue": 10.0,
+              "ExpressionGUID": "4aaaa5eed3444147b7b80a287069ab16"
+            }
+          ]
+        },
+        "Parent": {
+          "index": 20,
+          "name": "ConfRibbons_D_Mat",
+          "full_path": "Boost_Confetti.ConfRibbons_D_Mat"
+        },
+        "ParentLightingGuid": "fd0b44d08757d34e8f7cf64681d2a466"
+      }
+    },
+    "BoostCone_Flame_Grad_MIC": {
+      "name": "BoostCone_Flame_Grad_MIC",
+      "export_index": 154,
+      "class": "MaterialInstanceConstant",
+      "full_path": "Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Grad_MIC",
+      "group_dir": "Boost_Sec/AmbientBoost/Materials",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "GradientPower",
+              "ParameterValue": 4.0,
+              "ExpressionGUID": "18ffbc15f3ee7346aaa4760fd7c0782e"
+            }
+          ]
+        },
+        "Parent": {
+          "index": 22,
+          "name": "BoostCone_Flame_Grad_Mat",
+          "full_path": "Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Grad_Mat"
+        },
+        "ParentLightingGuid": "0dd327e3b7585d42931af641fc99b703"
+      }
+    },
+    "BoostCone_Flame_MIC": {
+      "name": "BoostCone_Flame_MIC",
+      "export_index": 155,
+      "class": "MaterialInstanceConstant",
+      "full_path": "Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_MIC",
+      "group_dir": "Boost_Sec/AmbientBoost/Materials",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "PanSpeed",
+              "ParameterValue": 0.25,
+              "ExpressionGUID": "d2e4402f66403c408cc64aafd86cf5a1"
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "Color",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.003162,
+                "g": 0.387169,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "ExpressionGUID": "25a903bf9df8c24c9b693c9d451f16cd"
+            }
+          ]
+        },
+        "Parent": {
+          "index": 23,
+          "name": "BoostCone_Flame_Mat",
+          "full_path": "Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Mat"
+        },
+        "ParentLightingGuid": "4ef0b2c7bfb5da45842951616cb28661"
+      }
+    },
+    "BoostFXMesh_Cone_MIC": {
+      "name": "BoostFXMesh_Cone_MIC",
+      "export_index": 157,
+      "class": "MaterialInstanceConstant",
+      "full_path": "FX_Parents.BoostFXMesh_Cone_MIC",
+      "group_dir": "FX_Parents",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 1,
+          "elements": [
+            {
+              "ParameterName": "ConeLength",
+              "ParameterValue": 1.0,
+              "ExpressionGUID": "fc06818d3b38ac47bc28fda504370107"
+            }
+          ]
+        },
+        "Parent": {
+          "index": 27,
+          "name": "BoostFXMesh_Mat",
+          "full_path": "FX_Parents.BoostFXMesh_Mat"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": "a2ea38e8d599f64e8770011b2d6efc5e"
+      }
+    }
+  },
+  "textures": {
+    "Body_Octane_Bevel_N": {
+      "name": "Body_Octane_Bevel_N",
+      "export_index": 431,
+      "full_path": "Body_Octane_Textures.Body_Octane_Bevel_N",
+      "group_dir": "Body_Octane_Textures",
+      "format": "PF_DXT5",
+      "compression_settings": "TC_NormalmapSwizzle",
+      "srgb": false,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5,
+        "SRGB": false,
+        "UnpackMin": -1.0,
+        "UnpackMin[1]": -1.0,
+        "UnpackMin[2]": -1.0,
+        "CompressionSettings": {
+          "enum": "TextureCompressionSettings",
+          "value": "TC_NormalmapSwizzle"
+        },
+        "LODGroup": {
+          "enum": "TextureGroup",
+          "value": "TEXTUREGROUP_WorldNormalMap"
+        }
+      }
+    },
+    "Body_Octane_Bevel_RGB": {
+      "name": "Body_Octane_Bevel_RGB",
+      "export_index": 432,
+      "full_path": "Body_Octane_Textures.Body_Octane_Bevel_RGB",
+      "group_dir": "Body_Octane_Textures",
+      "format": "PF_A8R8G8B8",
+      "compression_settings": "",
+      "srgb": false,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16384
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 10,
+          "width": 2,
+          "height": 2,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 1,
+          "height": 1,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_A8R8G8B8"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5,
+        "SRGB": false,
+        "bIsSourceArtUncompressed": true,
+        "CompressionNone": true
+      }
+    },
+    "Body_Tritip_Curvature": {
+      "name": "Body_Tritip_Curvature",
+      "export_index": 442,
+      "full_path": "body_tritip.Body_Tritip_Curvature",
+      "group_dir": "body_tritip",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures5",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 2048
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 512
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "TextureFileCacheName": "Textures5",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "Tritip_BlankSkin": {
+      "name": "Tritip_BlankSkin",
+      "export_index": 443,
+      "full_path": "body_tritip.Tritip_BlankSkin",
+      "group_dir": "body_tritip",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures5",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures5",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "Tritip_Body_D": {
+      "name": "Tritip_Body_D",
+      "export_index": 444,
+      "full_path": "body_tritip.Tritip_Body_D",
+      "group_dir": "body_tritip",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures5",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 2048
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 512
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "TextureFileCacheName": "Textures5",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "confettiRibbons_T": {
+      "name": "confettiRibbons_T",
+      "export_index": 446,
+      "full_path": "Boost_Confetti.confettiRibbons_T",
+      "group_dir": "Boost_Confetti",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        1024,
+        1024
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 2048
+        },
+        {
+          "mip_index": 5,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 512
+        },
+        {
+          "mip_index": 6,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 7,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 8,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 1024,
+        "SizeY": 1024,
+        "OriginalSizeX": 1024,
+        "OriginalSizeY": 1024,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "AddressX": {
+          "enum": "TextureAddress",
+          "value": "TA_Clamp"
+        },
+        "AddressY": {
+          "enum": "TextureAddress",
+          "value": "TA_Clamp"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 10,
+        "FirstResourceMemMip": 4
+      }
+    },
+    "CloudDistort_T": {
+      "name": "CloudDistort_T",
+      "export_index": 448,
+      "full_path": "Boost_Propulsion.CloudDistort_T",
+      "group_dir": "Boost_Propulsion",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        1024,
+        1024
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures4",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 2048
+        },
+        {
+          "mip_index": 5,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 512
+        },
+        {
+          "mip_index": 6,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 7,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 8,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 1024,
+        "SizeY": 1024,
+        "OriginalSizeX": 1024,
+        "OriginalSizeY": 1024,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "TextureFileCacheName": "Textures4",
+        "MipTailBaseIdx": 10,
+        "FirstResourceMemMip": 4
+      }
+    },
+    "DarkClouds_T": {
+      "name": "DarkClouds_T",
+      "export_index": 449,
+      "full_path": "Boost_Propulsion.DarkClouds_T",
+      "group_dir": "Boost_Propulsion",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        1024,
+        1024
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures4",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 5,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 6,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 7,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 8,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 1024,
+        "SizeY": 1024,
+        "OriginalSizeX": 1024,
+        "OriginalSizeY": 1024,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures4",
+        "MipTailBaseIdx": 10,
+        "FirstResourceMemMip": 4,
+        "MipGenSettings": {
+          "enum": "TextureMipGenSettings",
+          "value": "TMGS_Sharpen5"
+        }
+      }
+    },
+    "Boost_CLUT": {
+      "name": "Boost_CLUT",
+      "export_index": 450,
+      "full_path": "Boost_Sec.Global.Textures.Boost_CLUT",
+      "group_dir": "Boost_Sec/Global/Textures",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        256,
+        16
+      ],
+      "inline_mip_size": [
+        64,
+        4
+      ],
+      "texture_file_cache_name": "Textures",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 256,
+          "height": 16,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 128,
+          "height": 8,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 64,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 3,
+          "width": 32,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 4,
+          "width": 16,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 5,
+          "width": 8,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 6,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 7,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 8,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 256,
+        "SizeY": 16,
+        "OriginalSizeX": 256,
+        "OriginalSizeY": 16,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "AddressX": {
+          "enum": "TextureAddress",
+          "value": "TA_Clamp"
+        },
+        "AddressY": {
+          "enum": "TextureAddress",
+          "value": "TA_Clamp"
+        },
+        "TextureFileCacheName": "Textures",
+        "MipTailBaseIdx": 8,
+        "FirstResourceMemMip": 2
+      }
+    },
+    "BoostShape_RGB": {
+      "name": "BoostShape_RGB",
+      "export_index": 455,
+      "full_path": "FX_Parents_Textures.BoostShape_RGB",
+      "group_dir": "FX_Parents_Textures",
+      "format": "PF_A8R8G8B8",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        128,
+        128
+      ],
+      "inline_mip_size": [
+        32,
+        32
+      ],
+      "texture_file_cache_name": "Textures7",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 128,
+          "height": 128,
+          "flags": "0x21",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 64,
+          "height": 64,
+          "flags": "0x21",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 3,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 4,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 5,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 6,
+          "width": 2,
+          "height": 2,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 7,
+          "width": 1,
+          "height": 1,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4
+        }
+      ],
+      "properties": {
+        "SizeX": 128,
+        "SizeY": 128,
+        "OriginalSizeX": 128,
+        "OriginalSizeY": 128,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_A8R8G8B8"
+        },
+        "AddressX": {
+          "enum": "TextureAddress",
+          "value": "TA_Clamp"
+        },
+        "AddressY": {
+          "enum": "TextureAddress",
+          "value": "TA_Clamp"
+        },
+        "TextureFileCacheName": "Textures7",
+        "MipTailBaseIdx": 7,
+        "FirstResourceMemMip": 2,
+        "bIsSourceArtUncompressed": true,
+        "CompressionNone": true,
+        "DeferCompression": true,
+        "LODBias": 2
+      }
+    },
+    "Endo_Chassis_D": {
+      "name": "Endo_Chassis_D",
+      "export_index": null,
+      "full_path": "SharedDependency.Endo_Chassis_D",
+      "group_dir": "shared_dependencies",
+      "format": "PF_DXT5/Shared",
+      "compression_settings": "TC_Default",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures",
+      "mips": [],
+      "properties": {
+        "Source": "Imported UPK dependency (origin/octane:textures/Endo_Chassis_D.png)"
+      }
+    },
+    "Endo_Chassis_N": {
+      "name": "Endo_Chassis_N",
+      "export_index": null,
+      "full_path": "SharedDependency.Endo_Chassis_N",
+      "group_dir": "shared_dependencies",
+      "format": "PF_DXT5/Shared",
+      "compression_settings": "TC_NormalmapSwizzle",
+      "srgb": false,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures",
+      "mips": [],
+      "properties": {
+        "Source": "Imported UPK dependency (origin/octane:textures/Endo_Chassis_N.png)"
+      }
+    },
+    "Endo_Chassis_RGB": {
+      "name": "Endo_Chassis_RGB",
+      "export_index": null,
+      "full_path": "SharedDependency.Endo_Chassis_RGB",
+      "group_dir": "shared_dependencies",
+      "format": "PF_DXT5/Shared",
+      "compression_settings": "TC_Default",
+      "srgb": false,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures",
+      "mips": [],
+      "properties": {
+        "Source": "Imported UPK dependency (origin/octane:textures/Endo_Chassis_RGB.png)"
+      }
+    },
+    "T_Octane_BodyTextures": {
+      "name": "T_Octane_BodyTextures",
+      "export_index": null,
+      "full_path": "SharedDependency.T_Octane_BodyTextures",
+      "group_dir": "shared_dependencies",
+      "format": "PF_DXT5/Shared",
+      "compression_settings": "TC_Default",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures",
+      "mips": [],
+      "properties": {
+        "Source": "Imported UPK dependency (origin/octane:textures/T_Octane_BodyTextures.png)"
+      }
+    }
+  },
+  "surface_regions_summary": [
+    {
+      "region_id": 0,
+      "material_name": "Tritip_Chassis_Headlight_And_Taillight_Emissive",
+      "display_name": "车头大灯发光体与尾灯/喷口发光组件 (Chassis Headlights & Taillights Emissive)",
+      "original_section_index": 0,
+      "triangle_count": 187,
+      "vertex_count": 226,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && (Endo_Chassis_RGB.R > 80 || G > 80 || B > 80)"
+    },
+    {
+      "region_id": 1,
+      "material_name": "Tritip_Chassis_FrontSingleWheel_Suspension",
+      "display_name": "前部中置单轮转向叉、减震器与前轴总成 (Centerline Single Front Wheel Suspension)",
+      "original_section_index": 0,
+      "triangle_count": 81,
+      "vertex_count": 65,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && PrimaryBone in {FL_axleShaft_jnt, FL_Shock_c_jnt, FL_Pivot_jnt}"
+    },
+    {
+      "region_id": 2,
+      "material_name": "Tritip_Chassis_RearWheels_Suspension",
+      "display_name": "后桥双轮独立悬挂减震器与传动半轴 (Rear Left/Right Suspension & Axles)",
+      "original_section_index": 0,
+      "triangle_count": 1652,
+      "vertex_count": 1292,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && PrimaryBone in {BL/BR_Shock_A/B/c_jnt, BL/BR_axleShaft_jnt, BL/BR_WheelTranslation_jnt}"
+    },
+    {
+      "region_id": 3,
+      "material_name": "Tritip_Chassis_ThreeWheel_BrakeDiscs_And_Calipers",
+      "display_name": "三轮刹车盘与卡钳总成（前单轮 + 后双轮） (Three-Wheel Brake Discs & Calipers)",
+      "original_section_index": 0,
+      "triangle_count": 1184,
+      "vertex_count": 996,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && PrimaryBone in {FL_Disc_geo_jnt, FL_Brakepad_jnt, BL_Disc_geo_jnt, BL_Brakepad_jnt, BR_Disc_geo_jnt, BR_Brakepad_jnt}"
+    },
+    {
+      "region_id": 4,
+      "material_name": "Tritip_Chassis_BrushedMetal_Engine_And_Exhaust",
+      "display_name": "外露后置引擎缸体、排气管与防滚架金属件 (Exposed Engine Block & Exhaust Metal)",
+      "original_section_index": 0,
+      "triangle_count": 3251,
+      "vertex_count": 3029,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && Bone==chassis_jnt && Endo_Chassis_D.MeanRGB > 45"
+    },
+    {
+      "region_id": 5,
+      "material_name": "Tritip_Chassis_Frame_Undercarriage",
+      "display_name": "钢管车架、底盘护板与散热器格栅 (Tubular Frame & Undercarriage)",
+      "original_section_index": 0,
+      "triangle_count": 5720,
+      "vertex_count": 5282,
+      "classification_rule": "Section 0 (OctaneChassis_MIC) && Bone==chassis_jnt && Endo_Chassis_D.MeanRGB <= 45"
+    },
+    {
+      "region_id": 6,
+      "material_name": "Tritip_OctaneBody_PrimaryPaint",
+      "display_name": "主车壳与尾翼金属车漆涂装层 (Octane Main Body Primary Paint - Slot 1)",
+      "original_section_index": 1,
+      "triangle_count": 4839,
+      "vertex_count": 3524,
+      "classification_rule": "Section 1 (MIC_Body_Octane) && Body_Octane_Bevel_RGB.A > 128 && Body_Octane_Bevel_RGB.B <= 128"
+    },
+    {
+      "region_id": 7,
+      "material_name": "Tritip_OctaneBody_Windshield_And_WindowVisor",
+      "display_name": "座舱前挡风玻璃与侧窗深色玻璃面罩 (Cockpit Windshield & Side Window Visors - Slot 1)",
+      "original_section_index": 1,
+      "triangle_count": 2332,
+      "vertex_count": 1646,
+      "classification_rule": "Section 1 (MIC_Body_Octane) && Body_Octane_Bevel_RGB.B > 128"
+    },
+    {
+      "region_id": 8,
+      "material_name": "Tritip_OctaneBody_Trim_BlackPlastic",
+      "display_name": "车窗边框、侧进气口与深色塑料饰件 (Octane Body Black Plastic Trim - Slot 1)",
+      "original_section_index": 1,
+      "triangle_count": 1453,
+      "vertex_count": 1294,
+      "classification_rule": "Section 1 (MIC_Body_Octane) && Body_Octane_Bevel_RGB.A <= 128 && Body_Octane_Bevel_RGB.B <= 128"
+    },
+    {
+      "region_id": 9,
+      "material_name": "Tritip_NoseCone_PrimaryPaint",
+      "display_name": "三轮改装版前部收窄车头鼻锥与单轮整流罩车漆层 (Tritip Three-Wheel Nose Cone Primary Paint - Slot 2)",
+      "original_section_index": 2,
+      "triangle_count": 945,
+      "vertex_count": 596,
+      "classification_rule": "Section 2 (MIC_Body_Tritip, Slot 2) && Tritip_BlankSkin.R == 255 && Exterior Shell (Z >= -1.5 && Normal.Z >= -0.45)"
+    },
+    {
+      "region_id": 10,
+      "material_name": "Tritip_NoseCone_LowerTrim_And_WheelWell",
+      "display_name": "三轮车头下部前唇与中央单轮轮拱内衬饰件 (Tritip Nose Cone Lower Trim & Single-Wheel Well - Slot 2)",
+      "original_section_index": 2,
+      "triangle_count": 507,
+      "vertex_count": 368,
+      "classification_rule": "Section 2 (MIC_Body_Tritip, Slot 2) && (Z < -1.5 || Normal.Z < -0.45) (TrimColor=[0.08, 0.08, 0.08])"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+SizeX = 1024
+SizeY = 1024
+OriginalSizeX = 1024
+OriginalSizeY = 1024
+Format = PF_DXT1
+AddressX = TA_Clamp
+AddressY = TA_Clamp
+TextureFileCacheName = Textures2
+MipTailBaseIdx = 10
+FirstResourceMemMip = 4

@@ -1,0 +1,8 @@
+SizeX = 2048
+SizeY = 2048
+OriginalSizeX = 2048
+OriginalSizeY = 2048
+Format = PF_DXT5
+TextureFileCacheName = Textures5
+MipTailBaseIdx = 11
+FirstResourceMemMip = 5

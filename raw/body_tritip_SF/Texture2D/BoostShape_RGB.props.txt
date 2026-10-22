@@ -1,0 +1,14 @@
+SizeX = 128
+SizeY = 128
+OriginalSizeX = 128
+OriginalSizeY = 128
+Format = PF_A8R8G8B8
+AddressX = TA_Clamp
+AddressY = TA_Clamp
+TextureFileCacheName = Textures7
+MipTailBaseIdx = 7
+FirstResourceMemMip = 2
+bIsSourceArtUncompressed = True
+CompressionNone = True
+DeferCompression = True
+LODBias = 2

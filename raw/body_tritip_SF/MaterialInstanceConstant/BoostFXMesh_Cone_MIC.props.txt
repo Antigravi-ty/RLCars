@@ -1,0 +1,12 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = ConeLength
+        ParameterValue = 1.0
+        ExpressionGUID = fc06818d3b38ac47bc28fda504370107
+    }
+}
+Parent = FX_Parents.BoostFXMesh_Mat
+bHasStaticPermutationResource = True
+ParentLightingGuid = a2ea38e8d599f64e8770011b2d6efc5e

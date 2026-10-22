@@ -1,0 +1,11 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = GradientPower
+        ParameterValue = 4.0
+        ExpressionGUID = 18ffbc15f3ee7346aaa4760fd7c0782e
+    }
+}
+Parent = Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Grad_Mat
+ParentLightingGuid = 0dd327e3b7585d42931af641fc99b703

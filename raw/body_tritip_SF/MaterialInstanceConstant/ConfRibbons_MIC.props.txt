@@ -1,0 +1,11 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = Speed
+        ParameterValue = 10.0
+        ExpressionGUID = 4aaaa5eed3444147b7b80a287069ab16
+    }
+}
+Parent = Boost_Confetti.ConfRibbons_D_Mat
+ParentLightingGuid = fd0b44d08757d34e8f7cf64681d2a466

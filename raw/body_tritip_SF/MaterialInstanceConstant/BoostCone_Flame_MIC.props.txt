@@ -1,0 +1,20 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = PanSpeed
+        ParameterValue = 0.25
+        ExpressionGUID = d2e4402f66403c408cc64aafd86cf5a1
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = Color
+        ParameterValue = { R=0.003162, G=0.387169, B=1.0, A=1.0 }
+        ExpressionGUID = 25a903bf9df8c24c9b693c9d451f16cd
+    }
+}
+Parent = Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Mat
+ParentLightingGuid = 4ef0b2c7bfb5da45842951616cb28661

@@ -1,0 +1,7 @@
+Parent=MIC_Body_Paintable_All
+Other[0]=Tritip_BlankSkin
+Other[1]=Body_Tritip_Curvature
+Diffuse=Tritip_Body_D
+Other[2]=Tritip_BlankSkin
+Other[3]=Blank_N
+Other[4]=Blank_N

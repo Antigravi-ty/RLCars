@@ -1,0 +1,9 @@
+SizeX = 1024
+SizeY = 1024
+OriginalSizeX = 1024
+OriginalSizeY = 1024
+Format = PF_DXT5
+TextureFileCacheName = Textures4
+MipTailBaseIdx = 10
+FirstResourceMemMip = 4
+MipGenSettings = TMGS_Sharpen5
