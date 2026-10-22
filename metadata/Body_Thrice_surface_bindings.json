@@ -1,0 +1,1444 @@
+{
+  "mesh_name": "Body_Thrice_SK",
+  "total_vertices": 57002,
+  "total_triangles": 90362,
+  "original_sections_count": 6,
+  "detailed_surface_regions_count": 16,
+  "original_sections": [
+    {
+      "region_id": 0,
+      "material_name": "Slot0_MIC_Thrice_Chassis",
+      "display_name": "Original UE3 Section 0 (MIC_Thrice_Chassis)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_Thrice_Chassis",
+      "triangle_count": 29432,
+      "vertex_count": 19894,
+      "classification_rule": "Original FSkelMeshSection[0] (FirstIndex=0, NumTriangles=29432)",
+      "evidence": {
+        "section": {
+          "section_index": 0,
+          "material_index": 0,
+          "material_name": "MIC_Thrice_Chassis",
+          "chunk_index": 0,
+          "first_index": 0,
+          "num_triangles": 29432,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -63.0453,
+          -32.1162,
+          -12.2744
+        ],
+        "max": [
+          84.1079,
+          32.1285,
+          26.4085
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0001,
+          0.0009
+        ],
+        "max": [
+          1.9971,
+          0.9985
+        ]
+      },
+      "rigged_bones": [
+        "BL_Brakepad_jnt",
+        "BL_Disc_geo_jnt",
+        "BL_Shock_A_jnt",
+        "BL_Shock_B_jnt",
+        "BL_WheelTranslation_jnt",
+        "BL_axleShaft_jnt",
+        "BR_Brakepad_jnt",
+        "BR_Disc_geo_jnt",
+        "BR_Shock_A_jnt",
+        "BR_Shock_B_jnt",
+        "BR_WheelTranslation_jnt",
+        "BR_axleShaft_jnt",
+        "FL_Brakepad_jnt",
+        "FL_Disc_geo_jnt",
+        "FL_Pivot_jnt",
+        "FL_Shock_A_jnt",
+        "FL_Shock_B_jnt",
+        "FL_Shock_c_jnt",
+        "FL_axleShaft_jnt",
+        "FR_Brakepad_jnt",
+        "FR_Disc_geo_jnt",
+        "FR_Pivot_jnt",
+        "FR_Shock_A_jnt",
+        "FR_Shock_B_jnt",
+        "FR_Shock_c_jnt",
+        "FR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.65,
+        "roughnessFactor": 0.45,
+        "emissiveFactor": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Chassis_BaseColor",
+        "mrTex": "Thrice_Chassis_MetallicRoughness",
+        "normalTex": "Thrice_Chassis_Normal",
+        "emissiveTex": "Thrice_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 1,
+      "material_name": "Slot1_MAT_Lens_VertColor",
+      "display_name": "Original UE3 Section 1 (MAT_Lens_VertColor)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MAT_Lens_VertColor",
+      "triangle_count": 852,
+      "vertex_count": 489,
+      "classification_rule": "Original FSkelMeshSection[1] (FirstIndex=88296, NumTriangles=852)",
+      "evidence": {
+        "section": {
+          "section_index": 1,
+          "material_index": 1,
+          "material_name": "MAT_Lens_VertColor",
+          "chunk_index": 1,
+          "first_index": 88296,
+          "num_triangles": 852,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -56.6504,
+          -23.8578,
+          17.7223
+        ],
+        "max": [
+          -21.5937,
+          23.8594,
+          26.1913
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.8164,
+          0.0025
+        ],
+        "max": [
+          0.998,
+          0.1249
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.08,
+          0.09,
+          0.11,
+          0.62
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.1,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 2,
+      "material_name": "Slot2_MAT_Lens_VertColor",
+      "display_name": "Original UE3 Section 2 (MAT_Lens_VertColor)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MAT_Lens_VertColor",
+      "triangle_count": 1356,
+      "vertex_count": 1062,
+      "classification_rule": "Original FSkelMeshSection[2] (FirstIndex=90852, NumTriangles=1356)",
+      "evidence": {
+        "section": {
+          "section_index": 2,
+          "material_index": 2,
+          "material_name": "MAT_Lens_VertColor",
+          "chunk_index": 2,
+          "first_index": 90852,
+          "num_triangles": 1356,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -63.0325,
+          -31.6192,
+          -1.9913
+        ],
+        "max": [
+          84.1459,
+          31.6208,
+          26.4643
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          -0.9688,
+          0.0016
+        ],
+        "max": [
+          2.1191,
+          0.9492
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.85,
+          0.45,
+          0.35,
+          0.68
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.35,
+          0.15,
+          0.1
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 3,
+      "material_name": "Slot3_MIC_Thrice_Body_T1",
+      "display_name": "Original UE3 Section 3 (MIC_Thrice_Body_T1)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 3,
+      "original_material_slot": 3,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 29120,
+      "vertex_count": 17210,
+      "classification_rule": "Original FSkelMeshSection[3] (FirstIndex=94920, NumTriangles=29120)",
+      "evidence": {
+        "section": {
+          "section_index": 3,
+          "material_index": 3,
+          "material_name": "MIC_Thrice_Body_T1",
+          "chunk_index": 3,
+          "first_index": 94920,
+          "num_triangles": 29120,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -65.3304,
+          -34.6991,
+          -11.1899
+        ],
+        "max": [
+          85.8521,
+          34.6991,
+          26.6251
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0005,
+          0.0042
+        ],
+        "max": [
+          1.5752,
+          0.9995
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.22,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Body_Paint_BaseColor",
+        "mrTex": "Thrice_Body_MetallicRoughness",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    },
+    {
+      "region_id": 4,
+      "material_name": "Slot4_MIC_Thrice_Body_T1",
+      "display_name": "Original UE3 Section 4 (MIC_Thrice_Body_T1)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 4,
+      "original_material_slot": 4,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 29016,
+      "vertex_count": 17961,
+      "classification_rule": "Original FSkelMeshSection[4] (FirstIndex=182280, NumTriangles=29016)",
+      "evidence": {
+        "section": {
+          "section_index": 4,
+          "material_index": 4,
+          "material_name": "MIC_Thrice_Body_T1",
+          "chunk_index": 4,
+          "first_index": 182280,
+          "num_triangles": 29016,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -64.8,
+          -36.2672,
+          -12.4855
+        ],
+        "max": [
+          87.5464,
+          36.2672,
+          26.406
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0012,
+          0.002
+        ],
+        "max": [
+          1.999,
+          0.999
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.18,
+        "roughnessFactor": 0.55,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Body_Trim_BaseColor",
+        "mrTex": "Thrice_Body_MetallicRoughness",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    },
+    {
+      "region_id": 5,
+      "material_name": "Slot5_MIC_Thrice_Body_T1",
+      "display_name": "Original UE3 Section 5 (MIC_Thrice_Body_T1)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 5,
+      "original_material_slot": 5,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 586,
+      "vertex_count": 386,
+      "classification_rule": "Original FSkelMeshSection[5] (FirstIndex=269328, NumTriangles=586)",
+      "evidence": {
+        "section": {
+          "section_index": 5,
+          "material_index": 5,
+          "material_name": "MIC_Thrice_Body_T1",
+          "chunk_index": 5,
+          "first_index": 269328,
+          "num_triangles": 586,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -16.9082,
+          -24.3191,
+          12.7283
+        ],
+        "max": [
+          37.6478,
+          24.3191,
+          24.1883
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.6753,
+          0.0028
+        ],
+        "max": [
+          1.8701,
+          0.1194
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.1,
+          0.13,
+          0.16,
+          0.86
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    }
+  ],
+  "detailed_surface_regions": [
+    {
+      "region_id": 0,
+      "material_name": "Thrice_Chassis_Headlight_Emissive",
+      "display_name": "前大灯发光灯碗与日行灯内腔 (Chassis Headlight Emissive)",
+      "category": "Chassis_Lights",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_Thrice_Chassis",
+      "triangle_count": 508,
+      "vertex_count": 406,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && chassis_Thrice_rgb.R > 80",
+      "evidence": {
+        "mask_texture": "chassis_Thrice_rgb (Channel R = Headlight Mask)",
+        "shader_parameter": "HeadlightColor=(0.5, 0.8, 1.0), HeadlightBrightness=200.0"
+      },
+      "bounds_uu": {
+        "min": [
+          -62.8815,
+          -29.3837,
+          -10.7917
+        ],
+        "max": [
+          69.532,
+          29.396,
+          19.605
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.001,
+          0.0705
+        ],
+        "max": [
+          1.7754,
+          0.502
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.75,
+          0.9,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.15,
+        "emissiveFactor": [
+          0.5,
+          0.8,
+          1.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Chassis_BaseColor",
+        "mrTex": "Thrice_Chassis_MetallicRoughness",
+        "normalTex": "Thrice_Chassis_Normal",
+        "emissiveTex": "Thrice_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 1,
+      "material_name": "Thrice_Chassis_Taillight_And_BoostGlow",
+      "display_name": "尾灯发光灯带与尾喷口内腔发光 (Chassis Taillight & BoostGlow)",
+      "category": "Chassis_Lights",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_Thrice_Chassis",
+      "triangle_count": 366,
+      "vertex_count": 371,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && (chassis_Thrice_rgb.G > 80 || chassis_Thrice_rgb.B > 80)",
+      "evidence": {
+        "mask_texture": "chassis_Thrice_rgb (Channel G = Taillight Mask, Channel B = BoostGlow Mask)",
+        "shader_parameter": "TailLightColor=(1.0, 0.0, 0.0), BoostGlowColor=(3.0, 0.1326, 0.0)"
+      },
+      "bounds_uu": {
+        "min": [
+          -62.3017,
+          -28.9071,
+          -7.7653
+        ],
+        "max": [
+          83.9425,
+          28.9194,
+          16.4636
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0047,
+          0.0377
+        ],
+        "max": [
+          1.9863,
+          0.6885
+        ]
+      },
+      "rigged_bones": [
+        "FL_axleShaft_jnt",
+        "FR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          0.2,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.2,
+        "emissiveFactor": [
+          1.0,
+          0.12,
+          0.02
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Chassis_BaseColor",
+        "mrTex": "Thrice_Chassis_MetallicRoughness",
+        "normalTex": "Thrice_Chassis_Normal",
+        "emissiveTex": "Thrice_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 2,
+      "material_name": "Thrice_Chassis_BrakeDiscs_And_Calipers",
+      "display_name": "四轮通风刹车盘与刹车卡钳 (Brake Discs & Calipers)",
+      "category": "Chassis_Brakes",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_Thrice_Chassis",
+      "triangle_count": 2368,
+      "vertex_count": 1490,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && PrimaryBone in {FL/FR/BL/BR_Disc_geo_jnt, FL/FR/BL/BR_Brakepad_jnt}",
+      "evidence": {
+        "bone_binding": "FL_Disc_geo_jnt, FR_Disc_geo_jnt, BL_Disc_geo_jnt, BR_Disc_geo_jnt, FL/FR/BL/BR_Brakepad_jnt",
+        "diffuse_texture": "chassis_Thrice_d"
+      },
+      "bounds_uu": {
+        "min": [
+          -45.516,
+          -32.1162,
+          -11.4275
+        ],
+        "max": [
+          59.0792,
+          32.1285,
+          1.4192
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.005,
+          0.0014
+        ],
+        "max": [
+          1.9639,
+          0.8589
+        ]
+      },
+      "rigged_bones": [
+        "BL_Brakepad_jnt",
+        "BL_Disc_geo_jnt",
+        "BR_Brakepad_jnt",
+        "BR_Disc_geo_jnt",
+        "FL_Brakepad_jnt",
+        "FL_Disc_geo_jnt",
+        "FR_Brakepad_jnt",
+        "FR_Disc_geo_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.72,
+          0.74,
+          0.76,
+          1.0
+        ],
+        "metallicFactor": 0.85,
+        "roughnessFactor": 0.3,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Chassis_BaseColor",
+        "mrTex": "Thrice_Chassis_MetallicRoughness",
+        "normalTex": "Thrice_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 3,
+      "material_name": "Thrice_Chassis_Suspension_And_Axles",
+      "display_name": "前后桥减震器弹簧与传动半轴 (Suspension Shocks & Axles)",
+      "category": "Chassis_Suspension",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_Thrice_Chassis",
+      "triangle_count": 4142,
+      "vertex_count": 2687,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && PrimaryBone in {FL/FR/BL/BR_Shock_*_jnt, *_axleShaft_jnt, *_Pivot_jnt}",
+      "evidence": {
+        "bone_binding": "FL/FR/BL/BR_Shock_A/B/c_jnt, FL/FR/BL/BR_axleShaft_jnt, FL/FR_Pivot_jnt, BL/BR_WheelTranslation_jnt",
+        "diffuse_texture": "chassis_Thrice_d"
+      },
+      "bounds_uu": {
+        "min": [
+          -42.607,
+          -28.9916,
+          -8.9799
+        ],
+        "max": [
+          56.5816,
+          29.0039,
+          11.6841
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.1119,
+          0.0016
+        ],
+        "max": [
+          1.9775,
+          0.998
+        ]
+      },
+      "rigged_bones": [
+        "BL_Shock_A_jnt",
+        "BL_Shock_B_jnt",
+        "BL_WheelTranslation_jnt",
+        "BL_axleShaft_jnt",
+        "BR_Shock_A_jnt",
+        "BR_Shock_B_jnt",
+        "BR_WheelTranslation_jnt",
+        "BR_axleShaft_jnt",
+        "FL_Pivot_jnt",
+        "FL_Shock_A_jnt",
+        "FL_Shock_B_jnt",
+        "FL_Shock_c_jnt",
+        "FL_axleShaft_jnt",
+        "FR_Pivot_jnt",
+        "FR_Shock_A_jnt",
+        "FR_Shock_B_jnt",
+        "FR_Shock_c_jnt",
+        "FR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.48,
+          0.5,
+          0.54,
+          1.0
+        ],
+        "metallicFactor": 0.7,
+        "roughnessFactor": 0.4,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Chassis_BaseColor",
+        "mrTex": "Thrice_Chassis_MetallicRoughness",
+        "normalTex": "Thrice_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 4,
+      "material_name": "Thrice_Chassis_BrushedMetal_Engine_And_Exhaust",
+      "display_name": "中置发动机舱金属构件与中置排气管 (Engine Bay & Exhaust Metal)",
+      "category": "Chassis_Metal",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_Thrice_Chassis",
+      "triangle_count": 3451,
+      "vertex_count": 3175,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && Bone==chassis_jnt && (chassis_Thrice_d.Luminance > 95 || VertexColor.R == 255)",
+      "evidence": {
+        "mask_evidence": "chassis_Thrice_d high-albedo metal regions & VertexColor=[255,255,255,255] highlight mask"
+      },
+      "bounds_uu": {
+        "min": [
+          -62.9802,
+          -31.2061,
+          -12.2744
+        ],
+        "max": [
+          83.6552,
+          31.2184,
+          26.3793
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0001,
+          0.0033
+        ],
+        "max": [
+          1.9971,
+          0.9956
+        ]
+      },
+      "rigged_bones": [
+        "FL_axleShaft_jnt",
+        "FR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.68,
+          0.69,
+          0.72,
+          1.0
+        ],
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.32,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Chassis_BaseColor",
+        "mrTex": "Thrice_Chassis_MetallicRoughness",
+        "normalTex": "Thrice_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 5,
+      "material_name": "Thrice_Chassis_Undercarriage_And_CockpitTub",
+      "display_name": "底盘护板、扩散器底座与座舱内部结构 (Chassis Undercarriage & Tub)",
+      "category": "Chassis_Structure",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_Thrice_Chassis",
+      "triangle_count": 18597,
+      "vertex_count": 13571,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && Bone==chassis_jnt && Dark Matte Chassis Base",
+      "evidence": {
+        "mask_evidence": "chassis_Thrice_d dark matte structural regions & chassis_Thrice_rgb.A AO channel"
+      },
+      "bounds_uu": {
+        "min": [
+          -63.0453,
+          -32.0044,
+          -12.1806
+        ],
+        "max": [
+          84.1079,
+          32.0167,
+          26.4085
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.001,
+          0.0009
+        ],
+        "max": [
+          1.9971,
+          0.9985
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.22,
+          0.22,
+          0.24,
+          1.0
+        ],
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.68,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Chassis_BaseColor",
+        "mrTex": "Thrice_Chassis_MetallicRoughness",
+        "normalTex": "Thrice_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 6,
+      "material_name": "Thrice_Rear_Engine_Louver_SmokedGlass",
+      "display_name": "后部中置引擎盖百叶窗熏黑透明玻璃 (Rear Engine Cover Smoked Glass)",
+      "category": "Glass_Canopy",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MAT_Lens_VertColor",
+      "triangle_count": 852,
+      "vertex_count": 489,
+      "classification_rule": "Section 1 (MAT_Lens_VertColor, Slot 1) && VertexColor == [0, 0, 0, 255] (100% of section)",
+      "evidence": {
+        "material": "MAT_Lens_VertColor (BLEND_Translucent)",
+        "vertex_color": "RGBA [0, 0, 0, 255] on all 489 vertices",
+        "spatial_location": "Rear decklid engine window X=[-56.65, -21.59], Z=[17.72, 26.19]"
+      },
+      "bounds_uu": {
+        "min": [
+          -56.6504,
+          -23.8578,
+          17.7223
+        ],
+        "max": [
+          -21.5937,
+          23.8594,
+          26.1913
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.8164,
+          0.0025
+        ],
+        "max": [
+          0.998,
+          0.1249
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.08,
+          0.09,
+          0.11,
+          0.62
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.1,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 7,
+      "material_name": "Thrice_Lens_Headlight_CyanWhite",
+      "display_name": "前大灯外层透明灯罩 (Front Headlight Clear/Cyan Lenses)",
+      "category": "Lens_Glass",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MAT_Lens_VertColor",
+      "triangle_count": 275,
+      "vertex_count": 202,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [103, 149, 149, 255]",
+      "evidence": {
+        "material": "MAT_Lens_VertColor (BLEND_Translucent)",
+        "vertex_color_exact": [
+          103,
+          149,
+          149,
+          255
+        ]
+      },
+      "bounds_uu": {
+        "min": [
+          75.4532,
+          -25.7086,
+          -1.9913
+        ],
+        "max": [
+          84.0318,
+          25.7102,
+          8.5761
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          -0.9688,
+          0.1342
+        ],
+        "max": [
+          2.1191,
+          0.6626
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.65,
+          0.88,
+          0.92,
+          0.58
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.18,
+          0.28,
+          0.32
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 8,
+      "material_name": "Thrice_Lens_FogLight_Yellow",
+      "display_name": "前唇下部黄色雾灯/示廓灯透镜 (Front Lower Yellow Fog Lenses)",
+      "category": "Lens_Glass",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MAT_Lens_VertColor",
+      "triangle_count": 108,
+      "vertex_count": 86,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [129, 135, 13, 255]",
+      "evidence": {
+        "material": "MAT_Lens_VertColor (BLEND_Translucent)",
+        "vertex_color_exact": [
+          129,
+          135,
+          13,
+          255
+        ]
+      },
+      "bounds_uu": {
+        "min": [
+          78.9139,
+          -27.0309,
+          -1.9647
+        ],
+        "max": [
+          80.9981,
+          27.0325,
+          -0.5886
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          -0.222,
+          0.1735
+        ],
+        "max": [
+          1.3711,
+          0.3718
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.85,
+          0.88,
+          0.12,
+          0.68
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.25,
+          0.26,
+          0.02
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 9,
+      "material_name": "Thrice_Lens_TurnSignal_Amber",
+      "display_name": "前部琥珀色转向灯/日行灯透镜 (Front Amber Turn Signal Lenses)",
+      "category": "Lens_Glass",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MAT_Lens_VertColor",
+      "triangle_count": 269,
+      "vertex_count": 241,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [156, 61, 0, 255]",
+      "evidence": {
+        "material": "MAT_Lens_VertColor (BLEND_Translucent)",
+        "vertex_color_exact": [
+          156,
+          61,
+          0,
+          255
+        ]
+      },
+      "bounds_uu": {
+        "min": [
+          74.2199,
+          -29.0136,
+          -1.9819
+        ],
+        "max": [
+          84.1459,
+          29.0152,
+          3.1238
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          -0.9688,
+          0.142
+        ],
+        "max": [
+          2.1191,
+          0.5127
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.92,
+          0.42,
+          0.05,
+          0.68
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.35,
+          0.12,
+          0.0
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 10,
+      "material_name": "Thrice_Lens_Taillight_Red",
+      "display_name": "尾部双拱形红色尾灯/刹车灯透镜 (Rear Red Taillight Lenses)",
+      "category": "Lens_Glass",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MAT_Lens_VertColor",
+      "triangle_count": 704,
+      "vertex_count": 576,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [255, 0, 0, 255]",
+      "evidence": {
+        "material": "MAT_Lens_VertColor (BLEND_Translucent)",
+        "vertex_color_exact": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      "bounds_uu": {
+        "min": [
+          -63.0325,
+          -31.6192,
+          3.3449
+        ],
+        "max": [
+          -21.7561,
+          31.6208,
+          26.4643
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          -0.8081,
+          0.0016
+        ],
+        "max": [
+          1.959,
+          0.9492
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.95,
+          0.08,
+          0.08,
+          0.72
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.45,
+          0.02,
+          0.02
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 11,
+      "material_name": "Thrice_Body_Slot3_PrimaryPaint",
+      "display_name": "主车身金属车漆与涂装画布层 (Primary Painted Bodywork - Slot 3)",
+      "category": "Body_Paint",
+      "original_section_index": 3,
+      "original_material_slot": 3,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 28768,
+      "vertex_count": 17087,
+      "classification_rule": "Section 3 (MIC_Thrice_Body_T1, SkinMaterialIndex=3) && Body_Thrice_Blankskin_Tier_01.R > 128",
+      "evidence": {
+        "skin_material_index": 3,
+        "mask_texture": "Body_Thrice_Blankskin_Tier_01.R > 128 (98.79% of Section 3)",
+        "diffuse_texture": "Body_Thrice_Diffuse_Tier_01",
+        "team_color": [
+          0.707156,
+          0.0,
+          0.345287,
+          1.0
+        ]
+      },
+      "bounds_uu": {
+        "min": [
+          -65.3304,
+          -34.6991,
+          -11.1899
+        ],
+        "max": [
+          85.8521,
+          34.6991,
+          26.6251
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0005,
+          0.0042
+        ],
+        "max": [
+          1.5752,
+          0.9995
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.22,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Body_Paint_BaseColor",
+        "mrTex": "Thrice_Body_MetallicRoughness",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    },
+    {
+      "region_id": 12,
+      "material_name": "Thrice_Body_Slot3_PanelSeam_Trim",
+      "display_name": "主车身钣金接缝与边缘深色饰条 (Body Panel Seam Trim - Slot 3)",
+      "category": "Body_Trim",
+      "original_section_index": 3,
+      "original_material_slot": 3,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 352,
+      "vertex_count": 477,
+      "classification_rule": "Section 3 (MIC_Thrice_Body_T1, SkinMaterialIndex=3) && Body_Thrice_Blankskin_Tier_01.R <= 128",
+      "evidence": {
+        "mask_texture": "Body_Thrice_Blankskin_Tier_01.R <= 128 (Unpainted TrimColor=[0.12,0.12,0.12])"
+      },
+      "bounds_uu": {
+        "min": [
+          -65.3304,
+          -32.2197,
+          -8.418
+        ],
+        "max": [
+          83.681,
+          34.3445,
+          24.5042
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0294,
+          0.0152
+        ],
+        "max": [
+          1.2324,
+          0.9897
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.16,
+          0.16,
+          0.17,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.65,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Body_Trim_BaseColor",
+        "mrTex": "Thrice_Body_MetallicRoughness",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    },
+    {
+      "region_id": 13,
+      "material_name": "Thrice_Body_Slot4_Trim_MattePlastic_And_Carbon",
+      "display_name": "前铲、侧裙、进气道与车窗外框哑光黑/碳纤维饰件 (Body Trim & Aero Splitters - Slot 4)",
+      "category": "Body_Trim",
+      "original_section_index": 4,
+      "original_material_slot": 4,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 24130,
+      "vertex_count": 15219,
+      "classification_rule": "Section 4 (MIC_Thrice_Body_T1, Slot 4) && Body_Thrice_Blankskin_Tier_01.R <= 128",
+      "evidence": {
+        "mask_texture": "Body_Thrice_Blankskin_Tier_01.R <= 128 & Body_Thrice_Diffuse_Tier_01.RGB == 0 (83.16% of Section 4)",
+        "trim_color": [
+          0.12,
+          0.12,
+          0.12,
+          1.0
+        ],
+        "tertiary_material": "SPMF_TertiaryMaterial / SPMF_TrimColorAndFinish (TertiaryMaterial_Color=[0.0658, 0.0658, 0.0658])"
+      },
+      "bounds_uu": {
+        "min": [
+          -64.4831,
+          -36.2672,
+          -12.4855
+        ],
+        "max": [
+          87.5464,
+          36.2672,
+          26.3557
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0012,
+          0.002
+        ],
+        "max": [
+          1.999,
+          0.999
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.18,
+          0.18,
+          0.2,
+          1.0
+        ],
+        "metallicFactor": 0.12,
+        "roughnessFactor": 0.62,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Body_Trim_BaseColor",
+        "mrTex": "Thrice_Body_MetallicRoughness",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    },
+    {
+      "region_id": 14,
+      "material_name": "Thrice_Body_Slot4_PaintedAeroAccents",
+      "display_name": "空气动力学套件同色车漆点缀区域 (Painted Aero Accents - Slot 4)",
+      "category": "Body_Paint",
+      "original_section_index": 4,
+      "original_material_slot": 4,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 4886,
+      "vertex_count": 3883,
+      "classification_rule": "Section 4 (MIC_Thrice_Body_T1, Slot 4) && Body_Thrice_Blankskin_Tier_01.R > 128",
+      "evidence": {
+        "mask_texture": "Body_Thrice_Blankskin_Tier_01.R > 128 (16.84% of Section 4)"
+      },
+      "bounds_uu": {
+        "min": [
+          -64.8,
+          -34.2527,
+          -11.6875
+        ],
+        "max": [
+          85.5322,
+          34.2527,
+          26.406
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0126,
+          0.029
+        ],
+        "max": [
+          1.9736,
+          0.9854
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.24,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "Thrice_Body_Paint_BaseColor",
+        "mrTex": "Thrice_Body_MetallicRoughness",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    },
+    {
+      "region_id": 15,
+      "material_name": "Thrice_Windshield_Canopy_Glass",
+      "display_name": "座舱环绕式前挡风玻璃与侧窗玻璃 (Cockpit Windshield & Side Windows - Slot 5)",
+      "category": "Glass_Canopy",
+      "original_section_index": 5,
+      "original_material_slot": 5,
+      "original_material_name": "MIC_Thrice_Body_T1",
+      "triangle_count": 586,
+      "vertex_count": 386,
+      "classification_rule": "Section 5 (MIC_Thrice_Body_T1, Slot 5) && Body_Thrice_Blankskin_Tier_01.B == 255 && VertexColor == [255, 255, 255, 255] (100% of section)",
+      "evidence": {
+        "parent_shader": "MAT_Body_NewWindshield (StaticSwitch Glass=True)",
+        "mask_evidence": "Body_Thrice_Blankskin_Tier_01.B > 128 on 586/586 tris, Diffuse.RGB == 0 on 586/586 tris, VertexColor == [255,255,255,255] on 386/386 verts",
+        "spatial_location": "Cockpit canopy X=[-16.91, 37.65], Y=[-24.32, 24.32], Z=[12.73, 24.19]"
+      },
+      "bounds_uu": {
+        "min": [
+          -16.9082,
+          -24.3191,
+          12.7283
+        ],
+        "max": [
+          37.6478,
+          24.3191,
+          24.1883
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.6753,
+          0.0028
+        ],
+        "max": [
+          1.8701,
+          0.1194
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.1,
+          0.13,
+          0.16,
+          0.86
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "Thrice_Body_Normal"
+      }
+    }
+  ]
+}

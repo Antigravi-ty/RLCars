@@ -1,0 +1,14 @@
+SizeX = 2048
+SizeY = 2048
+OriginalSizeX = 2048
+OriginalSizeY = 2048
+Format = PF_DXT5
+TextureFileCacheName = Textures2
+MipTailBaseIdx = 11
+FirstResourceMemMip = 5
+SRGB = False
+UnpackMin = -1.0
+UnpackMin[1] = -1.0
+UnpackMin[2] = -1.0
+CompressionSettings = TC_NormalmapSwizzle
+LODGroup = TEXTUREGROUP_WorldNormalMap

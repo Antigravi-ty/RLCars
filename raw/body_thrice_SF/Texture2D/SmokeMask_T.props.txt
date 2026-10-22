@@ -1,0 +1,8 @@
+SizeX = 512
+SizeY = 512
+OriginalSizeX = 512
+OriginalSizeY = 512
+Format = PF_DXT1
+TextureFileCacheName = Textures7
+MipTailBaseIdx = 9
+FirstResourceMemMip = 3

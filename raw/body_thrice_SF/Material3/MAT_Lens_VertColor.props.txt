@@ -1,0 +1,73 @@
+DiffuseColor =
+{
+    Expression = None
+}
+SpecularColor =
+{
+    Expression = None
+}
+SpecularPower =
+{
+    Expression = None
+}
+Normal =
+{
+    Expression = None
+}
+EmissiveColor =
+{
+    Expression = None
+}
+Opacity =
+{
+    Expression = None
+}
+Distortion =
+{
+    OutputIndex = -1
+}
+BlendMode = BLEND_Translucent
+bUsedWithSkeletalMesh = True
+bUsedWithStaticLighting = True
+bPerPixelCameraVector = True
+bAllowLightmapSpecular = False
+Expressions[23] =
+{
+    Expressions[0] = None
+    Expressions[1] = None
+    Expressions[2] = None
+    Expressions[3] = None
+    Expressions[4] = None
+    Expressions[5] = None
+    Expressions[6] = None
+    Expressions[7] = None
+    Expressions[8] = None
+    Expressions[9] = None
+    Expressions[10] = None
+    Expressions[11] = None
+    Expressions[12] = None
+    Expressions[13] = None
+    Expressions[14] = None
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D_0
+    Expressions[16] = None
+    Expressions[17] = None
+    Expressions[18] = None
+    Expressions[19] = None
+    Expressions[20] = None
+    Expressions[21] = None
+    Expressions[22] = None
+}
+MaterialFunctionInfos[2] =
+{
+    MaterialFunctionInfos[0] =
+    {
+        StateId = 5ff725343b9138499d217f97c3381dd4
+        Function = Psy_MaterialFunctions.ParallexCorrectWorldENV
+    }
+    MaterialFunctionInfos[1] =
+    {
+        StateId = 645212c62df7fd4b952b2262bae245b9
+        Function = CHG_GarageAssets.Materials.CHG_ParallaxCorrectGarageENV
+    }
+}
+bHasQualitySwitch = True

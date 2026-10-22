@@ -1,0 +1,58 @@
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = BodyMasks
+        ParameterValue = body_thrice.Body_Thrice_Blankskin_Tier_01
+        ExpressionGUID = 75ecaa3f8b4b9746a09ed82238a7acb5
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = CurvaturePack
+        ParameterValue = body_thrice.Body_Thrice_curvature
+        ExpressionGUID = 5397b3369a17f541be6ccf84cc974d50
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = Diffuse
+        ParameterValue = body_thrice.Body_Thrice_Diffuse_Tier_01
+        ExpressionGUID = 71b786375fad894a889ca31eec008a34
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterName = F1DetailNormal
+        ParameterValue = Detail_Blank.Blank_N
+        ExpressionGUID = 1ff700915f7b994ea82a2f8a67378f78
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterName = F2DetailNormal
+        ParameterValue = Detail_Blank.Blank_N
+        ExpressionGUID = 141194712488fd49afe1c4519224f3a9
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterName = Skin
+        ParameterValue = body_thrice.Body_Thrice_Blankskin_Tier_01
+        ExpressionGUID = a57124e1442757488670cdcc493600f7
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = TeamColor
+        ParameterValue = { R=0.707156, G=0.0, B=0.345287, A=1.0 }
+        ExpressionGUID = da916b362c1d2547b5a27cf0aa199296
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = TrimColor
+        ParameterValue = { R=0.12, G=0.12, B=0.12, A=1.0 }
+        ExpressionGUID = 70203be27e2a0f4895804ca4fa989e44
+    }
+}
+Parent = Body_Rye.MAT_Body_NewWindshield
+bHasStaticPermutationResource = True
+ParentLightingGuid = ee7ca2cd6da4f44d9cee7da22bb795b0
+bHasQualitySwitch = True

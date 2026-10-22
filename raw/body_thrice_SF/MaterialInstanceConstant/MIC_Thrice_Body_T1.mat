@@ -1,0 +1,7 @@
+Parent=MAT_Body_NewWindshield
+Other[0]=Body_Thrice_Blankskin_Tier_01
+Other[1]=Body_Thrice_curvature
+Diffuse=Body_Thrice_Diffuse_Tier_01
+Other[2]=Blank_N
+Other[3]=Blank_N
+Other[4]=Body_Thrice_Blankskin_Tier_01

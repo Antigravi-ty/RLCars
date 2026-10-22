@@ -1,0 +1,54 @@
+EmissiveColor =
+{
+    Expression = None
+}
+Opacity =
+{
+    Expression = None
+}
+OpacityMask =
+{
+    OutputIndex = -1
+}
+Distortion =
+{
+    Expression = None
+}
+BlendMode = BLEND_Translucent
+LightingModel = MLM_Unlit
+bUsedWithParticleSprites = True
+bUsedWithParticleSubUV = True
+bUsesDistortion = True
+Expressions[30] =
+{
+    Expressions[0] = None
+    Expressions[1] = None
+    Expressions[2] = None
+    Expressions[3] = None
+    Expressions[4] = None
+    Expressions[5] = None
+    Expressions[6] = None
+    Expressions[7] = None
+    Expressions[8] = None
+    Expressions[9] = None
+    Expressions[10] = None
+    Expressions[11] = None
+    Expressions[12] = None
+    Expressions[13] = None
+    Expressions[14] = None
+    Expressions[15] = None
+    Expressions[16] = None
+    Expressions[17] = None
+    Expressions[18] = None
+    Expressions[19] = None
+    Expressions[20] = None
+    Expressions[21] = None
+    Expressions[22] = None
+    Expressions[23] = None
+    Expressions[24] = None
+    Expressions[25] = MaterialExpressionVectorParameter_0
+    Expressions[26] = MaterialExpressionScalarParameter_3
+    Expressions[27] = MaterialExpressionScalarParameter_4
+    Expressions[28] = MaterialExpressionScalarParameter_5
+    Expressions[29] = None
+}

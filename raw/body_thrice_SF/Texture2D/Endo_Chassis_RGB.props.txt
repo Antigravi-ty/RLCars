@@ -1,0 +1,9 @@
+SizeX = 2048
+SizeY = 2048
+OriginalSizeX = 2048
+OriginalSizeY = 2048
+Format = PF_DXT5
+TextureFileCacheName = Textures3
+MipTailBaseIdx = 11
+FirstResourceMemMip = 5
+LODGroup = TEXTUREGROUP_Vehicle

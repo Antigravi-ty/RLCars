@@ -1,0 +1,78 @@
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = BoostGlowBrightness
+        ParameterValue = 4.0
+        ExpressionGUID = 08aa0860d5477b48b13cd5a6cbdd6e7d
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = BoostGlowIntensity
+        ParameterValue = 0.0
+        ExpressionGUID = f13539876e440341a4d1cb24484ce65e
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = Brake
+        ParameterValue = 0.0
+        ExpressionGUID = 6b685a0c3fb8d14b9c596d39e01efa92
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = HeadlightBrightness
+        ParameterValue = 200.0
+        ExpressionGUID = 8e69c63477d1ae429d2002ca134b34dd
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = TailLightBrightness
+        ParameterValue = 4.0
+        ExpressionGUID = 3215387c44752c418ed6484cd226e542
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = Diffuse
+        ParameterValue = body_thrice.chassis_Thrice_d
+        ExpressionGUID = d307e26fa3856d48a40912ba08dcef07
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = Masks
+        ParameterValue = body_thrice.chassis_Thrice_rgb
+        ExpressionGUID = 4b7269e975f7bb46b72112793f1099e4
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = Normal
+        ParameterValue = body_thrice.chassis_Thrice_n
+        ExpressionGUID = 44da3a2763f6dc49903a13bc94144328
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = BoostGlowColor
+        ParameterValue = { R=3.0, G=0.132566, B=0.0, A=1.0 }
+        ExpressionGUID = eacf92b7f9ce5141ab71f240fa7b2c04
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = HeadlightColor
+        ParameterValue = { R=0.5, G=0.8, B=1.0, A=1.0 }
+        ExpressionGUID = 416821532576de44bf095958668135a0
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterName = TailLightColor
+        ParameterValue = { R=1.0, G=0.0, B=0.0, A=1.0 }
+        ExpressionGUID = 7a6329fa8709914693bf46f69cd84ae0
+    }
+}
+Parent = Vehicle_Parent_Materials.GoodChassis_Painted_Mat
+bHasStaticPermutationResource = True
+ParentLightingGuid = 67ec6c9ff3e18641ab822e495baf9490

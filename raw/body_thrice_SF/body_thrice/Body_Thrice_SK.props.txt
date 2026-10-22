@@ -1,0 +1,74 @@
+ClothingAssets[6] =
+{
+    ClothingAssets[0] = None
+    ClothingAssets[1] = None
+    ClothingAssets[2] = None
+    ClothingAssets[3] = None
+    ClothingAssets[4] = None
+    ClothingAssets[5] = None
+}
+Sockets[9] =
+{
+    Sockets[0] = SkeletalMeshSocket_0
+    Sockets[1] = SkeletalMeshSocket_1
+    Sockets[2] = SkeletalMeshSocket_2
+    Sockets[3] = SkeletalMeshSocket_5
+    Sockets[4] = SkeletalMeshSocket_8
+    Sockets[5] = SkeletalMeshSocket_11
+    Sockets[6] = SkeletalMeshSocket_13
+    Sockets[7] = SkeletalMeshSocket_3
+    Sockets[8] = SkeletalMeshSocket_4
+}
+LODInfo[1] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0.0
+        LODHysteresis = 0.02
+        LODMaterialMap = []
+        bEnableShadowCasting = {"type": "ArrayRaw", "count": 6, "size": 6}
+        TriangleSortSettings[6] =
+        {
+            TriangleSortSettings[0] =
+            {
+                TriangleSorting = TRISORT_None
+                CustomLeftRightAxis = TSA_X_Axis
+                CustomLeftRightBoneName = None
+            }
+            TriangleSortSettings[1] =
+            {
+                TriangleSorting = TRISORT_None
+                CustomLeftRightAxis = TSA_X_Axis
+                CustomLeftRightBoneName = None
+            }
+            TriangleSortSettings[2] =
+            {
+                TriangleSorting = TRISORT_None
+                CustomLeftRightAxis = TSA_X_Axis
+                CustomLeftRightBoneName = None
+            }
+            TriangleSortSettings[3] =
+            {
+                TriangleSorting = TRISORT_None
+                CustomLeftRightAxis = TSA_X_Axis
+                CustomLeftRightBoneName = None
+            }
+            TriangleSortSettings[4] =
+            {
+                TriangleSorting = TRISORT_None
+                CustomLeftRightAxis = TSA_X_Axis
+                CustomLeftRightBoneName = None
+            }
+            TriangleSortSettings[5] =
+            {
+                TriangleSorting = TRISORT_None
+                CustomLeftRightAxis = TSA_X_Axis
+                CustomLeftRightBoneName = None
+            }
+        }
+        bDisableCompressions = False
+        bHasBeenSimplified = False
+    }
+}
+ClothTearFactor = 3.0
+bHasVertexColors = True

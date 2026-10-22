@@ -1,0 +1,6469 @@
+{
+  "package_name": "body_thrice_SF.upk",
+  "car_codename": "Body_Thrice",
+  "skeletal_mesh_name": "Body_Thrice_SK",
+  "upk_summary": {
+    "file_version": 868,
+    "licensee_version": 34,
+    "name_count": 641,
+    "import_count": 110,
+    "export_count": 240
+  },
+  "physics_and_hitbox": {
+    "note": "body_thrice_SF.upk inherits its VehicleSim / Hitbox preset from its gameplay archetype and defines full 4-wheel suspension/wheel-contact rig in Vehicle_Body_Thrice_SF:Tree (AnimTree_TA) and Body_Thrice_SK RefSkeleton.",
+    "wheel_suspension_raycast_contacts_uu": {
+      "FL_Wheel": {
+        "bone": "FL_WheelTranslation_jnt",
+        "position_uu": [
+          52.9682,
+          -31.838,
+          0.2564
+        ],
+        "disc_bone": "FL_Disc_geo_jnt",
+        "disc_pos_uu": [
+          52.9682,
+          -35.424,
+          0.2564
+        ]
+      },
+      "FR_Wheel": {
+        "bone": "FR_WheelTranslation_jnt",
+        "position_uu": [
+          52.9682,
+          31.838,
+          0.2564
+        ],
+        "disc_bone": "FR_Disc_geo_jnt",
+        "disc_pos_uu": [
+          52.9682,
+          35.424,
+          0.2564
+        ]
+      },
+      "BL_Wheel": {
+        "bone": "BL_WheelTranslation_jnt",
+        "position_uu": [
+          -49.84,
+          -32.2758,
+          0.8548
+        ],
+        "disc_bone": "BL_Disc_geo_jnt",
+        "disc_pos_uu": [
+          -49.84,
+          -36.8908,
+          0.8548
+        ]
+      },
+      "BR_Wheel": {
+        "bone": "BR_WheelTranslation_jnt",
+        "position_uu": [
+          -49.84,
+          32.2758,
+          0.8548
+        ],
+        "disc_bone": "BR_Disc_geo_jnt",
+        "disc_pos_uu": [
+          -49.84,
+          36.8908,
+          0.8548
+        ]
+      }
+    },
+    "wheelbase_uu": 102.8082,
+    "front_track_width_uu": 63.676,
+    "rear_track_width_uu": 64.5516,
+    "mesh_bounds_uu": {
+      "origin": [
+        11.108032,
+        0.0,
+        15.869654
+      ],
+      "box_extent": [
+        152.876831,
+        72.534317,
+        30.310719
+      ],
+      "sphere_radius": 171.904892
+    }
+  },
+  "skeletal_mesh_summary": {
+    "num_vertices": 57002,
+    "num_triangles": 90362,
+    "num_uv_sets": 2,
+    "bHasVertexColors": true,
+    "num_bones": 36,
+    "num_sockets": 9,
+    "original_sections": [
+      {
+        "section_index": 0,
+        "material_index": 0,
+        "material_name": "MIC_Thrice_Chassis",
+        "chunk_index": 0,
+        "first_index": 0,
+        "num_triangles": 29432,
+        "triangle_sorting": 0
+      },
+      {
+        "section_index": 1,
+        "material_index": 1,
+        "material_name": "MAT_Lens_VertColor",
+        "chunk_index": 1,
+        "first_index": 88296,
+        "num_triangles": 852,
+        "triangle_sorting": 0
+      },
+      {
+        "section_index": 2,
+        "material_index": 2,
+        "material_name": "MAT_Lens_VertColor",
+        "chunk_index": 2,
+        "first_index": 90852,
+        "num_triangles": 1356,
+        "triangle_sorting": 0
+      },
+      {
+        "section_index": 3,
+        "material_index": 3,
+        "material_name": "MIC_Thrice_Body_T1",
+        "chunk_index": 3,
+        "first_index": 94920,
+        "num_triangles": 29120,
+        "triangle_sorting": 0
+      },
+      {
+        "section_index": 4,
+        "material_index": 4,
+        "material_name": "MIC_Thrice_Body_T1",
+        "chunk_index": 4,
+        "first_index": 182280,
+        "num_triangles": 29016,
+        "triangle_sorting": 0
+      },
+      {
+        "section_index": 5,
+        "material_index": 5,
+        "material_name": "MIC_Thrice_Body_T1",
+        "chunk_index": 5,
+        "first_index": 269328,
+        "num_triangles": 586,
+        "triangle_sorting": 0
+      }
+    ],
+    "original_materials": [
+      "MIC_Thrice_Chassis",
+      "MAT_Lens_VertColor",
+      "MAT_Lens_VertColor",
+      "MIC_Thrice_Body_T1",
+      "MIC_Thrice_Body_T1",
+      "MIC_Thrice_Body_T1"
+    ]
+  },
+  "sockets": [
+    {
+      "export_index": 205,
+      "object_name": "SkeletalMeshSocket_0",
+      "socket_name": "AntennaSocket",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -47.0,
+        -19.0,
+        16.0
+      ],
+      "relative_location_gltf_m": [
+        -0.47,
+        0.16,
+        -0.19
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 206,
+      "object_name": "SkeletalMeshSocket_1",
+      "socket_name": "FrontSocket",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        84.352386,
+        0.0,
+        -3.75
+      ],
+      "relative_location_gltf_m": [
+        0.843524,
+        -0.0375,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 209,
+      "object_name": "SkeletalMeshSocket_2",
+      "socket_name": "HatSocket",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -3.0,
+        0.0,
+        25.0
+      ],
+      "relative_location_gltf_m": [
+        -0.03,
+        0.25,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        -455,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        -2.4994,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 212,
+      "object_name": "SkeletalMeshSocket_5",
+      "socket_name": "RocketBoost",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -63.0,
+        0.0,
+        8.749993
+      ],
+      "relative_location_gltf_m": [
+        -0.63,
+        0.0875,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 213,
+      "object_name": "SkeletalMeshSocket_8",
+      "socket_name": "BoostConeMesh",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -64.957932,
+        0.0,
+        5.25
+      ],
+      "relative_location_gltf_m": [
+        -0.649579,
+        0.0525,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 207,
+      "object_name": "SkeletalMeshSocket_11",
+      "socket_name": "AmbBoost",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -62.0,
+        0.0,
+        -0.5
+      ],
+      "relative_location_gltf_m": [
+        -0.62,
+        -0.005,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 208,
+      "object_name": "SkeletalMeshSocket_13",
+      "socket_name": "Underglow",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        0.0,
+        0.0,
+        -12.0
+      ],
+      "relative_location_gltf_m": [
+        0.0,
+        -0.12,
+        0.0
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 210,
+      "object_name": "SkeletalMeshSocket_3",
+      "socket_name": "BoostEmitter_Right",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -65.0,
+        16.0,
+        8.749992
+      ],
+      "relative_location_gltf_m": [
+        -0.65,
+        0.0875,
+        0.16
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "export_index": 211,
+      "object_name": "SkeletalMeshSocket_4",
+      "socket_name": "BoostEmitter_Left",
+      "bone_name": "chassis_jnt",
+      "relative_location_uu": [
+        -65.0,
+        -16.0,
+        8.749993
+      ],
+      "relative_location_gltf_m": [
+        -0.65,
+        0.0875,
+        -0.16
+      ],
+      "relative_rotation_uerot": [
+        0,
+        0,
+        0
+      ],
+      "relative_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "bones": [
+    {
+      "index": 0,
+      "name": "root_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        -0.275347,
+        -0.0,
+        0.811466
+      ],
+      "num_children": 5,
+      "parent_index": -1,
+      "color": 4294967295
+    },
+    {
+      "index": 1,
+      "name": "chassis_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 8,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 2,
+      "name": "FL_axleShaft_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        53.688629,
+        -18.0,
+        -6.622901
+      ],
+      "num_children": 1,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 3,
+      "name": "FL_Shock_c_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        -0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        4.52919,
+        0.0,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 2,
+      "color": 4294967295
+    },
+    {
+      "index": 4,
+      "name": "FL_Shock_B_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.108045,
+        0.121941,
+        0.986549,
+        0.013355
+      ],
+      "position_xyz": [
+        -0.0,
+        0.0,
+        2.074684
+      ],
+      "num_children": 0,
+      "parent_index": 3,
+      "color": 4294967295
+    },
+    {
+      "index": 5,
+      "name": "FR_axleShaft_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        53.688629,
+        18.0,
+        -6.622901
+      ],
+      "num_children": 1,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 6,
+      "name": "FR_Shock_c_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        0.0,
+        -0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        -4.52919,
+        -0.0,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 5,
+      "color": 4294967295
+    },
+    {
+      "index": 7,
+      "name": "FR_Shock_B_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.108045,
+        -0.121941,
+        0.986549,
+        -0.013355
+      ],
+      "position_xyz": [
+        -0.0,
+        -0.0,
+        2.074684
+      ],
+      "num_children": 0,
+      "parent_index": 6,
+      "color": 4294967295
+    },
+    {
+      "index": 8,
+      "name": "BL_axleShaft_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        -38.817295,
+        -15.07126,
+        -5.815631
+      ],
+      "num_children": 1,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 9,
+      "name": "BL_Shock_c_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        0.0,
+        -0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        7.548763,
+        -0.0,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 8,
+      "color": 4294967295
+    },
+    {
+      "index": 10,
+      "name": "BL_Shock_B_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.038966,
+        0.121975,
+        0.991756,
+        0.004792
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        2.312271
+      ],
+      "num_children": 0,
+      "parent_index": 9,
+      "color": 4294967295
+    },
+    {
+      "index": 11,
+      "name": "BR_axleShaft_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        -38.817295,
+        15.07126,
+        -5.815631
+      ],
+      "num_children": 1,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 12,
+      "name": "BR_Shock_c_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.0,
+        -0.0,
+        -0.707107,
+        -0.707107
+      ],
+      "position_xyz": [
+        -7.548763,
+        0.0,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 11,
+      "color": 4294967295
+    },
+    {
+      "index": 13,
+      "name": "BR_Shock_B_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.038966,
+        -0.121975,
+        0.991756,
+        -0.004792
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        2.312271
+      ],
+      "num_children": 0,
+      "parent_index": 12,
+      "color": 4294967295
+    },
+    {
+      "index": 14,
+      "name": "FL_Shock_A_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.108045,
+        0.121941,
+        0.986549,
+        0.013355
+      ],
+      "position_xyz": [
+        50.975834,
+        -19.3827,
+        7.688426
+      ],
+      "num_children": 0,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 15,
+      "name": "FR_Shock_A_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.108045,
+        -0.121941,
+        0.986549,
+        -0.013355
+      ],
+      "position_xyz": [
+        50.975834,
+        19.3827,
+        7.688426
+      ],
+      "num_children": 0,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 16,
+      "name": "BL_Shock_A_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.038966,
+        0.121975,
+        0.991756,
+        0.004792
+      ],
+      "position_xyz": [
+        -39.873878,
+        -19.256647,
+        9.92181
+      ],
+      "num_children": 0,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 17,
+      "name": "BR_Shock_A_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        -0.038966,
+        -0.121975,
+        0.991756,
+        -0.004792
+      ],
+      "position_xyz": [
+        -39.873878,
+        19.256647,
+        9.92181
+      ],
+      "num_children": 0,
+      "parent_index": 1,
+      "color": 4294967295
+    },
+    {
+      "index": 18,
+      "name": "FL_WheelTranslation_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        53.688629,
+        -25.401331,
+        -6.622901
+      ],
+      "num_children": 1,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 19,
+      "name": "FL_Pivot_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.738522,
+        0.0
+      ],
+      "num_children": 2,
+      "parent_index": 18,
+      "color": 4294967295
+    },
+    {
+      "index": 20,
+      "name": "FL_Disc_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -1.802569,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 19,
+      "color": 4294967295
+    },
+    {
+      "index": 21,
+      "name": "FL_Disc_geo_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 20,
+      "color": 4294967295
+    },
+    {
+      "index": 22,
+      "name": "FL_Brakepad_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 19,
+      "color": 4294967295
+    },
+    {
+      "index": 23,
+      "name": "FR_WheelTranslation_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        53.688629,
+        25.401331,
+        -6.622901
+      ],
+      "num_children": 1,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 24,
+      "name": "FR_Pivot_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        0.738522,
+        0.0
+      ],
+      "num_children": 2,
+      "parent_index": 23,
+      "color": 4294967295
+    },
+    {
+      "index": 25,
+      "name": "FR_Disc_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        1.802569,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 24,
+      "color": 4294967295
+    },
+    {
+      "index": 26,
+      "name": "FR_Disc_geo_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 25,
+      "color": 4294967295
+    },
+    {
+      "index": 27,
+      "name": "FR_Brakepad_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 24,
+      "color": 4294967295
+    },
+    {
+      "index": 28,
+      "name": "BL_WheelTranslation_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        -38.817295,
+        -27.170851,
+        -5.815631
+      ],
+      "num_children": 2,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 29,
+      "name": "BL_Disc_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -2.468016,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 28,
+      "color": 4294967295
+    },
+    {
+      "index": 30,
+      "name": "BL_Disc_geo_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 29,
+      "color": 4294967295
+    },
+    {
+      "index": 31,
+      "name": "BL_Brakepad_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 28,
+      "color": 4294967295
+    },
+    {
+      "index": 32,
+      "name": "BR_WheelTranslation_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        -38.817295,
+        27.170851,
+        -5.815631
+      ],
+      "num_children": 2,
+      "parent_index": 0,
+      "color": 4294967295
+    },
+    {
+      "index": 33,
+      "name": "BR_Disc_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        2.468016,
+        0.0
+      ],
+      "num_children": 1,
+      "parent_index": 32,
+      "color": 4294967295
+    },
+    {
+      "index": 34,
+      "name": "BR_Disc_geo_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 33,
+      "color": 4294967295
+    },
+    {
+      "index": 35,
+      "name": "BR_Brakepad_jnt",
+      "flags": 0,
+      "orientation_xyzw": [
+        0.0,
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "position_xyz": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "num_children": 0,
+      "parent_index": 32,
+      "color": 4294967295
+    }
+  ],
+  "materials": {
+    "AmbientFlames_02_MAT": {
+      "name": "AmbientFlames_02_MAT",
+      "export_index": 5,
+      "class": "Material",
+      "full_path": "body_gilliam.AmbientFlames_02_MAT",
+      "group_dir": "body_gilliam",
+      "properties": {
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Opacity": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "OpacityMask": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "Distortion": {
+          "_struct": "Vector2MaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "BlendMode": {
+          "enum": "EBlendMode",
+          "value": "BLEND_Translucent"
+        },
+        "LightingModel": {
+          "enum": "EMaterialLightingModel",
+          "value": "MLM_Unlit"
+        },
+        "bUsedWithParticleSprites": true,
+        "bUsedWithParticleSubUV": true,
+        "bUsesDistortion": true,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 30,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            87,
+            9,
+            10,
+            11,
+            0
+          ],
+          "as_objects": [
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 87,
+              "name": "MaterialExpressionVectorParameter_0"
+            },
+            {
+              "index": 9,
+              "name": "MaterialExpressionScalarParameter_3"
+            },
+            {
+              "index": 10,
+              "name": "MaterialExpressionScalarParameter_4"
+            },
+            {
+              "index": 11,
+              "name": "MaterialExpressionScalarParameter_5"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "MAT_Body_NewWindshield": {
+      "name": "MAT_Body_NewWindshield",
+      "export_index": 6,
+      "class": "Material",
+      "full_path": "Body_Rye.MAT_Body_NewWindshield",
+      "group_dir": "Body_Rye",
+      "properties": {
+        "DiffuseColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "SpecularColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "SpecularPower": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Normal": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "LightingModel": {
+          "enum": "EMaterialLightingModel",
+          "value": "MLM_Custom"
+        },
+        "CustomLighting": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "CustomSkylightDiffuse": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "bUsedWithSkeletalMesh": true,
+        "bUsedWithStaticLighting": true,
+        "bAllowLightmapSpecular": false,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 292,
+          "values": [
+            0,
+            79,
+            16,
+            97,
+            68,
+            96,
+            98,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            40,
+            73,
+            0,
+            0,
+            38,
+            0,
+            39,
+            0,
+            0,
+            0,
+            0,
+            55,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            37,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            93,
+            92,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            78,
+            45,
+            0,
+            0,
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            77,
+            75,
+            41,
+            0,
+            76,
+            0,
+            0,
+            54,
+            0,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            35,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            43,
+            44,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            74,
+            0,
+            0,
+            0,
+            0,
+            31,
+            26,
+            30,
+            28,
+            32,
+            0,
+            0,
+            0,
+            0,
+            95,
+            94,
+            0,
+            0,
+            0,
+            0,
+            0,
+            29,
+            91,
+            70,
+            0,
+            57,
+            89,
+            69,
+            0,
+            0,
+            33,
+            72,
+            90,
+            0,
+            0,
+            0,
+            67,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            56,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            71,
+            88,
+            0,
+            49,
+            0,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            47,
+            46,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            27,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            58,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            48,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            36,
+            0,
+            0,
+            12,
+            0,
+            25,
+            14,
+            0,
+            0,
+            0,
+            0,
+            24,
+            51,
+            0,
+            0,
+            0,
+            0,
+            0,
+            52,
+            53,
+            0,
+            0,
+            22,
+            66
+          ],
+          "as_objects": [
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 79,
+              "name": "MaterialExpressionTextureSampleParameter2D_55"
+            },
+            {
+              "index": 16,
+              "name": "MaterialExpressionScalarParameter_73"
+            },
+            {
+              "index": 97,
+              "name": "MaterialExpressionVectorParameter_49"
+            },
+            {
+              "index": 68,
+              "name": "MaterialExpressionTextureSampleParameter2D_37"
+            },
+            {
+              "index": 96,
+              "name": "MaterialExpressionVectorParameter_48"
+            },
+            {
+              "index": 98,
+              "name": "MaterialExpressionVectorParameter_50"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 40,
+              "name": "MaterialExpressionStaticSwitchParameter_115"
+            },
+            {
+              "index": 73,
+              "name": "MaterialExpressionTextureSampleParameter2D_42"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 38,
+              "name": "MaterialExpressionStaticSwitchParameter_113"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 39,
+              "name": "MaterialExpressionStaticSwitchParameter_114"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 55,
+              "name": "MaterialExpressionStaticSwitchParameter_96"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 15,
+              "name": "MaterialExpressionScalarParameter_7"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 37,
+              "name": "MaterialExpressionStaticSwitchParameter_112"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 93,
+              "name": "MaterialExpressionVectorParameter_27"
+            },
+            {
+              "index": 92,
+              "name": "MaterialExpressionVectorParameter_26"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 78,
+              "name": "MaterialExpressionTextureSampleParameter2D_47"
+            },
+            {
+              "index": 45,
+              "name": "MaterialExpressionStaticSwitchParameter_120"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 42,
+              "name": "MaterialExpressionStaticSwitchParameter_117"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 77,
+              "name": "MaterialExpressionTextureSampleParameter2D_46"
+            },
+            {
+              "index": 75,
+              "name": "MaterialExpressionTextureSampleParameter2D_44"
+            },
+            {
+              "index": 41,
+              "name": "MaterialExpressionStaticSwitchParameter_116"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 76,
+              "name": "MaterialExpressionTextureSampleParameter2D_45"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 54,
+              "name": "MaterialExpressionStaticSwitchParameter_95"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 13,
+              "name": "MaterialExpressionScalarParameter_6"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 35,
+              "name": "MaterialExpressionStaticSwitchParameter_109"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 43,
+              "name": "MaterialExpressionStaticSwitchParameter_118"
+            },
+            {
+              "index": 44,
+              "name": "MaterialExpressionStaticSwitchParameter_119"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 74,
+              "name": "MaterialExpressionTextureSampleParameter2D_43"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 31,
+              "name": "MaterialExpressionStaticSwitchParameter_105"
+            },
+            {
+              "index": 26,
+              "name": "MaterialExpressionStaticSwitchParameter_100"
+            },
+            {
+              "index": 30,
+              "name": "MaterialExpressionStaticSwitchParameter_104"
+            },
+            {
+              "index": 28,
+              "name": "MaterialExpressionStaticSwitchParameter_102"
+            },
+            {
+              "index": 32,
+              "name": "MaterialExpressionStaticSwitchParameter_106"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 95,
+              "name": "MaterialExpressionVectorParameter_29"
+            },
+            {
+              "index": 94,
+              "name": "MaterialExpressionVectorParameter_28"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 29,
+              "name": "MaterialExpressionStaticSwitchParameter_103"
+            },
+            {
+              "index": 91,
+              "name": "MaterialExpressionVectorParameter_25"
+            },
+            {
+              "index": 70,
+              "name": "MaterialExpressionTextureSampleParameter2D_39"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 57,
+              "name": "MaterialExpressionStaticSwitchParameter_98"
+            },
+            {
+              "index": 89,
+              "name": "MaterialExpressionVectorParameter_23"
+            },
+            {
+              "index": 69,
+              "name": "MaterialExpressionTextureSampleParameter2D_38"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 33,
+              "name": "MaterialExpressionStaticSwitchParameter_107"
+            },
+            {
+              "index": 72,
+              "name": "MaterialExpressionTextureSampleParameter2D_41"
+            },
+            {
+              "index": 90,
+              "name": "MaterialExpressionVectorParameter_24"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 67,
+              "name": "MaterialExpressionTextureSampleParameter2D_36"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 56,
+              "name": "MaterialExpressionStaticSwitchParameter_97"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 71,
+              "name": "MaterialExpressionTextureSampleParameter2D_40"
+            },
+            {
+              "index": 88,
+              "name": "MaterialExpressionVectorParameter_2"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 49,
+              "name": "MaterialExpressionStaticSwitchParameter_124"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 50,
+              "name": "MaterialExpressionStaticSwitchParameter_125"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 47,
+              "name": "MaterialExpressionStaticSwitchParameter_122"
+            },
+            {
+              "index": 46,
+              "name": "MaterialExpressionStaticSwitchParameter_121"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 27,
+              "name": "MaterialExpressionStaticSwitchParameter_101"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 34,
+              "name": "MaterialExpressionStaticSwitchParameter_108"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 58,
+              "name": "MaterialExpressionStaticSwitchParameter_99"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 48,
+              "name": "MaterialExpressionStaticSwitchParameter_123"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 36,
+              "name": "MaterialExpressionStaticSwitchParameter_110"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 12,
+              "name": "MaterialExpressionScalarParameter_0"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 25,
+              "name": "MaterialExpressionStaticSwitchParameter_1"
+            },
+            {
+              "index": 14,
+              "name": "MaterialExpressionScalarParameter_67"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 24,
+              "name": "MaterialExpressionStaticSwitchParameter_0"
+            },
+            {
+              "index": 51,
+              "name": "MaterialExpressionStaticSwitchParameter_2"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 52,
+              "name": "MaterialExpressionStaticSwitchParameter_3"
+            },
+            {
+              "index": 53,
+              "name": "MaterialExpressionStaticSwitchParameter_5"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 22,
+              "name": "MaterialExpressionStaticBoolParameter_0"
+            },
+            {
+              "index": 66,
+              "name": "MaterialExpressionTextureObjectParameter_0"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "MaterialFunctionInfos": {
+          "type": "ArrayStruct",
+          "count": 2,
+          "elements": [
+            {
+              "StateId": "8fbe3eea2b475242bf8056b917fe101e",
+              "Function": {
+                "index": -56,
+                "name": "SPMF_TertiaryMaterial",
+                "full_path": "Vehicle_Parent_MaterialFunctions.SPMF_TertiaryMaterial"
+              }
+            },
+            {
+              "StateId": "59f685ee102dd94eb9518396d65de5b1",
+              "Function": {
+                "index": -57,
+                "name": "SPMF_TrimColorAndFinish",
+                "full_path": "Vehicle_Parent_MaterialFunctions.SPMF_TrimColorAndFinish"
+              }
+            }
+          ]
+        },
+        "bHasQualitySwitch": true
+      }
+    },
+    "MAT_Lens_VertColor": {
+      "name": "MAT_Lens_VertColor",
+      "export_index": 7,
+      "class": "Material",
+      "full_path": "body_thrice.MAT_Lens_VertColor",
+      "group_dir": "body_thrice",
+      "properties": {
+        "DiffuseColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "SpecularColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "SpecularPower": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Normal": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Opacity": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Distortion": {
+          "_struct": "Vector2MaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "BlendMode": {
+          "enum": "EBlendMode",
+          "value": "BLEND_Translucent"
+        },
+        "bUsedWithSkeletalMesh": true,
+        "bUsedWithStaticLighting": true,
+        "bPerPixelCameraVector": true,
+        "bAllowLightmapSpecular": false,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 23,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "as_objects": [
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 80,
+              "name": "MaterialExpressionTextureSampleParameter2D_0"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "MaterialFunctionInfos": {
+          "type": "ArrayStruct",
+          "count": 2,
+          "elements": [
+            {
+              "StateId": "5ff725343b9138499d217f97c3381dd4",
+              "Function": {
+                "index": 110,
+                "name": "ParallexCorrectWorldENV",
+                "full_path": "Psy_MaterialFunctions.ParallexCorrectWorldENV"
+              }
+            },
+            {
+              "StateId": "645212c62df7fd4b952b2262bae245b9",
+              "Function": {
+                "index": 109,
+                "name": "CHG_ParallaxCorrectGarageENV",
+                "full_path": "CHG_GarageAssets.Materials.CHG_ParallaxCorrectGarageENV"
+              }
+            }
+          ]
+        },
+        "bHasQualitySwitch": true
+      }
+    },
+    "GoodChassis_Painted_Mat": {
+      "name": "GoodChassis_Painted_Mat",
+      "export_index": 8,
+      "class": "Material",
+      "full_path": "Vehicle_Parent_Materials.GoodChassis_Painted_Mat",
+      "group_dir": "Vehicle_Parent_Materials",
+      "properties": {
+        "DiffuseColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 236,
+              "name": "MaterialExpressionStaticSwitchParameter_9",
+              "full_path": "Vehicle_Parent_Materials.GoodChassis_Painted_Mat.MaterialExpressionStaticSwitchParameter_9"
+            }
+          }
+        },
+        "SpecularColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "SpecularPower": {
+          "_struct": "ScalarMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "Normal": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 0,
+              "name": "None",
+              "full_path": ""
+            }
+          }
+        },
+        "EmissiveColor": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "Expression": {
+              "index": 61,
+              "name": "MaterialExpressionStaticSwitchParameter_2",
+              "full_path": "Vehicle_Parent_Materials.GoodChassis_Painted_Mat.MaterialExpressionStaticSwitchParameter_2"
+            }
+          }
+        },
+        "CustomLighting": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "CustomSkylightDiffuse": {
+          "_struct": "ColorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "WorldPositionOffset": {
+          "_struct": "VectorMaterialInput",
+          "fields": {
+            "OutputIndex": -1
+          }
+        },
+        "bUsedWithSkeletalMesh": true,
+        "bUsedWithStaticLighting": true,
+        "bAllowLightmapSpecular": false,
+        "EditorX": -511,
+        "EditorY": -17,
+        "Expressions": {
+          "type": "ArrayIntOrObj",
+          "count": 140,
+          "values": [
+            0,
+            0,
+            82,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            83,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            81,
+            0,
+            0,
+            0,
+            0,
+            61,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            17,
+            0,
+            0,
+            19,
+            100,
+            0,
+            0,
+            101,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0,
+            20,
+            99,
+            0,
+            0,
+            0,
+            0,
+            0,
+            107,
+            0,
+            85,
+            0,
+            105,
+            0,
+            0,
+            103,
+            0,
+            59,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            62,
+            63,
+            104,
+            106,
+            102,
+            64,
+            23,
+            86,
+            108,
+            84,
+            0,
+            65,
+            234,
+            231,
+            0,
+            0,
+            235,
+            232,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            237,
+            238,
+            239,
+            0,
+            0,
+            0,
+            0,
+            0,
+            240,
+            236,
+            0,
+            233,
+            230,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "as_objects": [
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 82,
+              "name": "MaterialExpressionTextureSampleParameter2D_1"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 83,
+              "name": "MaterialExpressionTextureSampleParameter2D_2"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 81,
+              "name": "MaterialExpressionTextureSampleParameter2D_0"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 61,
+              "name": "MaterialExpressionStaticSwitchParameter_2"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 17,
+              "name": "MaterialExpressionScalarParameter_0"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 19,
+              "name": "MaterialExpressionScalarParameter_2"
+            },
+            {
+              "index": 100,
+              "name": "MaterialExpressionVectorParameter_1"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 101,
+              "name": "MaterialExpressionVectorParameter_2"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 18,
+              "name": "MaterialExpressionScalarParameter_1"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 21,
+              "name": "MaterialExpressionScalarParameter_9"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 20,
+              "name": "MaterialExpressionScalarParameter_3"
+            },
+            {
+              "index": 99,
+              "name": "MaterialExpressionVectorParameter_0"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 107,
+              "name": "MaterialExpressionVectorParameter_8"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 85,
+              "name": "MaterialExpressionTextureSampleParameter2D_4"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 105,
+              "name": "MaterialExpressionVectorParameter_6"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 103,
+              "name": "MaterialExpressionVectorParameter_4"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 59,
+              "name": "MaterialExpressionStaticSwitchParameter_0"
+            },
+            {
+              "index": 60,
+              "name": "MaterialExpressionStaticSwitchParameter_1"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 62,
+              "name": "MaterialExpressionStaticSwitchParameter_3"
+            },
+            {
+              "index": 63,
+              "name": "MaterialExpressionStaticSwitchParameter_4"
+            },
+            {
+              "index": 104,
+              "name": "MaterialExpressionVectorParameter_5"
+            },
+            {
+              "index": 106,
+              "name": "MaterialExpressionVectorParameter_7"
+            },
+            {
+              "index": 102,
+              "name": "MaterialExpressionVectorParameter_3"
+            },
+            {
+              "index": 64,
+              "name": "MaterialExpressionStaticSwitchParameter_5"
+            },
+            {
+              "index": 23,
+              "name": "MaterialExpressionStaticComponentMaskParameter_0"
+            },
+            {
+              "index": 86,
+              "name": "MaterialExpressionTextureSampleParameter2D_5"
+            },
+            {
+              "index": 108,
+              "name": "MaterialExpressionVectorParameter_9"
+            },
+            {
+              "index": 84,
+              "name": "MaterialExpressionTextureSampleParameter2D_3"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 65,
+              "name": "MaterialExpressionStaticSwitchParameter_8"
+            },
+            {
+              "index": 234,
+              "name": "MaterialExpressionStaticSwitchParameter_6"
+            },
+            {
+              "index": 231,
+              "name": "MaterialExpressionScalarParameter_4"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 235,
+              "name": "MaterialExpressionStaticSwitchParameter_7"
+            },
+            {
+              "index": 232,
+              "name": "MaterialExpressionScalarParameter_5"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 237,
+              "name": "MaterialExpressionVectorParameter_10"
+            },
+            {
+              "index": 238,
+              "name": "MaterialExpressionVectorParameter_12"
+            },
+            {
+              "index": 239,
+              "name": "MaterialExpressionVectorParameter_16"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 240,
+              "name": "MaterialExpressionVectorParameter_18"
+            },
+            {
+              "index": 236,
+              "name": "MaterialExpressionStaticSwitchParameter_9"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 233,
+              "name": "MaterialExpressionScalarParameter_7"
+            },
+            {
+              "index": 230,
+              "name": "MaterialExpressionScalarParameter_10"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            },
+            {
+              "index": 0,
+              "name": "None"
+            }
+          ],
+          "as_floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "MIC_Thrice_Body_T1": {
+      "name": "MIC_Thrice_Body_T1",
+      "export_index": 111,
+      "class": "MaterialInstanceConstant",
+      "full_path": "body_thrice.body_thrice.MIC_Thrice_Body_T1",
+      "group_dir": "body_thrice/body_thrice",
+      "properties": {
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 6,
+          "elements": [
+            {
+              "ParameterName": "BodyMasks",
+              "ParameterValue": {
+                "index": 219,
+                "name": "Body_Thrice_Blankskin_Tier_01",
+                "full_path": "body_thrice.Body_Thrice_Blankskin_Tier_01"
+              },
+              "ExpressionGUID": "75ecaa3f8b4b9746a09ed82238a7acb5"
+            },
+            {
+              "ParameterName": "CurvaturePack",
+              "ParameterValue": {
+                "index": 220,
+                "name": "Body_Thrice_curvature",
+                "full_path": "body_thrice.Body_Thrice_curvature"
+              },
+              "ExpressionGUID": "5397b3369a17f541be6ccf84cc974d50"
+            },
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 221,
+                "name": "Body_Thrice_Diffuse_Tier_01",
+                "full_path": "body_thrice.Body_Thrice_Diffuse_Tier_01"
+              },
+              "ExpressionGUID": "71b786375fad894a889ca31eec008a34"
+            },
+            {
+              "ParameterName": "F1DetailNormal",
+              "ParameterValue": {
+                "index": -99,
+                "name": "Blank_N",
+                "full_path": "Detail_Blank.Blank_N"
+              },
+              "ExpressionGUID": "1ff700915f7b994ea82a2f8a67378f78"
+            },
+            {
+              "ParameterName": "F2DetailNormal",
+              "ParameterValue": {
+                "index": -99,
+                "name": "Blank_N",
+                "full_path": "Detail_Blank.Blank_N"
+              },
+              "ExpressionGUID": "141194712488fd49afe1c4519224f3a9"
+            },
+            {
+              "ParameterName": "Skin",
+              "ParameterValue": {
+                "index": 219,
+                "name": "Body_Thrice_Blankskin_Tier_01",
+                "full_path": "body_thrice.Body_Thrice_Blankskin_Tier_01"
+              },
+              "ExpressionGUID": "a57124e1442757488670cdcc493600f7"
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 2,
+          "elements": [
+            {
+              "ParameterName": "TeamColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.707156,
+                "g": 0.0,
+                "b": 0.345287,
+                "a": 1.0
+              },
+              "ExpressionGUID": "da916b362c1d2547b5a27cf0aa199296"
+            },
+            {
+              "ParameterName": "TrimColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.12,
+                "g": 0.12,
+                "b": 0.12,
+                "a": 1.0
+              },
+              "ExpressionGUID": "70203be27e2a0f4895804ca4fa989e44"
+            }
+          ]
+        },
+        "Parent": {
+          "index": 6,
+          "name": "MAT_Body_NewWindshield",
+          "full_path": "Body_Rye.MAT_Body_NewWindshield"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": "ee7ca2cd6da4f44d9cee7da22bb795b0",
+        "bHasQualitySwitch": true
+      }
+    },
+    "MIC_Thrice_Chassis": {
+      "name": "MIC_Thrice_Chassis",
+      "export_index": 112,
+      "class": "MaterialInstanceConstant",
+      "full_path": "body_thrice.body_thrice.MIC_Thrice_Chassis",
+      "group_dir": "body_thrice/body_thrice",
+      "properties": {
+        "ScalarParameterValues": {
+          "type": "ArrayStruct",
+          "count": 5,
+          "elements": [
+            {
+              "ParameterName": "BoostGlowBrightness",
+              "ParameterValue": 4.0,
+              "ExpressionGUID": "08aa0860d5477b48b13cd5a6cbdd6e7d"
+            },
+            {
+              "ParameterName": "BoostGlowIntensity",
+              "ParameterValue": 0.0,
+              "ExpressionGUID": "f13539876e440341a4d1cb24484ce65e"
+            },
+            {
+              "ParameterName": "Brake",
+              "ParameterValue": 0.0,
+              "ExpressionGUID": "6b685a0c3fb8d14b9c596d39e01efa92"
+            },
+            {
+              "ParameterName": "HeadlightBrightness",
+              "ParameterValue": 200.0,
+              "ExpressionGUID": "8e69c63477d1ae429d2002ca134b34dd"
+            },
+            {
+              "ParameterName": "TailLightBrightness",
+              "ParameterValue": 4.0,
+              "ExpressionGUID": "3215387c44752c418ed6484cd226e542"
+            }
+          ]
+        },
+        "TextureParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "Diffuse",
+              "ParameterValue": {
+                "index": 224,
+                "name": "chassis_Thrice_d",
+                "full_path": "body_thrice.chassis_Thrice_d"
+              },
+              "ExpressionGUID": "d307e26fa3856d48a40912ba08dcef07"
+            },
+            {
+              "ParameterName": "Masks",
+              "ParameterValue": {
+                "index": 226,
+                "name": "chassis_Thrice_rgb",
+                "full_path": "body_thrice.chassis_Thrice_rgb"
+              },
+              "ExpressionGUID": "4b7269e975f7bb46b72112793f1099e4"
+            },
+            {
+              "ParameterName": "Normal",
+              "ParameterValue": {
+                "index": 225,
+                "name": "chassis_Thrice_n",
+                "full_path": "body_thrice.chassis_Thrice_n"
+              },
+              "ExpressionGUID": "44da3a2763f6dc49903a13bc94144328"
+            }
+          ]
+        },
+        "VectorParameterValues": {
+          "type": "ArrayStruct",
+          "count": 3,
+          "elements": [
+            {
+              "ParameterName": "BoostGlowColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 3.0,
+                "g": 0.132566,
+                "b": 0.0,
+                "a": 1.0
+              },
+              "ExpressionGUID": "eacf92b7f9ce5141ab71f240fa7b2c04"
+            },
+            {
+              "ParameterName": "HeadlightColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 0.5,
+                "g": 0.8,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "ExpressionGUID": "416821532576de44bf095958668135a0"
+            },
+            {
+              "ParameterName": "TailLightColor",
+              "ParameterValue": {
+                "type": "LinearColor",
+                "r": 1.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+              },
+              "ExpressionGUID": "7a6329fa8709914693bf46f69cd84ae0"
+            }
+          ]
+        },
+        "Parent": {
+          "index": 8,
+          "name": "GoodChassis_Painted_Mat",
+          "full_path": "Vehicle_Parent_Materials.GoodChassis_Painted_Mat"
+        },
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": "67ec6c9ff3e18641ab822e495baf9490"
+      }
+    }
+  },
+  "textures": {
+    "Endo_Chassis_D": {
+      "name": "Endo_Chassis_D",
+      "export_index": 216,
+      "full_path": "body_endo.Endo_Chassis_D",
+      "group_dir": "body_endo",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures3",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 2048
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 512
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "TextureFileCacheName": "Textures3",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "Endo_Chassis_N": {
+      "name": "Endo_Chassis_N",
+      "export_index": 217,
+      "full_path": "body_endo.Endo_Chassis_N",
+      "group_dir": "body_endo",
+      "format": "PF_DXT5",
+      "compression_settings": "TC_NormalmapSwizzle",
+      "srgb": false,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures3",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures3",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5,
+        "SRGB": false,
+        "UnpackMin": -1.0,
+        "UnpackMin[1]": -1.0,
+        "UnpackMin[2]": -1.0,
+        "CompressionSettings": {
+          "enum": "TextureCompressionSettings",
+          "value": "TC_NormalmapSwizzle"
+        },
+        "LODGroup": {
+          "enum": "TextureGroup",
+          "value": "TEXTUREGROUP_WorldNormalMap"
+        }
+      }
+    },
+    "Endo_Chassis_RGB": {
+      "name": "Endo_Chassis_RGB",
+      "export_index": 218,
+      "full_path": "body_endo.Endo_Chassis_RGB",
+      "group_dir": "body_endo",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures3",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures3",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5,
+        "LODGroup": {
+          "enum": "TextureGroup",
+          "value": "TEXTUREGROUP_Vehicle"
+        }
+      }
+    },
+    "Body_Thrice_Blankskin_Tier_01": {
+      "name": "Body_Thrice_Blankskin_Tier_01",
+      "export_index": 219,
+      "full_path": "body_thrice.Body_Thrice_Blankskin_Tier_01",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "Body_Thrice_curvature": {
+      "name": "Body_Thrice_curvature",
+      "export_index": 220,
+      "full_path": "body_thrice.Body_Thrice_curvature",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 2048
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 512
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "Body_Thrice_Diffuse_Tier_01": {
+      "name": "Body_Thrice_Diffuse_Tier_01",
+      "export_index": 221,
+      "full_path": "body_thrice.Body_Thrice_Diffuse_Tier_01",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "Body_Thrice_fxmasks": {
+      "name": "Body_Thrice_fxmasks",
+      "export_index": 222,
+      "full_path": "body_thrice.Body_Thrice_fxmasks",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "Body_Thrice_n": {
+      "name": "Body_Thrice_n",
+      "export_index": 223,
+      "full_path": "body_thrice.Body_Thrice_n",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT5",
+      "compression_settings": "TC_NormalmapSwizzle",
+      "srgb": false,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5,
+        "SRGB": false,
+        "UnpackMin": -1.0,
+        "UnpackMin[1]": -1.0,
+        "UnpackMin[2]": -1.0,
+        "CompressionSettings": {
+          "enum": "TextureCompressionSettings",
+          "value": "TC_NormalmapSwizzle"
+        },
+        "LODGroup": {
+          "enum": "TextureGroup",
+          "value": "TEXTUREGROUP_WorldNormalMap"
+        }
+      }
+    },
+    "chassis_Thrice_d": {
+      "name": "chassis_Thrice_d",
+      "export_index": 224,
+      "full_path": "body_thrice.chassis_Thrice_d",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "chassis_Thrice_n": {
+      "name": "chassis_Thrice_n",
+      "export_index": 225,
+      "full_path": "body_thrice.chassis_Thrice_n",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT5",
+      "compression_settings": "TC_NormalmapSwizzle",
+      "srgb": false,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5,
+        "SRGB": false,
+        "UnpackMin": -1.0,
+        "UnpackMin[1]": -1.0,
+        "UnpackMin[2]": -1.0,
+        "CompressionSettings": {
+          "enum": "TextureCompressionSettings",
+          "value": "TC_NormalmapSwizzle"
+        },
+        "LODGroup": {
+          "enum": "TextureGroup",
+          "value": "TEXTUREGROUP_WorldNormalMap"
+        }
+      }
+    },
+    "chassis_Thrice_rgb": {
+      "name": "chassis_Thrice_rgb",
+      "export_index": 226,
+      "full_path": "body_thrice.chassis_Thrice_rgb",
+      "group_dir": "body_thrice",
+      "format": "PF_DXT5",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        2048,
+        2048
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures2",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 4,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 5,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 6,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 7,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 8,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 10,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 11,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "OriginalSizeX": 2048,
+        "OriginalSizeY": 2048,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures2",
+        "MipTailBaseIdx": 11,
+        "FirstResourceMemMip": 5
+      }
+    },
+    "SmokeMask_T": {
+      "name": "SmokeMask_T",
+      "export_index": 227,
+      "full_path": "Boost_LiquidMetal.Textures.SmokeMask_T",
+      "group_dir": "Boost_LiquidMetal/Textures",
+      "format": "PF_DXT1",
+      "compression_settings": "",
+      "srgb": true,
+      "original_size": [
+        512,
+        512
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures7",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 512,
+          "height": 512,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 1,
+          "width": 256,
+          "height": 256,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 2,
+          "width": 128,
+          "height": 128,
+          "flags": "0x10003",
+          "stored_in_tfc": true,
+          "inline_bytes": 0
+        },
+        {
+          "mip_index": 3,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 2048
+        },
+        {
+          "mip_index": 4,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 512
+        },
+        {
+          "mip_index": 5,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 128
+        },
+        {
+          "mip_index": 6,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 32
+        },
+        {
+          "mip_index": 7,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 8,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        },
+        {
+          "mip_index": 9,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 8
+        }
+      ],
+      "properties": {
+        "SizeX": 512,
+        "SizeY": 512,
+        "OriginalSizeX": 512,
+        "OriginalSizeY": 512,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT1"
+        },
+        "TextureFileCacheName": "Textures7",
+        "MipTailBaseIdx": 9,
+        "FirstResourceMemMip": 3
+      }
+    },
+    "Blank_N": {
+      "name": "Blank_N",
+      "export_index": 229,
+      "full_path": "SpaceStation_FieldAssets.Tex.Blank_N",
+      "group_dir": "SpaceStation_FieldAssets/Tex",
+      "format": "PF_DXT5",
+      "compression_settings": "TC_NormalmapSwizzle",
+      "srgb": false,
+      "original_size": [
+        64,
+        64
+      ],
+      "inline_mip_size": [
+        64,
+        64
+      ],
+      "texture_file_cache_name": "Textures3",
+      "mips": [
+        {
+          "mip_index": 0,
+          "width": 64,
+          "height": 64,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 4096
+        },
+        {
+          "mip_index": 1,
+          "width": 32,
+          "height": 32,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 1024
+        },
+        {
+          "mip_index": 2,
+          "width": 16,
+          "height": 16,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 256
+        },
+        {
+          "mip_index": 3,
+          "width": 8,
+          "height": 8,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 64
+        },
+        {
+          "mip_index": 4,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 5,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        },
+        {
+          "mip_index": 6,
+          "width": 4,
+          "height": 4,
+          "flags": "0x10000",
+          "stored_in_tfc": false,
+          "inline_bytes": 16
+        }
+      ],
+      "properties": {
+        "SizeX": 64,
+        "SizeY": 64,
+        "OriginalSizeX": 64,
+        "OriginalSizeY": 64,
+        "Format": {
+          "enum": "EPixelFormat",
+          "value": "PF_DXT5"
+        },
+        "TextureFileCacheName": "Textures3",
+        "MipTailBaseIdx": 6,
+        "SRGB": false,
+        "UnpackMin": -1.0,
+        "UnpackMin[1]": -1.0,
+        "UnpackMin[2]": -1.0,
+        "CompressionSettings": {
+          "enum": "TextureCompressionSettings",
+          "value": "TC_NormalmapSwizzle"
+        },
+        "LODGroup": {
+          "enum": "TextureGroup",
+          "value": "TEXTUREGROUP_WorldNormalMap"
+        }
+      }
+    }
+  },
+  "surface_regions_summary": [
+    {
+      "region_id": 0,
+      "material_name": "Thrice_Chassis_Headlight_Emissive",
+      "display_name": "前大灯发光灯碗与日行灯内腔 (Chassis Headlight Emissive)",
+      "original_section_index": 0,
+      "triangle_count": 508,
+      "vertex_count": 406,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && chassis_Thrice_rgb.R > 80"
+    },
+    {
+      "region_id": 1,
+      "material_name": "Thrice_Chassis_Taillight_And_BoostGlow",
+      "display_name": "尾灯发光灯带与尾喷口内腔发光 (Chassis Taillight & BoostGlow)",
+      "original_section_index": 0,
+      "triangle_count": 366,
+      "vertex_count": 371,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && (chassis_Thrice_rgb.G > 80 || chassis_Thrice_rgb.B > 80)"
+    },
+    {
+      "region_id": 2,
+      "material_name": "Thrice_Chassis_BrakeDiscs_And_Calipers",
+      "display_name": "四轮通风刹车盘与刹车卡钳 (Brake Discs & Calipers)",
+      "original_section_index": 0,
+      "triangle_count": 2368,
+      "vertex_count": 1490,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && PrimaryBone in {FL/FR/BL/BR_Disc_geo_jnt, FL/FR/BL/BR_Brakepad_jnt}"
+    },
+    {
+      "region_id": 3,
+      "material_name": "Thrice_Chassis_Suspension_And_Axles",
+      "display_name": "前后桥减震器弹簧与传动半轴 (Suspension Shocks & Axles)",
+      "original_section_index": 0,
+      "triangle_count": 4142,
+      "vertex_count": 2687,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && PrimaryBone in {FL/FR/BL/BR_Shock_*_jnt, *_axleShaft_jnt, *_Pivot_jnt}"
+    },
+    {
+      "region_id": 4,
+      "material_name": "Thrice_Chassis_BrushedMetal_Engine_And_Exhaust",
+      "display_name": "中置发动机舱金属构件与中置排气管 (Engine Bay & Exhaust Metal)",
+      "original_section_index": 0,
+      "triangle_count": 3451,
+      "vertex_count": 3175,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && Bone==chassis_jnt && (chassis_Thrice_d.Luminance > 95 || VertexColor.R == 255)"
+    },
+    {
+      "region_id": 5,
+      "material_name": "Thrice_Chassis_Undercarriage_And_CockpitTub",
+      "display_name": "底盘护板、扩散器底座与座舱内部结构 (Chassis Undercarriage & Tub)",
+      "original_section_index": 0,
+      "triangle_count": 18597,
+      "vertex_count": 13571,
+      "classification_rule": "Section 0 (MIC_Thrice_Chassis) && Bone==chassis_jnt && Dark Matte Chassis Base"
+    },
+    {
+      "region_id": 6,
+      "material_name": "Thrice_Rear_Engine_Louver_SmokedGlass",
+      "display_name": "后部中置引擎盖百叶窗熏黑透明玻璃 (Rear Engine Cover Smoked Glass)",
+      "original_section_index": 1,
+      "triangle_count": 852,
+      "vertex_count": 489,
+      "classification_rule": "Section 1 (MAT_Lens_VertColor, Slot 1) && VertexColor == [0, 0, 0, 255] (100% of section)"
+    },
+    {
+      "region_id": 7,
+      "material_name": "Thrice_Lens_Headlight_CyanWhite",
+      "display_name": "前大灯外层透明灯罩 (Front Headlight Clear/Cyan Lenses)",
+      "original_section_index": 2,
+      "triangle_count": 275,
+      "vertex_count": 202,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [103, 149, 149, 255]"
+    },
+    {
+      "region_id": 8,
+      "material_name": "Thrice_Lens_FogLight_Yellow",
+      "display_name": "前唇下部黄色雾灯/示廓灯透镜 (Front Lower Yellow Fog Lenses)",
+      "original_section_index": 2,
+      "triangle_count": 108,
+      "vertex_count": 86,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [129, 135, 13, 255]"
+    },
+    {
+      "region_id": 9,
+      "material_name": "Thrice_Lens_TurnSignal_Amber",
+      "display_name": "前部琥珀色转向灯/日行灯透镜 (Front Amber Turn Signal Lenses)",
+      "original_section_index": 2,
+      "triangle_count": 269,
+      "vertex_count": 241,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [156, 61, 0, 255]"
+    },
+    {
+      "region_id": 10,
+      "material_name": "Thrice_Lens_Taillight_Red",
+      "display_name": "尾部双拱形红色尾灯/刹车灯透镜 (Rear Red Taillight Lenses)",
+      "original_section_index": 2,
+      "triangle_count": 704,
+      "vertex_count": 576,
+      "classification_rule": "Section 2 (MAT_Lens_VertColor, Slot 2) && VertexColor == [255, 0, 0, 255]"
+    },
+    {
+      "region_id": 11,
+      "material_name": "Thrice_Body_Slot3_PrimaryPaint",
+      "display_name": "主车身金属车漆与涂装画布层 (Primary Painted Bodywork - Slot 3)",
+      "original_section_index": 3,
+      "triangle_count": 28768,
+      "vertex_count": 17087,
+      "classification_rule": "Section 3 (MIC_Thrice_Body_T1, SkinMaterialIndex=3) && Body_Thrice_Blankskin_Tier_01.R > 128"
+    },
+    {
+      "region_id": 12,
+      "material_name": "Thrice_Body_Slot3_PanelSeam_Trim",
+      "display_name": "主车身钣金接缝与边缘深色饰条 (Body Panel Seam Trim - Slot 3)",
+      "original_section_index": 3,
+      "triangle_count": 352,
+      "vertex_count": 477,
+      "classification_rule": "Section 3 (MIC_Thrice_Body_T1, SkinMaterialIndex=3) && Body_Thrice_Blankskin_Tier_01.R <= 128"
+    },
+    {
+      "region_id": 13,
+      "material_name": "Thrice_Body_Slot4_Trim_MattePlastic_And_Carbon",
+      "display_name": "前铲、侧裙、进气道与车窗外框哑光黑/碳纤维饰件 (Body Trim & Aero Splitters - Slot 4)",
+      "original_section_index": 4,
+      "triangle_count": 24130,
+      "vertex_count": 15219,
+      "classification_rule": "Section 4 (MIC_Thrice_Body_T1, Slot 4) && Body_Thrice_Blankskin_Tier_01.R <= 128"
+    },
+    {
+      "region_id": 14,
+      "material_name": "Thrice_Body_Slot4_PaintedAeroAccents",
+      "display_name": "空气动力学套件同色车漆点缀区域 (Painted Aero Accents - Slot 4)",
+      "original_section_index": 4,
+      "triangle_count": 4886,
+      "vertex_count": 3883,
+      "classification_rule": "Section 4 (MIC_Thrice_Body_T1, Slot 4) && Body_Thrice_Blankskin_Tier_01.R > 128"
+    },
+    {
+      "region_id": 15,
+      "material_name": "Thrice_Windshield_Canopy_Glass",
+      "display_name": "座舱环绕式前挡风玻璃与侧窗玻璃 (Cockpit Windshield & Side Windows - Slot 5)",
+      "original_section_index": 5,
+      "triangle_count": 586,
+      "vertex_count": 386,
+      "classification_rule": "Section 5 (MIC_Thrice_Body_T1, Slot 5) && Body_Thrice_Blankskin_Tier_01.B == 255 && VertexColor == [255, 255, 255, 255] (100% of section)"
+    }
+  ]
+}
