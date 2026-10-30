@@ -1,0 +1,5 @@
+Parent=GoodChassis_Painted_Mat
+Other[0]=Chassis_RyzaRevT1_M
+Diffuse=Chassis_RyzaRevT1_D
+Other[1]=Chassis_RyzaRevT1_RGB
+Normal=Chassis_RyzaRevT1_N

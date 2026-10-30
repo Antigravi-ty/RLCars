@@ -1,0 +1,180 @@
+DiffuseColor =
+{
+    Expression = Vehicle_Parent_Materials.GoodChassis_Painted_Mat.MaterialExpressionStaticSwitchParameter_9
+}
+SpecularColor =
+{
+    Expression = None
+}
+SpecularPower =
+{
+    Expression = None
+}
+Normal =
+{
+    Expression = None
+}
+EmissiveColor =
+{
+    Expression = Vehicle_Parent_Materials.GoodChassis_Painted_Mat.MaterialExpressionStaticSwitchParameter_2
+}
+CustomLighting =
+{
+    OutputIndex = -1
+}
+CustomSkylightDiffuse =
+{
+    OutputIndex = -1
+}
+WorldPositionOffset =
+{
+    OutputIndex = -1
+}
+bUsedWithSkeletalMesh = True
+bUsedWithStaticLighting = True
+bAllowLightmapSpecular = False
+EditorX = -511
+EditorY = -17
+Expressions[140] =
+{
+    Expressions[0] = None
+    Expressions[1] = None
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D_1
+    Expressions[3] = None
+    Expressions[4] = None
+    Expressions[5] = None
+    Expressions[6] = None
+    Expressions[7] = None
+    Expressions[8] = None
+    Expressions[9] = None
+    Expressions[10] = MaterialExpressionTextureSampleParameter2D_2
+    Expressions[11] = None
+    Expressions[12] = None
+    Expressions[13] = None
+    Expressions[14] = None
+    Expressions[15] = None
+    Expressions[16] = None
+    Expressions[17] = None
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D_0
+    Expressions[19] = None
+    Expressions[20] = None
+    Expressions[21] = None
+    Expressions[22] = None
+    Expressions[23] = MaterialExpressionStaticSwitchParameter_2
+    Expressions[24] = None
+    Expressions[25] = None
+    Expressions[26] = None
+    Expressions[27] = None
+    Expressions[28] = None
+    Expressions[29] = None
+    Expressions[30] = MaterialExpressionScalarParameter_0
+    Expressions[31] = None
+    Expressions[32] = None
+    Expressions[33] = MaterialExpressionScalarParameter_2
+    Expressions[34] = MaterialExpressionVectorParameter_1
+    Expressions[35] = None
+    Expressions[36] = None
+    Expressions[37] = MaterialExpressionVectorParameter_2
+    Expressions[38] = None
+    Expressions[39] = MaterialExpressionScalarParameter_1
+    Expressions[40] = None
+    Expressions[41] = None
+    Expressions[42] = None
+    Expressions[43] = None
+    Expressions[44] = None
+    Expressions[45] = MaterialExpressionScalarParameter_9
+    Expressions[46] = None
+    Expressions[47] = MaterialExpressionScalarParameter_3
+    Expressions[48] = MaterialExpressionVectorParameter_0
+    Expressions[49] = None
+    Expressions[50] = None
+    Expressions[51] = None
+    Expressions[52] = None
+    Expressions[53] = None
+    Expressions[54] = MaterialExpressionVectorParameter_8
+    Expressions[55] = None
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D_4
+    Expressions[57] = None
+    Expressions[58] = MaterialExpressionVectorParameter_6
+    Expressions[59] = None
+    Expressions[60] = None
+    Expressions[61] = MaterialExpressionVectorParameter_4
+    Expressions[62] = None
+    Expressions[63] = MaterialExpressionStaticSwitchParameter_0
+    Expressions[64] = MaterialExpressionStaticSwitchParameter_1
+    Expressions[65] = None
+    Expressions[66] = None
+    Expressions[67] = None
+    Expressions[68] = None
+    Expressions[69] = None
+    Expressions[70] = None
+    Expressions[71] = None
+    Expressions[72] = None
+    Expressions[73] = None
+    Expressions[74] = None
+    Expressions[75] = None
+    Expressions[76] = None
+    Expressions[77] = None
+    Expressions[78] = None
+    Expressions[79] = None
+    Expressions[80] = None
+    Expressions[81] = None
+    Expressions[82] = None
+    Expressions[83] = None
+    Expressions[84] = None
+    Expressions[85] = None
+    Expressions[86] = None
+    Expressions[87] = None
+    Expressions[88] = None
+    Expressions[89] = None
+    Expressions[90] = None
+    Expressions[91] = None
+    Expressions[92] = None
+    Expressions[93] = None
+    Expressions[94] = MaterialExpressionStaticSwitchParameter_3
+    Expressions[95] = MaterialExpressionStaticSwitchParameter_4
+    Expressions[96] = MaterialExpressionVectorParameter_5
+    Expressions[97] = MaterialExpressionVectorParameter_7
+    Expressions[98] = MaterialExpressionVectorParameter_3
+    Expressions[99] = MaterialExpressionStaticSwitchParameter_5
+    Expressions[100] = MaterialExpressionStaticComponentMaskParameter_0
+    Expressions[101] = MaterialExpressionTextureSampleParameter2D_5
+    Expressions[102] = MaterialExpressionVectorParameter_9
+    Expressions[103] = MaterialExpressionTextureSampleParameter2D_3
+    Expressions[104] = None
+    Expressions[105] = MaterialExpressionStaticSwitchParameter_8
+    Expressions[106] = MaterialExpressionStaticSwitchParameter_6
+    Expressions[107] = MaterialExpressionScalarParameter_4
+    Expressions[108] = None
+    Expressions[109] = None
+    Expressions[110] = MaterialExpressionStaticSwitchParameter_7
+    Expressions[111] = MaterialExpressionScalarParameter_5
+    Expressions[112] = None
+    Expressions[113] = None
+    Expressions[114] = None
+    Expressions[115] = None
+    Expressions[116] = None
+    Expressions[117] = None
+    Expressions[118] = None
+    Expressions[119] = None
+    Expressions[120] = None
+    Expressions[121] = MaterialExpressionVectorParameter_10
+    Expressions[122] = MaterialExpressionVectorParameter_12
+    Expressions[123] = MaterialExpressionVectorParameter_16
+    Expressions[124] = None
+    Expressions[125] = None
+    Expressions[126] = None
+    Expressions[127] = None
+    Expressions[128] = None
+    Expressions[129] = MaterialExpressionVectorParameter_18
+    Expressions[130] = MaterialExpressionStaticSwitchParameter_9
+    Expressions[131] = None
+    Expressions[132] = MaterialExpressionScalarParameter_7
+    Expressions[133] = MaterialExpressionScalarParameter_10
+    Expressions[134] = None
+    Expressions[135] = None
+    Expressions[136] = None
+    Expressions[137] = None
+    Expressions[138] = None
+    Expressions[139] = None
+}

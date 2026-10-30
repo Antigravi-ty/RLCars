@@ -1,0 +1,21 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = Opacity
+        ParameterValue = 0.4
+        ExpressionGUID = eb51fc417260204481543e0834ee919e
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = Normal
+        ParameterValue = body_ryzarevt1.Lenses_RyzaRevT1_N
+        ExpressionGUID = 6aaf4e3b915adb4484b58a9fca066280
+    }
+}
+Parent = Vehicle_Parent_Materials02.MAT_Vehicle_Glass_Translucent
+ParentLightingGuid = efcee64fecc4644c85b2a59d28d595ef
+bHasQualitySwitch = True

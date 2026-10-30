@@ -1,0 +1,1883 @@
+{
+  "mesh_name": "Body_RyzaRevT1_SK",
+  "total_vertices": 61521,
+  "total_triangles": 91993,
+  "original_sections_count": 8,
+  "detailed_surface_regions_count": 21,
+  "original_sections": [
+    {
+      "region_id": 0,
+      "material_name": "Slot0_MIC_RyzaRevT1_Chassis",
+      "display_name": "Original UE3 Section 0 (MIC_RyzaRevT1_Chassis)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 39278,
+      "vertex_count": 28685,
+      "classification_rule": "Original FSkelMeshSection[0] (FirstIndex=0, NumTriangles=39278)",
+      "evidence": {
+        "section": {
+          "section_index": 0,
+          "material_index": 0,
+          "material_name": "MIC_RyzaRevT1_Chassis",
+          "chunk_index": 0,
+          "first_index": 0,
+          "num_triangles": 39278,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -59.4285,
+          -31.6079,
+          -12.6091
+        ],
+        "max": [
+          78.9037,
+          31.6079,
+          35.906
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.003,
+          0.0014
+        ],
+        "max": [
+          0.9985,
+          0.9961
+        ]
+      },
+      "rigged_bones": [
+        "BL_Brakepad_jnt",
+        "BL_Disc_geo_jnt",
+        "BL_Shock_A_jnt",
+        "BL_Shock_B_jnt",
+        "BL_WheelTranslation_jnt",
+        "BL_axleShaft_jnt",
+        "BR_Brakepad_jnt",
+        "BR_Disc_geo_jnt",
+        "BR_Shock_A_jnt",
+        "BR_Shock_B_jnt",
+        "BR_WheelTranslation_jnt",
+        "BR_axleShaft_jnt",
+        "FL_Brakepad_jnt",
+        "FL_Disc_geo_jnt",
+        "FL_Pivot_jnt",
+        "FL_Shock_A_jnt",
+        "FL_Shock_B_jnt",
+        "FL_WheelTranslation_jnt",
+        "FL_axleShaft_jnt",
+        "FR_Brakepad_jnt",
+        "FR_Disc_geo_jnt",
+        "FR_Pivot_jnt",
+        "FR_Shock_A_jnt",
+        "FR_Shock_B_jnt",
+        "FR_WheelTranslation_jnt",
+        "FR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.65,
+        "roughnessFactor": 0.45,
+        "emissiveFactor": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal",
+        "emissiveTex": "RyzaRevT1_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 1,
+      "material_name": "Slot1_MIC_RyzaRevT1_Plastic",
+      "display_name": "Original UE3 Section 1 (MIC_RyzaRevT1_Plastic)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MIC_RyzaRevT1_Plastic",
+      "triangle_count": 6812,
+      "vertex_count": 4484,
+      "classification_rule": "Original FSkelMeshSection[1] (FirstIndex=117834, NumTriangles=6812)",
+      "evidence": {
+        "section": {
+          "section_index": 1,
+          "material_index": 1,
+          "material_name": "MIC_RyzaRevT1_Plastic",
+          "chunk_index": 1,
+          "first_index": 117834,
+          "num_triangles": 6812,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -63.7509,
+          -30.3891,
+          -8.9191
+        ],
+        "max": [
+          76.9714,
+          30.3891,
+          37.3574
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.008,
+          0.0079
+        ],
+        "max": [
+          0.9912,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "BL_axleShaft_jnt",
+        "BR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.08,
+        "roughnessFactor": 0.68,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Plastic_BaseColor",
+        "mrTex": "RyzaRevT1_Trim_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    },
+    {
+      "region_id": 2,
+      "material_name": "Slot2_MIC_RyzaRevT1_Body",
+      "display_name": "Original UE3 Section 2 (MIC_RyzaRevT1_Body)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MIC_RyzaRevT1_Body",
+      "triangle_count": 14500,
+      "vertex_count": 8426,
+      "classification_rule": "Original FSkelMeshSection[2] (FirstIndex=138270, NumTriangles=14500)",
+      "evidence": {
+        "section": {
+          "section_index": 2,
+          "material_index": 2,
+          "material_name": "MIC_RyzaRevT1_Body",
+          "chunk_index": 2,
+          "first_index": 138270,
+          "num_triangles": 14500,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -63.7602,
+          -38.3834,
+          -2.2336
+        ],
+        "max": [
+          78.3478,
+          38.3834,
+          37.3552
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.011,
+          0.0073
+        ],
+        "max": [
+          0.9883,
+          0.9922
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.38,
+        "roughnessFactor": 0.22,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Body_Primary_BaseColor",
+        "mrTex": "RyzaRevT1_Body_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Body_Normal"
+      }
+    },
+    {
+      "region_id": 3,
+      "material_name": "Slot3_MIC_RyzaRevT1_Body",
+      "display_name": "Original UE3 Section 3 (MIC_RyzaRevT1_Body)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 3,
+      "original_material_slot": 3,
+      "original_material_name": "MIC_RyzaRevT1_Body",
+      "triangle_count": 3112,
+      "vertex_count": 1775,
+      "classification_rule": "Original FSkelMeshSection[3] (FirstIndex=181770, NumTriangles=3112)",
+      "evidence": {
+        "section": {
+          "section_index": 3,
+          "material_index": 3,
+          "material_name": "MIC_RyzaRevT1_Body",
+          "chunk_index": 3,
+          "first_index": 181770,
+          "num_triangles": 3112,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -43.7771,
+          -17.3645,
+          26.3502
+        ],
+        "max": [
+          -17.0417,
+          17.3645,
+          33.622
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.1968,
+          0.4883
+        ],
+        "max": [
+          0.4568,
+          0.6646
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.42,
+        "roughnessFactor": 0.24,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Body_Secondary_BaseColor",
+        "mrTex": "RyzaRevT1_Body_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Body_Normal"
+      }
+    },
+    {
+      "region_id": 4,
+      "material_name": "Slot4_MIC_RyzaRevT1_Windshield",
+      "display_name": "Original UE3 Section 4 (MIC_RyzaRevT1_Windshield)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 4,
+      "original_material_slot": 4,
+      "original_material_name": "MIC_RyzaRevT1_Windshield",
+      "triangle_count": 940,
+      "vertex_count": 545,
+      "classification_rule": "Original FSkelMeshSection[4] (FirstIndex=191106, NumTriangles=940)",
+      "evidence": {
+        "section": {
+          "section_index": 4,
+          "material_index": 4,
+          "material_name": "MIC_RyzaRevT1_Windshield",
+          "chunk_index": 4,
+          "first_index": 191106,
+          "num_triangles": 940,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -4.1021,
+          -22.1867,
+          16.2319
+        ],
+        "max": [
+          44.7748,
+          22.1867,
+          30.5393
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.5024,
+          0.8076
+        ],
+        "max": [
+          0.9922,
+          0.9922
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.09,
+          0.12,
+          0.15,
+          0.88
+        ],
+        "metallicFactor": 0.18,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "RyzaRevT1_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 5,
+      "material_name": "Slot5_MIC_RyzaRevT1_Lenses",
+      "display_name": "Original UE3 Section 5 (MIC_RyzaRevT1_Lenses)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 5,
+      "original_material_slot": 5,
+      "original_material_name": "MIC_RyzaRevT1_Lenses",
+      "triangle_count": 1010,
+      "vertex_count": 633,
+      "classification_rule": "Original FSkelMeshSection[5] (FirstIndex=193926, NumTriangles=1010)",
+      "evidence": {
+        "section": {
+          "section_index": 5,
+          "material_index": 5,
+          "material_name": "MIC_RyzaRevT1_Lenses",
+          "chunk_index": 5,
+          "first_index": 193926,
+          "num_triangles": 1010,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -54.6015,
+          -27.45,
+          -8.4128
+        ],
+        "max": [
+          78.2136,
+          27.45,
+          25.883
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0154,
+          0.0164
+        ],
+        "max": [
+          0.9922,
+          0.9907
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.78,
+          0.86,
+          0.94,
+          0.45
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.06,
+        "emissiveFactor": [
+          0.12,
+          0.15,
+          0.18
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "RyzaRevT1_Lenses_Normal"
+      }
+    },
+    {
+      "region_id": 6,
+      "material_name": "Slot6_MIC_RyzaRevT1_Trim",
+      "display_name": "Original UE3 Section 6 (MIC_RyzaRevT1_Trim)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 6,
+      "original_material_slot": 6,
+      "original_material_name": "MIC_RyzaRevT1_Trim",
+      "triangle_count": 11194,
+      "vertex_count": 7057,
+      "classification_rule": "Original FSkelMeshSection[6] (FirstIndex=196956, NumTriangles=11194)",
+      "evidence": {
+        "section": {
+          "section_index": 6,
+          "material_index": 6,
+          "material_name": "MIC_RyzaRevT1_Trim",
+          "chunk_index": 6,
+          "first_index": 196956,
+          "num_triangles": 11194,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -54.2607,
+          -38.4309,
+          1.0038
+        ],
+        "max": [
+          71.8669,
+          38.4309,
+          30.9462
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0079,
+          0.0236
+        ],
+        "max": [
+          0.9917,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.52,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Trim_BaseColor",
+        "mrTex": "RyzaRevT1_Trim_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    },
+    {
+      "region_id": 7,
+      "material_name": "Slot7_MIC_RyzaRevT1_TrimMetal",
+      "display_name": "Original UE3 Section 7 (MIC_RyzaRevT1_TrimMetal)",
+      "category": "Original_UE3_Section",
+      "original_section_index": 7,
+      "original_material_slot": 7,
+      "original_material_name": "MIC_RyzaRevT1_TrimMetal",
+      "triangle_count": 15147,
+      "vertex_count": 9916,
+      "classification_rule": "Original FSkelMeshSection[7] (FirstIndex=230538, NumTriangles=15147)",
+      "evidence": {
+        "section": {
+          "section_index": 7,
+          "material_index": 7,
+          "material_name": "MIC_RyzaRevT1_TrimMetal",
+          "chunk_index": 7,
+          "first_index": 230538,
+          "num_triangles": 15147,
+          "triangle_sorting": 0
+        }
+      },
+      "bounds_uu": {
+        "min": [
+          -52.5202,
+          -28.4441,
+          -12.0325
+        ],
+        "max": [
+          78.2521,
+          28.4441,
+          36.6033
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0079,
+          0.0089
+        ],
+        "max": [
+          0.9893,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.82,
+        "roughnessFactor": 0.32,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_TrimMetal_BaseColor",
+        "mrTex": "RyzaRevT1_TrimMetal_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    }
+  ],
+  "detailed_surface_regions": [
+    {
+      "region_id": 0,
+      "material_name": "RyzaRevT1_Chassis_Headlight_Emissive",
+      "display_name": "前大灯内腔发光灯碗与日行灯发光体 (Chassis Headlight Emissive)",
+      "category": "Chassis_Lights",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 262,
+      "vertex_count": 218,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && Chassis_RyzaRevT1_RGB.R > 30",
+      "evidence": {
+        "mask_texture": "Chassis_RyzaRevT1_RGB (Channel R = Headlight Mask)",
+        "shader_parameter": "HeadlightColor=(3.0, 2.901746, 2.747269, 1.0), HeadlightBrightness=4.0"
+      },
+      "bounds_uu": {
+        "min": [
+          -54.5508,
+          -22.204,
+          -5.5915
+        ],
+        "max": [
+          73.3576,
+          22.204,
+          25.883
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.2198,
+          0.1304
+        ],
+        "max": [
+          0.3118,
+          0.1718
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          0.96,
+          0.9,
+          1.0
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.15,
+        "emissiveFactor": [
+          1.0,
+          0.96,
+          0.9
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal",
+        "emissiveTex": "RyzaRevT1_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 1,
+      "material_name": "RyzaRevT1_Chassis_Taillight_Emissive",
+      "display_name": "贯穿式/环绕尾灯与刹车灯发光体 (Chassis Taillight & Brake Emissive)",
+      "category": "Chassis_Lights",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 1685,
+      "vertex_count": 1242,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && Chassis_RyzaRevT1_RGB.G > 30",
+      "evidence": {
+        "mask_texture": "Chassis_RyzaRevT1_RGB (Channel G = Taillight/Brake Mask)",
+        "shader_parameter": "TailLightColor=(1.0, 0.014959, 0.0, 1.0), TailLightBrightness=4.0"
+      },
+      "bounds_uu": {
+        "min": [
+          -54.1445,
+          -24.2726,
+          -10.4798
+        ],
+        "max": [
+          77.8906,
+          24.2725,
+          25.6041
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.1239,
+          0.1031
+        ],
+        "max": [
+          0.3542,
+          0.1721
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          0.15,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.18,
+        "emissiveFactor": [
+          1.0,
+          0.05,
+          0.01
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal",
+        "emissiveTex": "RyzaRevT1_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 2,
+      "material_name": "RyzaRevT1_Chassis_BoostGlow_CyanEmissive",
+      "display_name": "双尾喷口内腔青蓝色氮气发光环 (Chassis BoostGlow Cyan Emissive)",
+      "category": "Chassis_Lights",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 120,
+      "vertex_count": 152,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && Chassis_RyzaRevT1_RGB.B > 30",
+      "evidence": {
+        "mask_texture": "Chassis_RyzaRevT1_RGB (Channel B = BoostGlow Mask)",
+        "shader_parameter": "BoostGlowColor=(0.0, 2.619814, 3.0, 1.0), BoostGlowBrightness=4.0"
+      },
+      "bounds_uu": {
+        "min": [
+          -53.71,
+          -18.7573,
+          -7.3318
+        ],
+        "max": [
+          73.1305,
+          18.7573,
+          18.0979
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.003,
+          0.0034
+        ],
+        "max": [
+          0.271,
+          0.1567
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.25,
+          0.9,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.25,
+        "roughnessFactor": 0.18,
+        "emissiveFactor": [
+          0.0,
+          0.87,
+          1.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal",
+        "emissiveTex": "RyzaRevT1_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 3,
+      "material_name": "RyzaRevT1_Chassis_AdditionalEmissive_OrangeAmber",
+      "display_name": "底盘附加发光灯带（红/绿双通道橙珀色氛围光） (Chassis Additional Emissive Map)",
+      "category": "Chassis_Lights",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 171,
+      "vertex_count": 181,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && (Chassis_RyzaRevT1_M.R > 20 || Chassis_RyzaRevT1_M.G > 20)",
+      "evidence": {
+        "static_switch": "AdditionalEmissive = True",
+        "mask_texture": "AdditionalEmissiveMap = Chassis_RyzaRevT1_M",
+        "shader_parameter": "Emissive Color (RedMask)=(1.0, 0.150036, 0.0, 5.0), Emissive Color (GreenMask)=(1.0, 0.449809, 0.0, 3.0)"
+      },
+      "bounds_uu": {
+        "min": [
+          -54.5508,
+          -21.8563,
+          -11.4225
+        ],
+        "max": [
+          74.2413,
+          21.8563,
+          25.883
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.1744,
+          0.1222
+        ],
+        "max": [
+          0.3635,
+          0.173
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          0.45,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.2,
+        "emissiveFactor": [
+          1.0,
+          0.35,
+          0.02
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal",
+        "emissiveTex": "RyzaRevT1_Chassis_Emissive"
+      }
+    },
+    {
+      "region_id": 4,
+      "material_name": "RyzaRevT1_Chassis_BrakeDiscs_And_Calipers",
+      "display_name": "四轮通风打孔刹车盘与高性能刹车卡钳 (Brake Discs & Calipers)",
+      "category": "Chassis_Brakes",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 2784,
+      "vertex_count": 2224,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && PrimaryBone in {FL/FR/BL/BR_Disc_geo_jnt, FL/FR/BL/BR_Brakepad_jnt}",
+      "evidence": {
+        "bone_binding": "FL/FR/BL/BR_Disc_geo_jnt (4x 208 = 832 tris), FL/FR/BL/BR_Brakepad_jnt (4x 488 = 1,952 tris)",
+        "diffuse_texture": "Chassis_RyzaRevT1_D"
+      },
+      "bounds_uu": {
+        "min": [
+          -42.1862,
+          -31.1782,
+          -12.4652
+        ],
+        "max": [
+          61.126,
+          31.1782,
+          1.6949
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.4502,
+          0.0019
+        ],
+        "max": [
+          0.9976,
+          0.2401
+        ]
+      },
+      "rigged_bones": [
+        "BL_Brakepad_jnt",
+        "BL_Disc_geo_jnt",
+        "BR_Brakepad_jnt",
+        "BR_Disc_geo_jnt",
+        "FL_Brakepad_jnt",
+        "FL_Disc_geo_jnt",
+        "FR_Brakepad_jnt",
+        "FR_Disc_geo_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.74,
+          0.75,
+          0.78,
+          1.0
+        ],
+        "metallicFactor": 0.85,
+        "roughnessFactor": 0.28,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 5,
+      "material_name": "RyzaRevT1_Chassis_Suspension_And_Axles",
+      "display_name": "前后桥独立悬挂减震器、转向节与传动半轴 (Suspension Shocks, Pivots & Axles)",
+      "category": "Chassis_Suspension",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 4062,
+      "vertex_count": 3192,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && PrimaryBone in {FL/FR/BL/BR_Shock_A/B_jnt, *_axleShaft_jnt, *_Pivot_jnt, *_WheelTranslation_jnt}",
+      "evidence": {
+        "bone_binding": "FL/FR/BL/BR_Shock_A/B_jnt, FL/FR/BL/BR_axleShaft_jnt, FL/FR_Pivot_jnt, FL/FR/BL/BR_WheelTranslation_jnt (controlled by 23 SkelControl nodes in Body_RyzaRevT1_AT)"
+      },
+      "bounds_uu": {
+        "min": [
+          -38.9169,
+          -28.8587,
+          -9.9676
+        ],
+        "max": [
+          58.6284,
+          28.8587,
+          13.5203
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.2379,
+          0.0076
+        ],
+        "max": [
+          0.9961,
+          0.502
+        ]
+      },
+      "rigged_bones": [
+        "BL_Shock_A_jnt",
+        "BL_Shock_B_jnt",
+        "BL_WheelTranslation_jnt",
+        "BL_axleShaft_jnt",
+        "BR_Shock_A_jnt",
+        "BR_Shock_B_jnt",
+        "BR_WheelTranslation_jnt",
+        "BR_axleShaft_jnt",
+        "FL_Pivot_jnt",
+        "FL_Shock_A_jnt",
+        "FL_Shock_B_jnt",
+        "FL_WheelTranslation_jnt",
+        "FL_axleShaft_jnt",
+        "FR_Pivot_jnt",
+        "FR_Shock_A_jnt",
+        "FR_Shock_B_jnt",
+        "FR_WheelTranslation_jnt",
+        "FR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.52,
+          0.54,
+          0.58,
+          1.0
+        ],
+        "metallicFactor": 0.72,
+        "roughnessFactor": 0.38,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 6,
+      "material_name": "RyzaRevT1_Chassis_EngineBay_And_Exhaust_Metal",
+      "display_name": "后置涡轮引擎舱、双出排气管与底盘高亮金属件 (Engine Bay, Twin Exhaust & Bright Chassis Metal)",
+      "category": "Chassis_Metal",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 15550,
+      "vertex_count": 11750,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && Bone==chassis_jnt && Chassis_RyzaRevT1_D.MeanRGB > 75",
+      "evidence": {
+        "mask_evidence": "Chassis_RyzaRevT1_D high-albedo metallic regions on chassis_jnt"
+      },
+      "bounds_uu": {
+        "min": [
+          -59.4285,
+          -31.6079,
+          -12.6091
+        ],
+        "max": [
+          78.9037,
+          31.6079,
+          35.6573
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.003,
+          0.0014
+        ],
+        "max": [
+          0.9956,
+          0.9961
+        ]
+      },
+      "rigged_bones": [
+        "BR_axleShaft_jnt",
+        "FL_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.7,
+          0.71,
+          0.74,
+          1.0
+        ],
+        "metallicFactor": 0.82,
+        "roughnessFactor": 0.3,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 7,
+      "material_name": "RyzaRevT1_Chassis_Undercarriage_And_CockpitTub",
+      "display_name": "底盘护板、轮拱内衬与座舱内部暗色结构 (Chassis Undercarriage & Cockpit Tub)",
+      "category": "Chassis_Structure",
+      "original_section_index": 0,
+      "original_material_slot": 0,
+      "original_material_name": "MIC_RyzaRevT1_Chassis",
+      "triangle_count": 14644,
+      "vertex_count": 12511,
+      "classification_rule": "Section 0 (MIC_RyzaRevT1_Chassis) && Bone==chassis_jnt && Chassis_RyzaRevT1_D.MeanRGB <= 75",
+      "evidence": {
+        "mask_evidence": "Chassis_RyzaRevT1_D dark structural regions & Chassis_RyzaRevT1_N.R ambient occlusion"
+      },
+      "bounds_uu": {
+        "min": [
+          -58.7028,
+          -31.4879,
+          -11.5579
+        ],
+        "max": [
+          78.9037,
+          31.4879,
+          35.906
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0033,
+          0.0017
+        ],
+        "max": [
+          0.9985,
+          0.9961
+        ]
+      },
+      "rigged_bones": [
+        "BR_axleShaft_jnt",
+        "FL_axleShaft_jnt",
+        "FR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.24,
+          0.24,
+          0.26,
+          1.0
+        ],
+        "metallicFactor": 0.32,
+        "roughnessFactor": 0.68,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Chassis_BaseColor",
+        "mrTex": "RyzaRevT1_Chassis_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Chassis_Normal"
+      }
+    },
+    {
+      "region_id": 8,
+      "material_name": "RyzaRevT1_Plastic_FrontGrille_And_Splitter",
+      "display_name": "前脸进气格栅蜂窝网、前唇与大灯外框哑光黑塑料 (Front Grille, Splitter & Headlight Bezel Plastic - Slot 1)",
+      "category": "Body_Plastic",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MIC_RyzaRevT1_Plastic",
+      "triangle_count": 4344,
+      "vertex_count": 2978,
+      "classification_rule": "Section 1 (MIC_RyzaRevT1_Plastic, UseAsPlastic=True) && Centroid.X >= 0.0",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_Plastic (Parent=MAT_Vehicle_Trim_Base_normalmapped, UseAsPlastic=True)",
+        "shader_parameter": "PlasticColor=(0.14, 0.14, 0.14, 1.0), BodyTextures_Map=Trim_RyzaRevT1_COA, NormalMap=Trim_RyzaRevT1_N"
+      },
+      "bounds_uu": {
+        "min": [
+          32.2184,
+          -30.3891,
+          -8.9191
+        ],
+        "max": [
+          76.9714,
+          30.3891,
+          18.0671
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.008,
+          0.0079
+        ],
+        "max": [
+          0.9912,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.08,
+        "roughnessFactor": 0.68,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Plastic_BaseColor",
+        "mrTex": "RyzaRevT1_Trim_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    },
+    {
+      "region_id": 9,
+      "material_name": "RyzaRevT1_Plastic_RearDiffuser_And_Vents",
+      "display_name": "尾部下扩散器格栅、散热网孔与后保险杠哑光黑塑料 (Rear Diffuser, Exhaust Surround & Vents Plastic - Slot 1)",
+      "category": "Body_Plastic",
+      "original_section_index": 1,
+      "original_material_slot": 1,
+      "original_material_name": "MIC_RyzaRevT1_Plastic",
+      "triangle_count": 2468,
+      "vertex_count": 1506,
+      "classification_rule": "Section 1 (MIC_RyzaRevT1_Plastic, UseAsPlastic=True) && Centroid.X < 0.0",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_Plastic (Parent=MAT_Vehicle_Trim_Base_normalmapped, UseAsPlastic=True)",
+        "shader_parameter": "PlasticColor=(0.14, 0.14, 0.14, 1.0), BodyTextures_Map=Trim_RyzaRevT1_COA, NormalMap=Trim_RyzaRevT1_N"
+      },
+      "bounds_uu": {
+        "min": [
+          -63.7509,
+          -26.4473,
+          -7.8198
+        ],
+        "max": [
+          -1.2571,
+          26.4473,
+          37.3574
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.2783,
+          0.0683
+        ],
+        "max": [
+          0.9893,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "BL_axleShaft_jnt",
+        "BR_axleShaft_jnt",
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.08,
+        "roughnessFactor": 0.68,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Plastic_BaseColor",
+        "mrTex": "RyzaRevT1_Trim_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    },
+    {
+      "region_id": 10,
+      "material_name": "RyzaRevT1_Body_Slot2_PrimaryPaint",
+      "display_name": "主车身金属车漆与涂装画布层 (Primary Painted Bodywork & Decal Canvas - Slot 2)",
+      "category": "Body_Paint",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MIC_RyzaRevT1_Body",
+      "triangle_count": 11705,
+      "vertex_count": 7074,
+      "classification_rule": "Section 2 (MIC_RyzaRevT1_Body, SkinMaterialIndex=2) && Body_RyzaRevT1_D.A > 128",
+      "evidence": {
+        "skin_material_index": 2,
+        "mask_texture": "Body_RyzaRevT1_Blankskin.R > 128 & Body_RyzaRevT1_D.A > 128",
+        "shader_parameter": "TeamColor=(0.613237, 0.182819, 0.02035, 1.0), F1Type=2.0, F1ControlA=(0.6, 0.125, 0.25, 0.0625)"
+      },
+      "bounds_uu": {
+        "min": [
+          -63.7602,
+          -38.3834,
+          -2.2336
+        ],
+        "max": [
+          78.3478,
+          38.3834,
+          37.3552
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.011,
+          0.0104
+        ],
+        "max": [
+          0.9883,
+          0.9907
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.38,
+        "roughnessFactor": 0.22,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Body_Primary_BaseColor",
+        "mrTex": "RyzaRevT1_Body_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Body_Normal"
+      }
+    },
+    {
+      "region_id": 11,
+      "material_name": "RyzaRevT1_Body_Slot2_RecessedPanelSeams_And_Accents",
+      "display_name": "主车身钣金凹槽接缝与深色嵌入式饰条 (Recessed Body Panel Seams & Dark Accents - Slot 2)",
+      "category": "Body_Trim",
+      "original_section_index": 2,
+      "original_material_slot": 2,
+      "original_material_name": "MIC_RyzaRevT1_Body",
+      "triangle_count": 2795,
+      "vertex_count": 2037,
+      "classification_rule": "Section 2 (MIC_RyzaRevT1_Body, SkinMaterialIndex=2) && Body_RyzaRevT1_D.A <= 128",
+      "evidence": {
+        "mask_texture": "Body_RyzaRevT1_D.A <= 128 (Diffuse Alpha Seam/Trim Mask on 2,795 tris)"
+      },
+      "bounds_uu": {
+        "min": [
+          -63.3616,
+          -38.2796,
+          -0.4406
+        ],
+        "max": [
+          77.513,
+          38.3834,
+          36.7463
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0111,
+          0.0073
+        ],
+        "max": [
+          0.9878,
+          0.9922
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.58,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Body_Seam_BaseColor",
+        "mrTex": "RyzaRevT1_Body_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Body_Normal"
+      }
+    },
+    {
+      "region_id": 12,
+      "material_name": "RyzaRevT1_Body_Slot3_RoofLouver_SecondaryPaint",
+      "display_name": "后部车顶与中置引擎盖百叶窗双遮罩副色车漆面板 (Rear Roof & Engine Decklid Louver Secondary Paint - Slot 3)",
+      "category": "Body_Paint_Secondary",
+      "original_section_index": 3,
+      "original_material_slot": 3,
+      "original_material_name": "MIC_RyzaRevT1_Body",
+      "triangle_count": 3112,
+      "vertex_count": 1775,
+      "classification_rule": "Section 3 (MIC_RyzaRevT1_Body, Slot 3) && Body_RyzaRevT1_Blankskin.G > 128 (99.71% of Section 3)",
+      "evidence": {
+        "mask_texture": "Body_RyzaRevT1_Blankskin (Channel R > 128 on 3,112/3,112 tris AND Channel G > 128 on 3,103/3,112 tris)",
+        "shader_parameter": "PaintColor=(0.232036, 0.020519, 0.021236, 1.0), F2Type=2.0, F2ControlA=(0.75, 0.5, 0.125, 0.25)",
+        "spatial_location": "Upper rear roof & engine louver decklid X=[-43.78, -17.04], Y=[-17.36, 17.36], Z=[26.35, 33.62]"
+      },
+      "bounds_uu": {
+        "min": [
+          -43.7771,
+          -17.3645,
+          26.3502
+        ],
+        "max": [
+          -17.0417,
+          17.3645,
+          33.622
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.1968,
+          0.4883
+        ],
+        "max": [
+          0.4568,
+          0.6646
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.42,
+        "roughnessFactor": 0.24,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Body_Secondary_BaseColor",
+        "mrTex": "RyzaRevT1_Body_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Body_Normal"
+      }
+    },
+    {
+      "region_id": 13,
+      "material_name": "RyzaRevT1_Windshield_Canopy_Glass",
+      "display_name": "座舱前挡风玻璃与左右侧窗深色玻璃 (Cockpit Windshield & Side Windows Glass - Slot 4)",
+      "category": "Glass_Canopy",
+      "original_section_index": 4,
+      "original_material_slot": 4,
+      "original_material_name": "MIC_RyzaRevT1_Windshield",
+      "triangle_count": 940,
+      "vertex_count": 545,
+      "classification_rule": "Section 4 (MIC_RyzaRevT1_Windshield, Slot 4, Parent=MAT_Vehicle_Windshield_Base / SPMF_OldWindow_v2022)",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_Windshield (Parent=MAT_Vehicle_Windshield_Base)",
+        "spatial_location": "Cockpit canopy X=[-4.10, 44.77], Y=[-22.19, 22.19], Z=[16.23, 30.54]"
+      },
+      "bounds_uu": {
+        "min": [
+          -4.1021,
+          -22.1867,
+          16.2319
+        ],
+        "max": [
+          44.7748,
+          22.1867,
+          30.5393
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.5024,
+          0.8076
+        ],
+        "max": [
+          0.9922,
+          0.9922
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.09,
+          0.12,
+          0.15,
+          0.88
+        ],
+        "metallicFactor": 0.18,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "RyzaRevT1_Flat_Normal"
+      }
+    },
+    {
+      "region_id": 14,
+      "material_name": "RyzaRevT1_Lenses_FrontHeadlight_ClearGlass",
+      "display_name": "前大灯外层透明折射灯罩透镜 (Front Headlight Clear Translucent Lenses - Slot 5)",
+      "category": "Lens_Glass",
+      "original_section_index": 5,
+      "original_material_slot": 5,
+      "original_material_name": "MIC_RyzaRevT1_Lenses",
+      "triangle_count": 946,
+      "vertex_count": 581,
+      "classification_rule": "Section 5 (MIC_RyzaRevT1_Lenses) && VertexColor == [255, 255, 255, 255] && Centroid.X > 0.0",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_Lenses (MAT_Vehicle_Glass_Translucent, Opacity=0.4, Normal=Lenses_RyzaRevT1_N)",
+        "vertex_color": "RGBA [255, 255, 255, 255] on all 946 front triangles"
+      },
+      "bounds_uu": {
+        "min": [
+          68.2181,
+          -27.45,
+          -8.4128
+        ],
+        "max": [
+          78.2136,
+          27.45,
+          9.1234
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0154,
+          0.0164
+        ],
+        "max": [
+          0.9922,
+          0.9907
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.78,
+          0.86,
+          0.94,
+          0.45
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.06,
+        "emissiveFactor": [
+          0.12,
+          0.15,
+          0.18
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "RyzaRevT1_Lenses_Normal"
+      }
+    },
+    {
+      "region_id": 15,
+      "material_name": "RyzaRevT1_Lenses_RearTaillight_RedGlass",
+      "display_name": "尾部高位红色刹车灯/尾灯透明透镜 (Rear Red Taillight Translucent Lenses - Slot 5)",
+      "category": "Lens_Glass",
+      "original_section_index": 5,
+      "original_material_slot": 5,
+      "original_material_name": "MIC_RyzaRevT1_Lenses",
+      "triangle_count": 40,
+      "vertex_count": 32,
+      "classification_rule": "Section 5 (MIC_RyzaRevT1_Lenses) && VertexColor == [255, 0, 0, 255] && Centroid.X < 0.0",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_Lenses (MAT_Vehicle_Glass_Translucent, Opacity=0.4, Normal=Lenses_RyzaRevT1_N)",
+        "vertex_color_exact": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "spatial_location": "Rear upper brake light lens X=[-54.60, -53.36], Z=[23.81, 25.88]"
+      },
+      "bounds_uu": {
+        "min": [
+          -54.6015,
+          -22.4756,
+          23.5841
+        ],
+        "max": [
+          -53.28,
+          22.4756,
+          25.883
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.017,
+          0.4429
+        ],
+        "max": [
+          0.6294,
+          0.7437
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.95,
+          0.08,
+          0.06,
+          0.62
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.42,
+          0.02,
+          0.01
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "RyzaRevT1_Lenses_Normal"
+      }
+    },
+    {
+      "region_id": 16,
+      "material_name": "RyzaRevT1_Lenses_RearReverse_ClearGlass",
+      "display_name": "尾部白色倒车灯/转向灯透明透镜 (Rear Clear Reverse/Indicator Lenses - Slot 5)",
+      "category": "Lens_Glass",
+      "original_section_index": 5,
+      "original_material_slot": 5,
+      "original_material_name": "MIC_RyzaRevT1_Lenses",
+      "triangle_count": 24,
+      "vertex_count": 20,
+      "classification_rule": "Section 5 (MIC_RyzaRevT1_Lenses) && VertexColor == [255, 255, 255, 255] && Centroid.X <= 0.0",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_Lenses (MAT_Vehicle_Glass_Translucent, Opacity=0.4, Normal=Lenses_RyzaRevT1_N)",
+        "vertex_color_exact": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "spatial_location": "Rear reverse indicator lens X=[-54.10, -52.85], Z=[24.18, 25.12]"
+      },
+      "bounds_uu": {
+        "min": [
+          -54.1258,
+          -22.4756,
+          23.5841
+        ],
+        "max": [
+          -53.2795,
+          22.4756,
+          24.9328
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0189,
+          0.7588
+        ],
+        "max": [
+          0.5137,
+          0.9531
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.85,
+          0.88,
+          0.92,
+          0.52
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.08,
+        "emissiveFactor": [
+          0.15,
+          0.16,
+          0.18
+        ],
+        "alphaMode": "BLEND",
+        "normalTex": "RyzaRevT1_Lenses_Normal"
+      }
+    },
+    {
+      "region_id": 17,
+      "material_name": "RyzaRevT1_Trim_PaintableExteriorAero_Slot6",
+      "display_name": "可涂装认证版侧裙、轮眉与空气动力学外饰条 (Paintable Exterior Aero Trim & Fender Arches - Slot 6)",
+      "category": "Body_Trim_Paintable",
+      "original_section_index": 6,
+      "original_material_slot": 6,
+      "original_material_name": "MIC_RyzaRevT1_Trim",
+      "triangle_count": 11194,
+      "vertex_count": 7057,
+      "classification_rule": "Section 6 (MIC_RyzaRevT1_Trim, Slot 6, ProductAttribute_PaintSettings_TA MaterialGroups[6], PaintParameterName='TrimColor')",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_Trim (Parent=MAT_Vehicle_Trim_Base_normalmapped, UseAsPlastic=False)",
+        "paint_attribute": "ProductAttribute_PaintSettings_TA_0: MaterialGroups[6]=MIC_RyzaRevT1_Trim, bPaintBody=True, PaintParameterName='TrimColor'",
+        "default_trim_color": [
+          0.077345,
+          0.077345,
+          0.077345,
+          1.0
+        ]
+      },
+      "bounds_uu": {
+        "min": [
+          -54.2607,
+          -38.4309,
+          1.0038
+        ],
+        "max": [
+          71.8669,
+          38.4309,
+          30.9462
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0079,
+          0.0236
+        ],
+        "max": [
+          0.9917,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.52,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_Trim_BaseColor",
+        "mrTex": "RyzaRevT1_Trim_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    },
+    {
+      "region_id": 18,
+      "material_name": "RyzaRevT1_TrimMetal_AnodizedAccent_Masked",
+      "display_name": "法线红通道遮罩阳极氧化钛灰金属饰件 (Anodized Titanium Trim Accent - Normal.R Masked - Slot 7)",
+      "category": "Trim_Metal",
+      "original_section_index": 7,
+      "original_material_slot": 7,
+      "original_material_name": "MIC_RyzaRevT1_TrimMetal",
+      "triangle_count": 1802,
+      "vertex_count": 1332,
+      "classification_rule": "Section 7 (MIC_RyzaRevT1_TrimMetal, Slot 7) && Trim_RyzaRevT1_N.R > 64",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_TrimMetal (Parent=MAT_Chassis_Paintable)",
+        "mask_texture": "Trim_RyzaRevT1_N.R > 64 (1,802 tris masked by Normal Red channel)",
+        "trim_color": [
+          0.383775,
+          0.353741,
+          0.368591,
+          1.0
+        ]
+      },
+      "bounds_uu": {
+        "min": [
+          -50.0,
+          -17.6174,
+          -11.5153
+        ],
+        "max": [
+          75.1181,
+          17.6174,
+          -0.4716
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0079,
+          0.0595
+        ],
+        "max": [
+          0.9165,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.85,
+          0.8,
+          0.83,
+          1.0
+        ],
+        "metallicFactor": 0.85,
+        "roughnessFactor": 0.28,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_TrimMetal_BaseColor",
+        "mrTex": "RyzaRevT1_TrimMetal_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    },
+    {
+      "region_id": 19,
+      "material_name": "RyzaRevT1_TrimMetal_BrushedSteel_Bright",
+      "display_name": "高亮拉丝不锈钢外露机械与排气尾喉饰件 (Bright Brushed Steel Trim & Exhaust Tips - Slot 7)",
+      "category": "Trim_Metal",
+      "original_section_index": 7,
+      "original_material_slot": 7,
+      "original_material_name": "MIC_RyzaRevT1_TrimMetal",
+      "triangle_count": 4318,
+      "vertex_count": 2921,
+      "classification_rule": "Section 7 (MIC_RyzaRevT1_TrimMetal, Slot 7) && Trim_RyzaRevT1_N.R <= 64 && Trim_RyzaRevT1_D.MeanRGB > 50",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_TrimMetal (Parent=MAT_Chassis_Paintable)",
+        "diffuse_texture": "Trim_RyzaRevT1_D high-luminance metallic islands (4,318 tris)"
+      },
+      "bounds_uu": {
+        "min": [
+          -51.9769,
+          -28.4441,
+          -12.0325
+        ],
+        "max": [
+          75.0928,
+          28.4441,
+          36.6033
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.1099,
+          0.0107
+        ],
+        "max": [
+          0.937,
+          0.9858
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.82,
+          0.83,
+          0.86,
+          1.0
+        ],
+        "metallicFactor": 0.88,
+        "roughnessFactor": 0.25,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_TrimMetal_BaseColor",
+        "mrTex": "RyzaRevT1_TrimMetal_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    },
+    {
+      "region_id": 20,
+      "material_name": "RyzaRevT1_TrimMetal_DarkGunmetal_Structural",
+      "display_name": "深色枪灰金属结构件、紧固件与进气道金属网框 (Dark Gunmetal Structural Trim & Fasteners - Slot 7)",
+      "category": "Trim_Metal",
+      "original_section_index": 7,
+      "original_material_slot": 7,
+      "original_material_name": "MIC_RyzaRevT1_TrimMetal",
+      "triangle_count": 9027,
+      "vertex_count": 6542,
+      "classification_rule": "Section 7 (MIC_RyzaRevT1_TrimMetal, Slot 7) && Trim_RyzaRevT1_N.R <= 64 && Trim_RyzaRevT1_D.MeanRGB <= 50",
+      "evidence": {
+        "material": "MIC_RyzaRevT1_TrimMetal (Parent=MAT_Chassis_Paintable)",
+        "diffuse_texture": "Trim_RyzaRevT1_D dark gunmetal structural islands (9,027 tris)"
+      },
+      "bounds_uu": {
+        "min": [
+          -52.5202,
+          -28.4441,
+          -12.0325
+        ],
+        "max": [
+          78.2521,
+          28.4441,
+          35.4951
+        ]
+      },
+      "uv0_bounds": {
+        "min": [
+          0.0079,
+          0.0089
+        ],
+        "max": [
+          0.9893,
+          0.9917
+        ]
+      },
+      "rigged_bones": [
+        "chassis_jnt"
+      ],
+      "pbr_spec": {
+        "baseColorFactor": [
+          0.45,
+          0.46,
+          0.48,
+          1.0
+        ],
+        "metallicFactor": 0.75,
+        "roughnessFactor": 0.42,
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "baseColorTex": "RyzaRevT1_TrimMetal_BaseColor",
+        "mrTex": "RyzaRevT1_TrimMetal_MetallicRoughness",
+        "normalTex": "RyzaRevT1_Trim_Normal"
+      }
+    }
+  ]
+}

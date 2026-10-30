@@ -1,0 +1,2 @@
+LightMapCoordinateIndex = 1
+LightMapResolution = 32

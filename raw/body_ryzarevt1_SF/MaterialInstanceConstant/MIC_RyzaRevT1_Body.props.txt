@@ -1,0 +1,99 @@
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = F1Type
+        ParameterValue = 2.0
+        ExpressionGUID = d435e4c69d30184883c6ce65de47592a
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = F2Type
+        ParameterValue = 2.0
+        ExpressionGUID = bdabcd93502dea418c382b025c3c093d
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = BodyMasks
+        ParameterValue = body_ryzarevt1.Body_RyzaRevT1_Blankskin
+        ExpressionGUID = b6394959d582f24e8d745686cc349f12
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = CurvaturePack
+        ParameterValue = body_ryzarevt1.Body_RyzaRevT1_Curvature
+        ExpressionGUID = 3e5d815ef775cd4482dd56412e61a7e3
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = Diffuse
+        ParameterValue = body_ryzarevt1.Body_RyzaRevT1_D
+        ExpressionGUID = 71b786375fad894a889ca31eec008a34
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterName = F1DetailNormal
+        ParameterValue = Detail_Blank.Blank_N
+        ExpressionGUID = 1ff700915f7b994ea82a2f8a67378f78
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterName = F2DetailNormal
+        ParameterValue = Detail_Blank.Blank_N
+        ExpressionGUID = 141194712488fd49afe1c4519224f3a9
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterName = Skin
+        ParameterValue = body_ryzarevt1.Body_RyzaRevT1_Blankskin
+        ExpressionGUID = a57124e1442757488670cdcc493600f7
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = F1ControlA
+        ParameterValue = { R=0.6, G=0.125, B=0.25, A=0.0625 }
+        ExpressionGUID = c98d77c530c5d241b4b13605728755c0
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = F1ControlB
+        ParameterValue = { R=2.0, G=1.0, B=1.0, A=0.0 }
+        ExpressionGUID = 8f0599318dfc4e46a9c8cf624d955465
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterName = F2ControlA
+        ParameterValue = { R=0.75, G=0.5, B=0.125, A=0.25 }
+        ExpressionGUID = 0b054e7e655084458f8b7b2cf5adb804
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterName = F2ControlB
+        ParameterValue = { R=4.0, G=2.0, B=8.0, A=0.0 }
+        ExpressionGUID = 821749dcf563c447b2bd31cbc5ffbcd9
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterName = PaintColor
+        ParameterValue = { R=0.232036, G=0.020519, B=0.021236, A=1.0 }
+        ExpressionGUID = 26d67266f16684459e2d8cbd437a4a5c
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterName = TeamColor
+        ParameterValue = { R=0.613237, G=0.182819, B=0.02035, A=1.0 }
+        ExpressionGUID = da916b362c1d2547b5a27cf0aa199296
+    }
+}
+Parent = Vehicle_Parent_Materials.Body_Paintable_Mat
+bHasStaticPermutationResource = True
+ParentLightingGuid = bc8aa35096a0084a9ac0ee05af323c4d
+bHasQualitySwitch = True
+StaticSwitchParameters = {"BumpOffset": {"value": false, "override": false, "guid": "b2f5f91b1a426e40ad95af37e1ba5c36"}, "CarParts": {"value": true, "override": true, "guid": "723de924a6b0ec4184e3f220dc384620"}, "CurvaturePack": {"value": true, "override": true, "guid": "9a0ac414c360f64197903a2f24474044"}, "DropShadow": {"value": false, "override": false, "guid": "4842b1f3ef1e94438191628f9f511e70"}, "Emissive": {"value": false, "override": true, "guid": "4632820a0a6fd945a826709bad0bcb84"}, "GarageView": {"value": false, "override": false, "guid": "f080c9d2b4bdc14d815391bc6c3f4566"}, "Glass": {"value": true, "override": true, "guid": "c122bfef3d515a47bc2ae0145e8bd2de"}, "PaintMask_MaskedByAlpha": {"value": false, "override": false, "guid": "dec9b6950b4a3348ab390af451e9080d"}, "PaintMaskInRGB": {"value": true, "override": false, "guid": "a7092b31220f53418f377be19624caee"}, "PurePaint": {"value": false, "override": false, "guid": "75cb707aab6607499c3f43d7f47d0b66"}, "Rubber": {"value": true, "override": true, "guid": "e8d9929ef00f864baebe875deef5ac77"}, "SharpMasks": {"value": false, "override": true, "guid": "ff908e5c2f9813439dc1259d85c0278f"}, "Sparkle": {"value": true, "override": false, "guid": "7ff9e941892d2940acec08feb077c255"}, "TrimPaintable": {"value": true, "override": true, "guid": "c7c8cf424419604ca98e1eec6a76a3df"}, "Use_UV2": {"value": false, "override": false, "guid": "5df1db3def061348acf1859e20688a9c"}, "UseColorLookup": {"value": false, "override": false, "guid": "ca1f1bfc9257b94fa46bad0758967797"}, "UseDetailNormals": {"value": true, "override": true, "guid": "9a62d8487378c9409da6bae52488fbde"}, "UseDiffuseTexture": {"value": true, "override": true, "guid": "82b53d49673b33469d06695992e59f25"}, "UseNormalMap": {"value": false, "override": false, "guid": "12786144bedb8d41bc45bd8070064329"}, "UsePaintedSkin": {"value": true, "override": false, "guid": "d2d38ae285f1fe46b2d6b5ad32d22fa0"}, "VertexColorMasks": {"value": false, "override": false, "guid": "781573b8cf70d84cad0f57d81518d445"}}
+ReferencedUniformTextures = ['CarbonFiber_Flipped_N', 'Import_Body_BlankSkin', 'Octane_Body_D', 'Pepe_Flames', 'Fur_N', 'Sparkle_N', 'LightFalloffArray', 'Body_Octane_Curvature', 'ENVPack', 'GrassCube', 'Body_RyzaRevT1_Blankskin', 'Body_RyzaRevT1_D', 'Blank_N', 'Body_RyzaRevT1_Curvature']

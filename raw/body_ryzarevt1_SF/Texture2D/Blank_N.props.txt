@@ -1,0 +1,13 @@
+SizeX = 64
+SizeY = 64
+OriginalSizeX = 64
+OriginalSizeY = 64
+Format = PF_DXT5
+TextureFileCacheName = Textures3
+MipTailBaseIdx = 6
+SRGB = False
+UnpackMin = -1.0
+UnpackMin[1] = -1.0
+UnpackMin[2] = -1.0
+CompressionSettings = TC_NormalmapSwizzle
+LODGroup = TEXTUREGROUP_WorldNormalMap

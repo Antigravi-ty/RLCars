@@ -1,0 +1,7 @@
+Parent=Body_Paintable_Mat
+Other[0]=Body_RyzaRevT1_Blankskin
+Other[1]=Body_RyzaRevT1_Curvature
+Diffuse=Body_RyzaRevT1_D
+Other[2]=Blank_N
+Other[3]=Blank_N
+Other[4]=Body_RyzaRevT1_Blankskin

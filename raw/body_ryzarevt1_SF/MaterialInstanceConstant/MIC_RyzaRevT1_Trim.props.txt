@@ -1,0 +1,31 @@
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = BodyTextures_Map
+        ParameterValue = body_ryzarevt1.Trim_RyzaRevT1_COA
+        ExpressionGUID = 64794795712cb54e842b6a47bb9674ff
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = NormalMap
+        ParameterValue = body_ryzarevt1.Trim_RyzaRevT1_N
+        ExpressionGUID = ec2e2a46cbf9de4ab92a5da707557abd
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = TrimColor
+        ParameterValue = { R=0.077345, G=0.077345, B=0.077345, A=1.0 }
+        ExpressionGUID = 9af12ba54cf82a4389821087b6ec5f6e
+    }
+}
+Parent = body_legs.MAT_Vehicle_Trim_Base_normalmapped
+bHasStaticPermutationResource = True
+ParentLightingGuid = ced34eda7b36e74f88757eaec9e5b8fb
+bHasQualitySwitch = True
+bHasHandheldQualityConnection = True
+StaticSwitchParameters = {"UseAsPlastic": {"value": false, "override": false, "guid": "bb04b45e6a2c9f4c8294623b6c432727"}}
+ReferencedUniformTextures = ['Body_Octane_Bevel_N', 'T_Octane_BodyTextures', 'Trim_RyzaRevT1_N', 'Trim_RyzaRevT1_COA']

@@ -1,0 +1,14 @@
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = BodyTextures_Map
+        ParameterValue = None
+        ExpressionGUID = bee3701a74146d4eb01054cadd80125a
+    }
+}
+Parent = Vehicle_Parent_Materials02.MAT_Vehicle_Windshield_Base
+bHasStaticPermutationResource = True
+ParentLightingGuid = dfd3247e630d7f458f20777c594c9fe2
+StaticSwitchParameters = {"SymmetryNormalAdjustment": {"value": false, "override": false, "guid": "a6ad983c56055b43804f75651b8356f3"}, "Use AO": {"value": false, "override": false, "guid": "a8fabeede89b484cabfc1a1bcb2adb1a"}}
+ReferencedUniformTextures = ['GrassCube']

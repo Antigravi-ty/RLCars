@@ -1,0 +1,119 @@
+DiffuseColor =
+{
+    Expression = Chassis_01.MAT_Chassis_Paintable.MaterialExpressionStaticSwitchParameter_1
+}
+SpecularColor =
+{
+    Expression = None
+}
+SpecularPower =
+{
+    Expression = None
+}
+Normal =
+{
+    Expression = None
+}
+EmissiveColor =
+{
+    Expression = None
+}
+CustomLighting =
+{
+    OutputIndex = -1
+}
+CustomSkylightDiffuse =
+{
+    OutputIndex = -1
+}
+WorldPositionOffset =
+{
+    OutputIndex = -1
+}
+bUsedWithSkeletalMesh = True
+bUsedWithStaticLighting = True
+Expressions[82] =
+{
+    Expressions[0] = None
+    Expressions[1] = None
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D_1
+    Expressions[3] = None
+    Expressions[4] = None
+    Expressions[5] = None
+    Expressions[6] = None
+    Expressions[7] = None
+    Expressions[8] = None
+    Expressions[9] = None
+    Expressions[10] = MaterialExpressionTextureSampleParameter2D_2
+    Expressions[11] = None
+    Expressions[12] = None
+    Expressions[13] = None
+    Expressions[14] = None
+    Expressions[15] = None
+    Expressions[16] = None
+    Expressions[17] = None
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D_0
+    Expressions[19] = None
+    Expressions[20] = None
+    Expressions[21] = None
+    Expressions[22] = None
+    Expressions[23] = None
+    Expressions[24] = None
+    Expressions[25] = None
+    Expressions[26] = None
+    Expressions[27] = None
+    Expressions[28] = None
+    Expressions[29] = MaterialExpressionScalarParameter_0
+    Expressions[30] = None
+    Expressions[31] = None
+    Expressions[32] = MaterialExpressionScalarParameter_2
+    Expressions[33] = MaterialExpressionVectorParameter_1
+    Expressions[34] = None
+    Expressions[35] = None
+    Expressions[36] = MaterialExpressionVectorParameter_2
+    Expressions[37] = None
+    Expressions[38] = MaterialExpressionScalarParameter_1
+    Expressions[39] = None
+    Expressions[40] = None
+    Expressions[41] = None
+    Expressions[42] = None
+    Expressions[43] = None
+    Expressions[44] = MaterialExpressionScalarParameter_9
+    Expressions[45] = None
+    Expressions[46] = MaterialExpressionScalarParameter_3
+    Expressions[47] = MaterialExpressionVectorParameter_0
+    Expressions[48] = None
+    Expressions[49] = MaterialExpressionStaticSwitchParameter_1
+    Expressions[50] = None
+    Expressions[51] = None
+    Expressions[52] = None
+    Expressions[53] = None
+    Expressions[54] = None
+    Expressions[55] = None
+    Expressions[56] = None
+    Expressions[57] = None
+    Expressions[58] = None
+    Expressions[59] = None
+    Expressions[60] = None
+    Expressions[61] = None
+    Expressions[62] = None
+    Expressions[63] = None
+    Expressions[64] = None
+    Expressions[65] = None
+    Expressions[66] = None
+    Expressions[67] = None
+    Expressions[68] = None
+    Expressions[69] = None
+    Expressions[70] = None
+    Expressions[71] = None
+    Expressions[72] = None
+    Expressions[73] = None
+    Expressions[74] = None
+    Expressions[75] = None
+    Expressions[76] = None
+    Expressions[77] = MaterialExpressionVectorParameter_3
+    Expressions[78] = None
+    Expressions[79] = None
+    Expressions[80] = None
+    Expressions[81] = None
+}
