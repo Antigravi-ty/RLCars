@@ -455,13 +455,16 @@ class UPKPackage:
                 vals = [self.r_i32() for _ in range(cnt)]
                 self.pos = end_p - rem
                 fvals = [self.r_f32() for _ in range(cnt)]
-                return {
+                clean_fvals = [round(f, 6) if math.isfinite(f) else None for f in fvals]
+                res_arr = {
                     "type": "ArrayIntOrObj",
                     "count": cnt,
                     "values": vals,
                     "as_objects": [{"index": v, "name": self.get_obj_name(v)} for v in vals],
-                    "as_floats": fvals,
                 }
+                if all(x is not None for x in clean_fvals):
+                    res_arr["as_floats"] = clean_fvals
+                return res_arr
             if cnt > 0 and rem == cnt * 12:
                 vecs = [[self.r_f32(), self.r_f32(), self.r_f32()] for _ in range(cnt)]
                 return {"type": "ArrayVector", "count": cnt, "vectors": vecs}

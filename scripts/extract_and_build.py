@@ -1859,7 +1859,7 @@ def build_ryzarevt1_branch(
     meta_dir = os.path.join(out_dir, "metadata")
     os.makedirs(meta_dir, exist_ok=True)
     with open(os.path.join(meta_dir, "Body_RyzaRevT1_metadata.json"), "w", encoding="utf-8") as f:
-        json.dump(vehicle_meta, f, indent=2, ensure_ascii=False)
+        json.dump(vehicle_meta, f, indent=2, ensure_ascii=False, allow_nan=False)
     with open(os.path.join(meta_dir, "Body_RyzaRevT1_surface_bindings.json"), "w", encoding="utf-8") as f:
         json.dump(
             {
@@ -1874,6 +1874,7 @@ def build_ryzarevt1_branch(
             f,
             indent=2,
             ensure_ascii=False,
+            allow_nan=False,
         )
     with open(os.path.join(meta_dir, "Body_RyzaRevT1_scene.json"), "w", encoding="utf-8") as f:
         json.dump(
@@ -1890,6 +1891,7 @@ def build_ryzarevt1_branch(
             f,
             indent=2,
             ensure_ascii=False,
+            allow_nan=False,
         )
 
     scripts_src = os.path.dirname(os.path.abspath(__file__))

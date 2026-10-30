@@ -1534,10 +1534,6 @@
                     "index": -52,
                     "name": "Team0"
                   }
-                ],
-                "as_floats": [
-                  NaN,
-                  NaN
                 ]
               },
               "RuntimeParameters": [],
@@ -1610,10 +1606,6 @@
                     "index": -53,
                     "name": "Team1"
                   }
-                ],
-                "as_floats": [
-                  NaN,
-                  NaN
                 ]
               },
               "RuntimeParameters": [],
@@ -1712,9 +1704,6 @@
                     "index": -49,
                     "name": "Boost"
                   }
-                ],
-                "as_floats": [
-                  NaN
                 ]
               },
               "DetachAny": [],
@@ -1782,9 +1771,6 @@
                     "index": -50,
                     "name": "Spawned"
                   }
-                ],
-                "as_floats": [
-                  NaN
                 ]
               },
               "DetachAny": [],
@@ -1852,9 +1838,6 @@
                     "index": -51,
                     "name": "SuperSonic"
                   }
-                ],
-                "as_floats": [
-                  NaN
                 ]
               },
               "DetachAny": [],
@@ -20073,13 +20056,6 @@
               "index": -89,
               "name": "PlatinumMetal_00"
             }
-          ],
-          "as_floats": [
-            NaN,
-            NaN,
-            NaN,
-            NaN,
-            NaN
           ]
         }
       }

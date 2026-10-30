@@ -713,16 +713,27 @@ def export_raw_gltf_and_bin(mesh_data: dict, out_dir: str, is_skeletal: bool = T
     gltf_path = os.path.join(out_dir, f"{name}.gltf")
     bin_path = os.path.join(out_dir, f"{name}.bin")
     with open(gltf_path, "w", encoding="utf-8") as f:
-        json.dump(gltf_obj, f, indent=2)
+        json.dump(_sanitize_json_numbers(gltf_obj), f, indent=2, allow_nan=False)
     with open(bin_path, "wb") as f:
         f.write(bin_data)
     return gltf_path, bin_path
 
 
+def _sanitize_json_numbers(obj):
+    if isinstance(obj, float):
+        return obj if math.isfinite(obj) else None
+    elif isinstance(obj, dict):
+        return {k: _sanitize_json_numbers(v) for k, v in obj.items()}
+    elif isinstance(obj, (list, tuple)):
+        return [_sanitize_json_numbers(x) for x in obj]
+    return obj
+
+
 def write_glb_file(gltf_dict: dict, bin_data: bytes, out_path: str):
     """Packs a glTF 2.0 JSON dict and binary buffer into a standard .glb file."""
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    json_bytes = json.dumps(gltf_dict, separators=(',', ':'), ensure_ascii=False).encode('utf-8')
+    clean_dict = _sanitize_json_numbers(gltf_dict)
+    json_bytes = json.dumps(clean_dict, separators=(',', ':'), ensure_ascii=False, allow_nan=False).encode('utf-8')
     json_pad = (4 - (len(json_bytes) % 4)) % 4
     if json_pad:
         json_bytes += b' ' * json_pad
